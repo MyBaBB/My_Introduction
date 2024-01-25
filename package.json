@@ -2,7 +2,7 @@
   "name": "mybabb-introduction",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://MyBABB.github.io/MyBaBB_Introduction",
+  "homepage": "https://MyBABB.github.io/My_Introduction",
   "type": "module",
   "scripts": {
     "predeploy":  "npm run build",
