@@ -19,7 +19,8 @@ const ContactButton = () => {
          dark:border-none sm:text-3xl
          text-center
          whitespace-nowrap
-         mt-10"
+         mt-10
+         -mb-5"
          > 
          
      <span className='span1'>
