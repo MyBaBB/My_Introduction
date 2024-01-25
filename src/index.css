@@ -1,0 +1,176 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  background-color: #2a61a1;
+  }
+
+.TestAppWrapper {
+  font-family: 'Creepster', cursive;
+}
+.reContactButtonWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+  padding: 1rem; 
+  text-shadow: 2px 2px 3px #1c0303;
+}
+.reContactButton {
+  position: absolute;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.8), 0 0 10px rgba(0, 0, 0, 0.8);
+  display: inline-block;
+  font-family:'orbitron';
+} 
+
+
+
+.reheader{
+   
+  z-index: 50;
+  position:relative;
+  width: 100%;
+  background-color: #24558d;
+  color: white;
+  padding-bottom: 1rem;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5), inset 0 0 20px rgba(0, 0, 0, 0.3), inset 0 0 30px rgba(0, 0, 0, 0.2), inset 0 0 40px rgba(0, 0, 0, 0.1);
+}
+
+.reheaderh1 {
+  font-family:'Times New Roman', Times, serif;
+  
+  text-align: center;
+  color: #FFDB58;
+  text-shadow: 2px 2px 3px #1c0303;
+}
+
+.reheaderimg{
+  display: block; 
+  margin: auto; height: 25px; 
+  width: auto;
+}
+  .span1 {
+ display: inline-block; transform: scaleX(-1);
+}
+
+.reObjective, .reEducation, .reSkills, .reExperience, .reReferences {
+  text-decoration: underline;
+  font-family: 'black ops one', sans-serif;
+  font-size: larger;
+  text-shadow: 2px 2px 3px #1c0303;
+  color: #FFDB58;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-decoration-color: #419aff;
+  white-space: nowrap;
+ }
+
+ .reObjective {
+  margin-top: 1rem;
+ }
+
+ .objectiveWrapper{
+  text-align:left;
+  font-size: larger;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  color:white;
+  border: 2px solid #FFDB58;
+  border-radius:  10px;
+  background:#0d2d52;
+}
+.objectiveDivider {
+  border-color:#419aff ;
+  box-shadow: 2px 2px 3px #1c0303;
+  border-width: 1px;
+  border-radius:10px ;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+.reExperienceHover :hover{
+  color: #419aff;
+  text-decoration-color: #ffdb58;
+ }
+ 
+  .reUnOrderedList {
+    font-family: libre_baskerville;
+    
+    color: rgb(225, 216, 199);
+    text-shadow: 2px 2px 3px #1c0303;
+    font-weight: bold;
+  }
+  .reUnOrderedList2 {
+    font-family: Libre_Baskerville;
+    
+    color: rgb(225, 216, 199);
+    text-shadow: 2px 2px 3px #1c0303;
+    font-weight: bold;
+  }
+
+  .bottomSection {
+    text-align: center;
+    
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    color:#FFDB58;
+    margin-top: 1rem;  
+    padding-bottom: 1rem;
+   }
+   .hrBottom {
+    border: 2px solid #FFDB58;
+    position: relative; 
+     }
+
+
+
+
+
+
+
+
+
+@font-face {
+  font-family:'Creepster';
+  src: url(../GoogleFonts/Creepster/Creepster-Regular.ttf)
+ }
+ @font-face {
+  font-family:'DM_Serif_Display';
+  src: url(../GoogleFonts/DM_Serif_Display/DMSerifDisplay-Regular.ttf)
+ }
+ @font-face {
+  font-family:'';
+  src: url(../GoogleFonts/Itim/Itim-Regular.ttf)
+ }
+ @font-face {
+  font-family:'Kranky';
+  src: url(../GoogleFonts/Kranky/Kranky-Regular.ttf)
+ }
+ @font-face {
+  font-family:'Libre_Baskerville';
+  src: url(../GoogleFonts/Libre_Baskerville/LibreBaskerville-Regular.ttf)
+ }
+ @font-face {
+  font-family:'PT_Serif';
+  src: url(../GoogleFonts/PT_Serif/PTSerif-Regular.ttf)
+ }
+ @font-face {
+  font-family:'Rye';
+  src: url(../GoogleFonts/Rye/Rye-Regular.ttf)
+ }
+@font-face {
+ font-family:'black_ops_one';
+  src: url(../GoogleFonts/Black_Ops_One/BlackOpsOne-Regular.ttf)
+ }
+@font-face {
+ font-family:'Caprasimo';
+  src: url(../GoogleFonts/Caprasimo/Caprasimo-Regular.ttf)
+ }
+@font-face {
+  font-family: 'orbitron';
+  src: url(../GoogleFonts/Orbitron/static/Orbitron-Bold.ttf);
+}
+
+
+
+
