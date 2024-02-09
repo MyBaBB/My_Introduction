@@ -4,19 +4,17 @@ import React from 'react'
 const Footer = () => {
   return (
     <div>
-      
-      <div className="text-center text-xl text-white ">Email: Contact@MyBaBB.com</div> 
-        <p className="bottomSection">
-            &nbsp;&nbsp;  I spent Time in Learning the Core Languages of Web Development, that gives me a wider Spectrum in which to learn and grow.
+      <a href="mailto:howdy@mybabb.com"
+         className=" relative flex m-0 m-auto text-center text-lg text-bold
+         text-gray-300 border-2 border-gray-300 rounded-lg bg-blue-950 w-fit
+        p-2 text-center">Contact@MyBaBB.com 
+        </a>
+        <p className="bottomSection text-[17px]">
+          
+          &nbsp;&nbsp;  I Took Time Learning the Core of Web Development, that gives me a wider Spectrum in which to learn and grow.
         </p>
-        <hr className="hrBottom"></hr>
-
-
-
-
-
-
       
+      <hr className="hrBottom"></hr>
     </div>
   )
 }

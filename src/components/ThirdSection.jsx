@@ -16,6 +16,9 @@ const ThirdSection = () => {
                 <li><IoBookSharp className='inline-block text-blue-400' />&nbsp;&nbsp;&nbsp;Adobe Photo-Shop</li>
                 <li><IoBookSharp className='inline-block text-blue-400' />&nbsp;&nbsp;&nbsp;Adobe Illustrator</li>
                 <li><IoBookSharp className='inline-block text-blue-400' />&nbsp;&nbsp;&nbsp;Vite with Firebase</li>
+                <li><IoBookSharp className='inline-block text-blue-400' />
+                       &nbsp;&nbsp;&nbsp;Repair/Customize Wordpress, Wix, Drupal</li>
+                <li><IoBookSharp className='inline-block text-blue-400' />&nbsp;&nbsp;&nbsp;Streamline Existing Websites </li>
             </ul>
         </section>
         
