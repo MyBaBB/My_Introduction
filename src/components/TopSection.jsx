@@ -9,7 +9,7 @@ import { RiDoubleQuotesL } from "react-icons/ri";
 import { RiDoubleQuotesR } from "react-icons/ri";
 import { TfiHandPointRight } from "react-icons/tfi";
 import { TbDiamond } from "react-icons/tb";
-
+import { LiaLifeRingSolid } from "react-icons/lia";
 
 
 const TopSection = () => {
@@ -22,10 +22,51 @@ const TopSection = () => {
         <p className="objectiveParagraph 
         text-[12px] xxs:text-[16px] xs:text-[20px] sm:text-[24px] md:text-[28px]
         p-[12px] xxs:p-[22px] xs:p-[32px] sm:p-[42px] md:p-[52px] lg:p-[52px] ">
-          <TfiHandPointRight className='inline-block text-blue-400 -mt-1' />&nbsp;I am Brett, a Web Developer with skills in React, HTML, CSS, Tailwind CSS and JavaScript.&nbsp;  I currently use Vite and Firebase with React js, and I style with Tailwind no matter how big or small the project.&nbsp; I see this combo being the best option for now and for future applications.&nbsp; I can help you Customize your Generic Websites for Performance Issues,(WordPress-Woocommerce, Wix, Drupal) although I prefer more Advanced techniques.
+          &nbsp;Greetings! I am Brett,
+          <br />&nbsp;&nbsp; A seasoned Web Developer proficient in the following technologies:
+          <br />
+         
+          <TfiHandPointRight className='inline-block text-blue-400 -mt-1' />&nbsp;&nbsp;
+<span className='text-amber-200'>Customization for Performance:</span>&nbsp;&nbsp;While I appreciate conventional techniques, I also advocate for advanced strategies to achieve outstanding results.
+<br />
+ 
+
+<LiaLifeRingSolid className='inline-block text-green-500 -mt-1' />&nbsp;&nbsp;I can Fine-tune your Generic Website (Including platforms like WordPress-WooCommerce, Wix, and Drupal) to enhance their Appearance, 
+<br />
+<TfiHandPointRight className='inline-block text-blue-400 -mt-1' />&nbsp;&nbsp;
+<span className='text-amber-200'>React:</span>&nbsp;&nbsp; I wield expertise in building dynamic and responsive user interfaces using React.
+HTML and CSS: My skills extend to crafting clean and semantic HTML structures and styling them elegantly with CSS.
+<br />
+<TfiHandPointRight className='inline-block text-blue-400 -mt-1' />&nbsp;&nbsp;
+<span className='text-amber-200'>Tailwind CSS: </span>&nbsp;&nbsp;I leverage the power of Tailwind CSS to create efficient and consistent designs.
+<br />
+
+<TfiHandPointRight className='inline-block text-blue-400 -mt-1' />&nbsp;&nbsp;
+<span className='text-amber-200'>JavaScript: </span>&nbsp;&nbsp;I am well-versed in JavaScript, enabling me to add interactivity and functionality to web applications.
+My current tech stack includes:
+
+<br />
+
+<TfiHandPointRight className='inline-block text-blue-400 -mt-1' />&nbsp;&nbsp;
+<span className='text-amber-200'>Vite: </span>&nbsp;&nbsp;I utilize Vite as my build tool, enhancing development speed and performance.
+
+<br />
+
+
+
+I firmly believe that the synergy between React, Vite, and Tailwind provides the optimal solution for both present and future web applications. Whether it&apos;s a small project or a large-scale endeavor, this stack delivers efficiency, maintainability, and robustness.
+<br />
+
+<LiaLifeRingSolid className='inline-block text-green-500 -mt-1' />&nbsp;
+            I also have certifications in Professional Adobe Photo-Shop and Advanced Illustrator, which puts me in a position to pick up some side work as well.
+
+ 
+ 
+
+<br />
+<LiaLifeRingSolid className='inline-block text-green-500 -mt-1' />&nbsp;&nbsp;Feel free to reach out if you need assistance or have any inquiries. Let&apos;s create exceptional web experiences together! 
         <br/>
-        <TfiHandPointRight className='inline-block text-blue-400 -mt-1' />&nbsp;
-            I also have certifications in Professional Adobe Photo-Shop and Advanced Illustrator, which puts me in a position to pick up some side work as well. 
+        
           </p>
         <p className="objectiveParagraph mt-[-3rem]
         text-[12px] xxs:text-[16px] xs:text-[20px] sm:text-[24px] md:text-[28px]
