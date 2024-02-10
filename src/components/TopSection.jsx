@@ -93,7 +93,7 @@ const TopSection = () => {
             <br/>       
             <MdOutlineTimer className='inline-block text-blue-400' />&nbsp;Fast load times.
             <br/>
-            <RiLinksFill className='inline-block text-blue-400' />&nbsp;Custom links that Directs the Flow new customers.
+            <RiLinksFill className='inline-block text-blue-400' />&nbsp;Custom links that Directs the Flow for new customers.
             <br/>
             <LiaLifeRingSolid className='inline-block text-green-500 -mt-1' />&nbsp;&nbsp;I can Repair your Generic Website (Including platforms like WordPress-WooCommerce, Wix, and Drupal). 
              <br /> 
