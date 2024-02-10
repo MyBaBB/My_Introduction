@@ -17,26 +17,100 @@ const TopSection = () => {
     <div>
       
       <section>
-         <h2 className='reObjective'>Hello :</h2>
+         <h1 className='reObjective'>&nbsp;MyBaBB Web Development</h1>
     <div className="objectiveWrapper">
-        <p className="objectiveParagraph 
+       
+    <p className="objectiveParagraph 
+        text-[12px] xxs:text-[16px] xs:text-[20px] sm:text-[24px] md:text-[28px]
+        p-[12px] xxs:p-[22px] xs:p-[32px] sm:p-[42px] md:p-[52px] lg:p-[52px]" >
+          
+          <RiDoubleQuotesL className='inline-block text-blue-400 mb-6' />
+            <span className='text-amber-200'>
+               I build High Performance Websites.
+            </span>
+               
+            <RiDoubleQuotesR className='inline-block text-blue-400 mb-6' /> 
+            <br/>
+            <TbDiamond className='inline-block text-blue-400 ' />&nbsp;Adding Style shows more Class.
+            <br />
+            <TbDiamond className='inline-block text-blue-400 ' />&nbsp;Add more Functions with a Custom Landing Page 
+            <br/>
+            <TbDiamond className='inline-block text-blue-400 ' />&nbsp;I can also Repair and add Customizations to Generic Websites.
+            <br/>
+           
+            <TbDiamond className='inline-block text-blue-400 ' />&nbsp;I am looking for Quality Business owners to Grow and Expand with.
+            <br/>
+            <TbDiamond className='inline-block text-blue-400 ' />&nbsp;I can offer a Professional Website at a very reasonable price at this time.  
+            <br/>
+            
+        </p>
+
+        <p className="objectiveParagraph mt-[-4rem]
+        text-[12px] xxs:text-[16px] xs:text-[20px] sm:text-[24px] md:text-[28px]
+        p-[12px] xxs:p-[22px] xs:p-[32px] sm:p-[42px] md:p-[52px] lg:p-[52px]">  
+        <RiDoubleQuotesL className='inline-block text-blue-400 mb-6'/>
+         <span className=' text-amber-200'>
+          Attract more customers by adding A
+          <a href="https://mybabb.github.io/BetterMcTransport/ ">
+          &nbsp;<span className='customHover underline'>Custom Landing Page</span>&nbsp;
+           </a>
+            to your Website.
+         </span>
+         a
+        <RiDoubleQuotesR className='inline-block text-blue-400 mb-6' />  
+            <br/>
+        <SiGooglechrome className='inline-block text-blue-400' />&nbsp;<span className='googleG1 text-red-600'>G</span>
+        <span className='googleO1 text-green-600'>o</span>
+        <span className='googleO2 text-yellow-600'>o</span>
+        <span className='googleG2 text-blue-600'>g</span>
+        <span className='googleL text-orange-400'>l</span>
+        <span className='googleE text-green-600'>e</span>
+        &nbsp;
+        
+         Search Engine Optimization<GiLightningTear className='inline-block text-blue-300' />
+           lightning fast for&nbsp;
+            <a href="https://mybabb.github.io/SEO-BEST_PRACTICES/">
+          <span className='customHoverSEO underline'>(SEO)</span>
+          </a>
+            <br/>         
+            <SlEyeglass className='inline-block text-blue-400' /> It looks great on all devices.(Mobile Responsive)
+            <br/>       
+            <MdOutlineTimer className='inline-block text-blue-400' />&nbsp;Fast load times.
+            <br/>
+            <RiLinksFill className='inline-block text-blue-400' />&nbsp;Custom links that Directs the Flow new customers.
+            <br/>
+            <LiaLifeRingSolid className='inline-block text-green-500 -mt-1' />&nbsp;&nbsp;I can Repair your Generic Website (Including platforms like WordPress-WooCommerce, Wix, and Drupal). 
+             <br /> 
+             <LiaLifeRingSolid className='inline-block text-green-500 -mt-1' />&nbsp;
+            I also have certifications in Professional Adobe Photo-Shop and Advanced Illustrator, which puts me in a position to pick up some side work as well.
+            <br />
+            <LiaLifeRingSolid className='inline-block text-green-500 -mt-1' />&nbsp;&nbsp;Feel free to reach out if you need assistance or have any inquiries. Let&apos;s create exceptional web experiences together! 
+           <br/>
+ 
+ 
+
+<br />
+        </p>
+        
+       
+        
+        <p className="objectiveParagraph mt-[-7rem] 
         text-[12px] xxs:text-[16px] xs:text-[20px] sm:text-[24px] md:text-[28px]
         p-[12px] xxs:p-[22px] xs:p-[32px] sm:p-[42px] md:p-[52px] lg:p-[52px] ">
-          &nbsp;Greetings! I am Brett,
-          <br />&nbsp;&nbsp; A seasoned Web Developer proficient in the following technologies:
+          
+          <br />&nbsp;&nbsp;Web Development proficient in the following technologies:
           <br />
          
           <TfiHandPointRight className='inline-block text-blue-400 -mt-1' />&nbsp;&nbsp;
 <span className='text-amber-200'>Customization for Performance:</span>&nbsp;&nbsp;While I appreciate conventional techniques, I also advocate for advanced strategies to achieve outstanding results.
 <br />
- 
-
-<LiaLifeRingSolid className='inline-block text-green-500 -mt-1' />&nbsp;&nbsp;I can Fine-tune your Generic Website (Including platforms like WordPress-WooCommerce, Wix, and Drupal) to enhance their Appearance, 
-<br />
 <TfiHandPointRight className='inline-block text-blue-400 -mt-1' />&nbsp;&nbsp;
 <span className='text-amber-200'>React:</span>&nbsp;&nbsp; I wield expertise in building dynamic and responsive user interfaces using React.
 HTML and CSS: My skills extend to crafting clean and semantic HTML structures and styling them elegantly with CSS.
 <br />
+
+
+
 <TfiHandPointRight className='inline-block text-blue-400 -mt-1' />&nbsp;&nbsp;
 <span className='text-amber-200'>Tailwind CSS: </span>&nbsp;&nbsp;I leverage the power of Tailwind CSS to create efficient and consistent designs.
 <br />
@@ -54,70 +128,17 @@ My current tech stack includes:
 
 
 
-I firmly believe that the synergy between React, Vite, and Tailwind provides the optimal solution for both present and future web applications. Whether it&apos;s a small project or a large-scale endeavor, this stack delivers efficiency, maintainability, and robustness.
-<br />
 
-<LiaLifeRingSolid className='inline-block text-green-500 -mt-1' />&nbsp;
-            I also have certifications in Professional Adobe Photo-Shop and Advanced Illustrator, which puts me in a position to pick up some side work as well.
 
- 
- 
 
-<br />
-<LiaLifeRingSolid className='inline-block text-green-500 -mt-1' />&nbsp;&nbsp;Feel free to reach out if you need assistance or have any inquiries. Let&apos;s create exceptional web experiences together! 
-        <br/>
-        
-          </p>
-        <p className="objectiveParagraph mt-[-3rem]
-        text-[12px] xxs:text-[16px] xs:text-[20px] sm:text-[24px] md:text-[28px]
-        p-[12px] xxs:p-[22px] xs:p-[32px] sm:p-[42px] md:p-[52px] lg:p-[52px]" >
-          
-          <RiDoubleQuotesL className='inline-block text-blue-400 mb-6' />
-          I Have more skills than a Generic Website builder.
-            <RiDoubleQuotesR className='inline-block text-blue-400 mb-6' /> 
-            <br/>
-            <TbDiamond className='inline-block text-blue-400 ' /> I am looking for Quality Business owners to Grow and Expand with.
-            <br/>
-            <TbDiamond className='inline-block text-blue-400 ' /> I can offer a Professional Website at a very reasonable price at this time.  
-            <br/>
-            <TbDiamond className='inline-block text-blue-400 ' /> I can Repair and add Customizations to Generic Websites.
-            <br/>
-             
-           <TbDiamond className='inline-block text-blue-400 ' />We are Ready to help.
+
         </p>
+       
 
-        <p className="objectiveParagraph mt-[-3rem]
-        text-[12px] xxs:text-[16px] xs:text-[20px] sm:text-[24px] md:text-[28px]
-        p-[12px] xxs:p-[22px] xs:p-[32px] sm:p-[42px] md:p-[52px] lg:p-[52px]">  
-        <RiDoubleQuotesL className='inline-block text-blue-400 mb-6' />
-        I Make A landing page is Great for a small business or a personal page that results:
-        <RiDoubleQuotesR className='inline-block text-blue-400 mb-6' />  
-            <br/>
-        <SiGooglechrome className='inline-block text-blue-400' />&nbsp;<span className='googleG1 text-red-600'>G</span>
-        <span className='googleO1 text-green-600'>o</span>
-        <span className='googleO2 text-yellow-600'>o</span>
-        <span className='googleG2 text-blue-600'>g</span>
-       <span className='googleL text-orange-400'>l</span>
-        <span className='googleE text-green-600'>e</span>
-        &nbsp;
-        
-         Search Engine Optimization<GiLightningTear className='inline-block text-blue-300' />
-           lightning fast for&nbsp;
-          <span className='underline'>(SEO)</span>
-            <br/>         
-            <SlEyeglass className='inline-block text-blue-400' /> It looks great on all devices.(Mobile Responsive)
-            <br/>       
-            <MdOutlineTimer className='inline-block text-blue-400' />&nbsp;Perfection in Details
-            <br/>
-            <RiLinksFill className='inline-block text-blue-400' />&nbsp;Custom links that Directs the Flow new customers.
-            <br/> 
-        </p>
-         
+
     </div> 
-    
     <hr className="objectiveDivider"/>      
-</section>
-
+ </section>
 </div>
 
 

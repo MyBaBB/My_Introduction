@@ -93,7 +93,9 @@
   color: #419aff;
   text-decoration-color: #ffdb58;
  }
- 
+ .customHover:hover, .customHoverSEO:hover {
+  color: #419aff;}
+
   .reUnOrderedList {
     font-family: libre_baskerville;
     

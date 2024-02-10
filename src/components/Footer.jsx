@@ -11,7 +11,7 @@ const Footer = () => {
         </a>
         <p className="bottomSection text-[17px]">
           
-          &nbsp;&nbsp;  I Took Time Learning the Core of Web Development, that gives me a wider Spectrum in which to learn and grow.
+          &nbsp;&nbsp;  We Start at the Heart of Web Development With Javascript as the Foundation.
         </p>
       
       <hr className="hrBottom"></hr>
