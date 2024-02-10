@@ -12,9 +12,9 @@ const ContactButton = () => {
          border-slate-900 
          bg-varMEDBLUEFEATHER
          p-3 
-        text-[1rem] sm:text-[1.5rem] lg:text-[2rem]
-         
-         text-black
+        text-[.75rem] sm:text-[1rem] lg:text-[1.5rem]
+         hover:bg-gray-600
+        
          active:bg-varLIGHTBLUEFEATHER 
          dark:border-none sm:text-3xl
          text-center
@@ -26,7 +26,7 @@ const ContactButton = () => {
      <span className='span1'>
        📡
      </span>
-         <span  className="z-50 text-varLIGHTBLUEFEATHER hover:text-[#FFDB58]">
+         <span  className="z-50 text-blue-400 hover:text-varLIGHTDUCKHEAD">
             Contact 
          </span>
      <span>

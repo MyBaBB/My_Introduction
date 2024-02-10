@@ -3,6 +3,7 @@
 @tailwind utilities;
 :root {
   background-color: #2a61a1;
+
   }
 
 .TestAppWrapper {
@@ -17,13 +18,30 @@
   padding: 1rem; 
   text-shadow: 2px 2px 3px #1c0303;
 }
+
+.customFont13 {
+  font-family: 'PT_Serif', cursive;
+}
+
+
 .reContactButton {
   position: absolute;
   box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.8), 0 0 10px rgba(0, 0, 0, 0.8);
   display: inline-block;
   font-family:'orbitron';
-} 
+  font-weight: bold;
 
+ 
+} 
+.TitleMyBaBB {
+  font-family: 'Archivo_Black';
+  text-align: center;
+  color: #FFDB58;
+  text-shadow: 2px 2px 3px #1c0303;
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
 
 
 .reheader{
@@ -56,8 +74,8 @@
 
 .reObjective, .reEducation, .reSkills, .reExperience, .reReferences {
   text-decoration: underline;
-  font-family: 'black ops one', sans-serif;
-  font-size: larger;
+  font-family: 'DM_Serif_Display';
+ 
   text-shadow: 2px 2px 3px #1c0303;
   color: #FFDB58;
   margin-top: 1rem;
@@ -144,7 +162,7 @@
   src: url(../GoogleFonts/DM_Serif_Display/DMSerifDisplay-Regular.ttf)
  }
  @font-face {
-  font-family:'';
+  font-family:'Itim';
   src: url(../GoogleFonts/Itim/Itim-Regular.ttf)
  }
  @font-face {
@@ -172,8 +190,28 @@
   src: url(../GoogleFonts/Caprasimo/Caprasimo-Regular.ttf)
  }
 @font-face {
+  font-family: 'Archivo_Black';
+  src: url(../GoogleFonts/Archivo_Black/ArchivoBlack-Regular.ttf);
+}
+@font-face {
+  font-family: 'Metal_Mania';
+  src: url(../GoogleFonts/Metal_Mania/MetalMania-Regular.ttf);
+}
+@font-face {
+  font-family: 'Nosifer';
+  src: url(../GoogleFonts/Nosifer/Nosifer-Regular.ttf);
+}
+@font-face {
+  font-family: 'holtwood_one_sc';
+  src: url(../GoogleFonts/Holtwood_One_SC/HoltwoodOneSC-Regular.ttf);
+}
+@font-face {
   font-family: 'orbitron';
-  src: url(../GoogleFonts/Orbitron/static/Orbitron-Bold.ttf);
+  src: url(../GoogleFonts/Orbitron/Orbitron-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: 'Sixtyfour';
+  src: url(../GoogleFonts/Sixtyfour/Sixtyfour-Regular-VariableFont_BLED\,SCAN.ttf);
 }
 
 

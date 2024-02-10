@@ -18,7 +18,7 @@ const TopSection = () => {
     <div>
       
       <section>
-         <h1 className='reObjective'>&nbsp;MyBaBB</h1>
+         <h1 className='reObjective text-[12px] xs:text-[24px]'>&nbsp;MyBaBB</h1>
   <div className="objectiveWrapper">
  
     <p className="objectiveParagraph 
@@ -27,12 +27,12 @@ const TopSection = () => {
           <div className='extraWrapper  w-[100%] '>
             <div className='topParagraphNew relative flex w-[100%]'>
               <div className='w-[100%]'>
-                <div className='  text-center'><h2 className='text-center text-4xl mt-[-1rem]'>
+                <div className='TitleMyBaBB  text-center'><h2 className='text-center text-4xl mt-[-1rem]'>
                   MyBabb Custom Websites
                 </h2></div>
                 <br />
-          <RiDoubleQuotesL className='inline-block text-blue-400 mb-6' />
-                 <span className='text-amber-200'>
+          <RiDoubleQuotesL className=' inline-block text-blue-400 mb-6' />
+                 <span className='customFont13 text-amber-200'>
                   Building High Performance Websites.
           <RiDoubleQuotesR className='inline-block text-blue-400 mb-6' />
                  </span>
@@ -68,7 +68,7 @@ const TopSection = () => {
         text-[12px] xxs:text-[16px] xs:text-[20px] sm:text-[24px] md:text-[28px]
         p-[12px] xxs:p-[22px] xs:p-[32px] sm:p-[42px] md:p-[52px] lg:p-[52px]">  
         <RiDoubleQuotesL className='inline-block text-blue-400 mb-6'/>
-         <span className=' text-amber-200'>
+         <span className='customFont13  text-amber-200'>
           Attract more customers by adding A
           <a href="https://mybabb.github.io/BetterMcTransport/ ">
           &nbsp;<span className='customHover underline'>Custom Landing Page</span>&nbsp;
@@ -117,31 +117,32 @@ const TopSection = () => {
         text-[12px] xxs:text-[16px] xs:text-[20px] sm:text-[24px] md:text-[28px]
         p-[12px] xxs:p-[22px] xs:p-[32px] sm:p-[42px] md:p-[52px] lg:p-[52px] ">
           
-          <br />&nbsp;&nbsp;I offer Web Development that is Proficient in the following technologies:
+          <br />
+          <h5 className='customFont13 text-center text-gray-100'>&nbsp;&nbsp;I offer Web Development that is Proficient in the following technologies:</h5>
           <br />
          
           <TfiHandPointRight className='inline-block text-blue-400 -mt-1 ' />&nbsp;&nbsp;
-<span className='text-amber-200'>Customization for Performance:</span>&nbsp;&nbsp;While I appreciate conventional techniques, I also advocate for advanced strategies to achieve outstanding results.
+<span className='customFont13 text-amber-200'>Customization for Performance:</span>&nbsp;&nbsp;While I appreciate conventional techniques, I also advocate for advanced strategies to achieve outstanding results.
 <br />
 <TfiHandPointRight className='inline-block text-blue-400 -mt-1' />&nbsp;&nbsp;
-<span className='text-amber-200'>React:</span>&nbsp;&nbsp; I wield expertise in building dynamic and responsive user interfaces using React.
+<span className='customFont13 text-amber-200'>React:</span>&nbsp;&nbsp; I wield expertise in building dynamic and responsive user interfaces using React.
 HTML and CSS: My skills extend to crafting clean and semantic HTML structures and styling them elegantly with CSS.
 <br />
 
 
 
 <TfiHandPointRight className='inline-block text-blue-400 -mt-1' />&nbsp;&nbsp;
-<span className='text-amber-200'>Tailwind CSS: </span>&nbsp;&nbsp;I leverage the power of Tailwind CSS to create efficient and consistent designs.
+<span className='customFont13 text-amber-200'>Tailwind CSS: </span>&nbsp;&nbsp;I leverage the power of Tailwind CSS to create efficient and consistent designs.
 <br />
 
 <TfiHandPointRight className='inline-block text-blue-400 -mt-1' />&nbsp;&nbsp;
-<span className='text-amber-200'>JavaScript: </span>&nbsp;&nbsp;I am well-versed in JavaScript, enabling me to add interactivity and functionality to web applications.
+<span className='customFont13 text-amber-200'>JavaScript: </span>&nbsp;&nbsp;I am well-versed in JavaScript, enabling me to add interactivity and functionality to web applications.
 My current tech stack includes:
 
 <br />
 
 <TfiHandPointRight className='inline-block text-blue-400 -mt-1' />&nbsp;&nbsp;
-<span className='text-amber-200'>Vite: </span>&nbsp;&nbsp;I utilize Vite as my build tool, enhancing development speed and performance.
+<span className='customFont13 text-amber-200'>Vite: </span>&nbsp;&nbsp;I utilize Vite as my build tool, enhancing development speed and performance.
 
 <br />
 
