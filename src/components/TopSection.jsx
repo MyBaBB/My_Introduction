@@ -27,7 +27,10 @@ const TopSection = () => {
           <div className='extraWrapper  w-[100%] '>
             <div className='topParagraphNew relative flex w-[100%]'>
               <div className='w-[100%]'>
-                <h2 className='text-center text-4xl mt-[-1rem] mb-2'>MyBabb Custom Websites</h2>
+                <div className='  text-center'><h2 className='text-center text-4xl mt-[-1rem]'>
+                  MyBabb Custom Websites
+                </h2></div>
+                <br />
           <RiDoubleQuotesL className='inline-block text-blue-400 mb-6' />
                  <span className='text-amber-200'>
                   Building High Performance Websites.
