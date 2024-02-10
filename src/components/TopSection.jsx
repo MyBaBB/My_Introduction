@@ -1,5 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
+import TopRightImage from './TopRightImage';
 import { GiLightningTear } from "react-icons/gi";
 import { RiLinksFill } from "react-icons/ri";
 import { MdOutlineTimer } from "react-icons/md";
@@ -17,20 +18,22 @@ const TopSection = () => {
     <div>
       
       <section>
-         <h1 className='reObjective'>&nbsp;MyBaBB Web Development</h1>
-    <div className="objectiveWrapper">
-       
+         <h1 className='reObjective'>&nbsp;MyBaBB</h1>
+  <div className="objectiveWrapper">
+ 
     <p className="objectiveParagraph 
         text-[12px] xxs:text-[16px] xs:text-[20px] sm:text-[24px] md:text-[28px]
         p-[12px] xxs:p-[22px] xs:p-[32px] sm:p-[42px] md:p-[52px] lg:p-[52px]" >
-          
+          <div className='extraWrapper  w-[100%] '>
+            <div className='topParagraphNew relative flex w-[100%]'>
+              <div className='w-[100%]'>
+                <h2 className='text-center text-4xl mt-[-1rem] mb-2'>MyBabb Custom Websites</h2>
           <RiDoubleQuotesL className='inline-block text-blue-400 mb-6' />
-            <span className='text-amber-200'>
-               I build High Performance Websites.
-            </span>
-               
-            <RiDoubleQuotesR className='inline-block text-blue-400 mb-6' /> 
-            <br/>
+                 <span className='text-amber-200'>
+                  Building High Performance Websites.
+          <RiDoubleQuotesR className='inline-block text-blue-400 mb-6' />
+                 </span>
+            <br />
             <TbDiamond className='inline-block text-blue-400 ' />&nbsp;Adding Style shows more Class.
             <br />
             <TbDiamond className='inline-block text-blue-400 ' />&nbsp;Add more Functions with a Custom Landing Page 
@@ -40,12 +43,25 @@ const TopSection = () => {
            
             <TbDiamond className='inline-block text-blue-400 ' />&nbsp;I am looking for Quality Business owners to Grow and Expand with.
             <br/>
-            <TbDiamond className='inline-block text-blue-400 ' />&nbsp;I can offer a Professional Website at a very reasonable price at this time.  
+            <TbDiamond className='inline-block text-blue-400 ' />&nbsp;I can offer a Professional Website at a very reasonable price.  
             <br/>
-            
-        </p>
+         </div>
+          
+          <div className=' w-fit hidden lg:block  '>
+             <span className='float-right'>
+                <TopRightImage />
+            </span>
+          </div> 
+           <br/>
+        </div>
+    </div>
+  </p>
+         
+       
+<section>
 
-        <p className="objectiveParagraph mt-[-4rem]
+</section>
+        <p className="objectiveParagraph mt-[-1rem]
         text-[12px] xxs:text-[16px] xs:text-[20px] sm:text-[24px] md:text-[28px]
         p-[12px] xxs:p-[22px] xs:p-[32px] sm:p-[42px] md:p-[52px] lg:p-[52px]">  
         <RiDoubleQuotesL className='inline-block text-blue-400 mb-6'/>
@@ -56,7 +72,7 @@ const TopSection = () => {
            </a>
             to your Website.
          </span>
-         a
+         
         <RiDoubleQuotesR className='inline-block text-blue-400 mb-6' />  
             <br/>
         <SiGooglechrome className='inline-block text-blue-400' />&nbsp;<span className='googleG1 text-red-600'>G</span>
@@ -84,7 +100,7 @@ const TopSection = () => {
              <LiaLifeRingSolid className='inline-block text-green-500 -mt-1' />&nbsp;
             I also have certifications in Professional Adobe Photo-Shop and Advanced Illustrator, which puts me in a position to pick up some side work as well.
             <br />
-            <LiaLifeRingSolid className='inline-block text-green-500 -mt-1' />&nbsp;&nbsp;Feel free to reach out if you need assistance or have any inquiries. Let&apos;s create exceptional web experiences together! 
+            <LiaLifeRingSolid className='inline-block text-green-500 ' />&nbsp;&nbsp;Feel free to reach out if you need assistance or have any inquiries. Let&apos;s create exceptional web experiences together! 
            <br/>
  
  
@@ -94,14 +110,14 @@ const TopSection = () => {
         
        
         
-        <p className="objectiveParagraph mt-[-7rem] 
+        <p className="objectiveParagraph mt-[-3rem] sm:-mt-[7rem]
         text-[12px] xxs:text-[16px] xs:text-[20px] sm:text-[24px] md:text-[28px]
         p-[12px] xxs:p-[22px] xs:p-[32px] sm:p-[42px] md:p-[52px] lg:p-[52px] ">
           
-          <br />&nbsp;&nbsp;Web Development proficient in the following technologies:
+          <br />&nbsp;&nbsp;I offer Web Development that is Proficient in the following technologies:
           <br />
          
-          <TfiHandPointRight className='inline-block text-blue-400 -mt-1' />&nbsp;&nbsp;
+          <TfiHandPointRight className='inline-block text-blue-400 -mt-1 ' />&nbsp;&nbsp;
 <span className='text-amber-200'>Customization for Performance:</span>&nbsp;&nbsp;While I appreciate conventional techniques, I also advocate for advanced strategies to achieve outstanding results.
 <br />
 <TfiHandPointRight className='inline-block text-blue-400 -mt-1' />&nbsp;&nbsp;
