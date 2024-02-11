@@ -4,8 +4,10 @@
         import phoneInHands from '../img/phoneInHands.webp';
         import Tours from '../img/Tours400x300.webp';
         import Beach from '../img/BeachRentals.png';
-        import Groomer from '../img/Groomer.png';
+        import Groomer1 from '../img/Groomer1.png';
         import Chili from '../img/Chili.png';
+ 
+  
         const TopRightImage = () => {
           const [isZoomed, setIsZoomed] = useState(false);
 
@@ -24,14 +26,21 @@
                   className={`m-1 my-2 z-2 rounded-xl shadow-xl ${isZoomed ? 'zoomed' : ''}`}
                   onClick={handleImageClick}
                 />
+                <div className='relative'>
                   <img
-                  src={Groomer}
-                  alt="Tours"
+                  src={Groomer1}
+                  alt="Cindy"
                   width={isZoomed ? 800 : 400}
                   className={`m-1 mt-2 z-2 rounded-xl shadow-xl ${isZoomed ? 'zoomed' : ''}`}
                   onClick={handleImageClick}
-                />
-                
+                   />
+
+                 <div className='absolute text-[15px] p-1 border-2 border-pink-400 rounded-2xl
+                 top-1 right-3  font-bold text-pink-400  bg-pink-950 animate-spin rotate-2'>
+                  <span className='cindy '>Cindy&apos;s</span></div>
+                 <div className='absolute text-[15px] p-1 border-2 border-pink-400 rounded-2xl
+                 top-[2.5rem] right-3  font-bold text-pink-400  bg-pink-950 '>Mobile</div>
+                </div>
                 
                 <img
                   src={Beach}
@@ -49,12 +58,12 @@
                 />
                 <img
                   src={Chili}
-                  alt="Tours"
+                  alt="Chile"
                   width={isZoomed ? 800 : 400}
                   className={`m-1 mt-2 z-2 rounded-xl shadow-xl ${isZoomed ? 'zoomed' : ''}`}
                   onClick={handleImageClick}
                 />
-               
+                 
               </div>
             </div>
           );
