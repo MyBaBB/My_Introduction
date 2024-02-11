@@ -30,45 +30,8 @@ const TopSection = () => {
                 <div className='TitleMyBaBB  text-center'><h2 className='text-center text-4xl mt-[-1rem]'>
                   MyBabb Custom Websites
                 </h2></div>
-                <br />
-          <RiDoubleQuotesL className=' inline-block text-blue-400 mb-6' />
-                 <span className='customFont13 text-amber-200'>
-                  Building High Performance Websites.
-          <RiDoubleQuotesR className='inline-block text-blue-400 mb-6' />
-                 </span>
-            <br />
-            <TbDiamond className='inline-block text-blue-400 ' />&nbsp;Adding Style shows more Class.
-            <br />
-            <TbDiamond className='inline-block text-blue-400 ' />&nbsp;Add more Functions with a Custom Landing Page 
-            <br/>
-            <TbDiamond className='inline-block text-blue-400 ' />&nbsp;I can also Repair and add Customizations to Generic Websites.
-            <br/>
-           
-            <TbDiamond className='inline-block text-blue-400 ' />&nbsp;I am looking for Quality Business owners to Grow and Expand with.
-            <br/>
-            <TbDiamond className='inline-block text-blue-400 ' />&nbsp;I can offer a Professional Website at a very reasonable price.  
-            <br/>
-         </div>
-          
-          <div className=' w-fit hidden lg:block  '>
-             <span className='float-right'>
-                <TopRightImage />
-            </span>
-          </div> 
-           <br/>
-        </div>
-    </div>
-  </p>
-         
-       
-<section>
-
-</section>
-        <p className="objectiveParagraph mt-[-1rem]
-        text-[12px] xxs:text-[16px] xs:text-[20px] sm:text-[24px] md:text-[28px]
-        p-[12px] xxs:p-[22px] xs:p-[32px] sm:p-[42px] md:p-[52px] lg:p-[52px]">  
-        <RiDoubleQuotesL className='inline-block text-blue-400 mb-6'/>
-         <span className='customFont13  text-amber-200'>
+                <RiDoubleQuotesL className='inline-block text-blue-400 mb-6'/>
+                <span className='customFont13  text-amber-200'>
           Attract more customers by adding A
           <a href="https://mybabb.github.io/BetterMcTransport/ ">
           &nbsp;<span className='customHover underline'>Custom Landing Page</span>&nbsp;
@@ -109,6 +72,51 @@ const TopSection = () => {
  
 
 <br />
+
+<br />
+          <RiDoubleQuotesL className=' inline-block text-blue-400 mb-6' />
+                 <span className='customFont13 text-amber-200'>
+                  Building High Performance Websites.
+          <RiDoubleQuotesR className='inline-block text-blue-400 mb-6' />
+                 </span>
+            <br />
+            <TbDiamond className='inline-block text-blue-400 ' />&nbsp;Adding Style shows more Class.
+            <br />
+            <TbDiamond className='inline-block text-blue-400 ' />&nbsp;Add more Functions with a Custom Landing Page 
+            <br/>
+            <TbDiamond className='inline-block text-blue-400 ' />&nbsp;I can also Repair and add Customizations to Generic Websites.
+            <br/>
+           
+            <TbDiamond className='inline-block text-blue-400 ' />&nbsp;I am looking for Quality Business owners to Grow and Expand with.
+            <br/>
+            <TbDiamond className='inline-block text-blue-400 ' />&nbsp;I can offer a Professional Website at a very reasonable price.  
+            <br/>
+
+
+
+
+         </div>
+          
+          <div className=' w-fit hidden lg:block  '>
+             <span className='float-right'>
+                <TopRightImage />
+            </span>
+          </div> 
+           <br/>
+        </div>
+    </div>
+  </p>
+         
+       
+<section>
+
+</section>
+        <p className="objectiveParagraph mt-[-1rem]
+        text-[12px] xxs:text-[16px] xs:text-[20px] sm:text-[24px] md:text-[28px]
+        p-[12px] xxs:p-[22px] xs:p-[32px] sm:p-[42px] md:p-[52px] lg:p-[52px]">  
+       
+         
+
         </p>
         
        
