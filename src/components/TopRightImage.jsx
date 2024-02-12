@@ -67,13 +67,13 @@
                   className={`m-1 mt-2 z-2 rounded-xl shadow-xl ${isZoomed ? 'zoomed' : ''}`}
                   onClick={handleImageClick}
                 />
-                <img
+             {/*    <img
                   src={Chili}
                   alt="Chile"
                   width={isZoomed ? 800 : 400}
                   className={`m-1 mt-2 z-2 rounded-xl shadow-xl ${isZoomed ? 'zoomed' : ''}`}
                   onClick={handleImageClick}
-                />
+                /> */}
                  
               </div>
             </div>

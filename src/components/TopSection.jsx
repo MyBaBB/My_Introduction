@@ -19,7 +19,7 @@ const TopSection = () => {
       
       <section>
          <h1 className='reObjective text-[12px] xs:text-[24px]'>&nbsp;MyBaBB</h1>
-  <div className="objectiveWrapper">
+  <div className="objectiveWrapper ">
  
     <p className="objectiveParagraph 
         text-[12px] xxs:text-[16px] xs:text-[20px] sm:text-[24px] md:text-[28px]
@@ -33,6 +33,7 @@ const TopSection = () => {
                 <RiDoubleQuotesL className='absolute inline-block
                  left-[-.75rem] xxs:left-[-.95rem] xs:left-[-1.25rem] sm:left-[-1.65rem] text-blue-400 '/>
                 <span className='customFont13  text-amber-200'>
+      
           Attract more customers by adding A
           <a href="https://mybabb.github.io/BetterMcTransport/ ">
           &nbsp;<span className='customHover underline'>Custom Landing Page</span>&nbsp;
@@ -42,6 +43,8 @@ const TopSection = () => {
          
         <RiDoubleQuotesR className='inline-block text-blue-400 ' />  
             <br/>
+
+            
         <SiGooglechrome className='inline-block text-blue-400' />&nbsp;<span className='googleG1 text-red-600'>G</span>
         <span className='googleO1 text-green-600'>o</span>
         <span className='googleO2 text-yellow-600'>o</span>
@@ -75,6 +78,29 @@ const TopSection = () => {
 <br />
 
 <br />
+
+
+
+         </div>
+          
+          <div className=' w-fit h-fit hidden sm:block border border-red-500 '>
+             <span className='float-right'>
+                <TopRightImage />
+            </span>
+          </div> 
+           <br/>
+        </div>
+    </div>
+  </p>
+         
+       
+<section>
+
+</section>
+        <p className="objectiveParagraph mt-[-1rem]
+        text-[12px] xxs:text-[16px] xs:text-[20px] sm:text-[24px] md:text-[28px]
+        p-[12px] xxs:p-[22px] xs:p-[32px] sm:p-[42px] md:p-[52px] lg:p-[52px]">  
+       <div >
           <RiDoubleQuotesL className=' inline-block text-blue-400 mb-6' />
                  <span className='customFont13 text-amber-200'>
                   Building High Performance Websites.
@@ -92,30 +118,7 @@ const TopSection = () => {
             <br/>
             <TbDiamond className='inline-block text-blue-400 ' />&nbsp;I can offer a Professional Website at a very reasonable price.  
             <br/>
-
-
-
-
-         </div>
-          
-          <div className=' w-fit hidden sm:block  '>
-             <span className='float-right'>
-                <TopRightImage />
-            </span>
-          </div> 
-           <br/>
-        </div>
-    </div>
-  </p>
-         
-       
-<section>
-
-</section>
-        <p className="objectiveParagraph mt-[-1rem]
-        text-[12px] xxs:text-[16px] xs:text-[20px] sm:text-[24px] md:text-[28px]
-        p-[12px] xxs:p-[22px] xs:p-[32px] sm:p-[42px] md:p-[52px] lg:p-[52px]">  
-       
+     </div>
          
 
         </p>
