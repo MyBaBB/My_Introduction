@@ -30,7 +30,8 @@ const TopSection = () => {
                 <div className='TitleMyBaBB  text-center'><h2 className='text-center text-4xl mt-[-1rem]'>
                   MyBabb Custom Websites
                 </h2></div>
-                <RiDoubleQuotesL className='inline-block text-blue-400 mb-6'/>
+                <RiDoubleQuotesL className='absolute inline-block
+                 left-[-.75rem] xxs:left-[-.95rem] xs:left-[-1.25rem] sm:left-[-1.65rem] text-blue-400 '/>
                 <span className='customFont13  text-amber-200'>
           Attract more customers by adding A
           <a href="https://mybabb.github.io/BetterMcTransport/ ">
@@ -39,7 +40,7 @@ const TopSection = () => {
             to your Website.
          </span>
          
-        <RiDoubleQuotesR className='inline-block text-blue-400 mb-6' />  
+        <RiDoubleQuotesR className='inline-block text-blue-400 ' />  
             <br/>
         <SiGooglechrome className='inline-block text-blue-400' />&nbsp;<span className='googleG1 text-red-600'>G</span>
         <span className='googleO1 text-green-600'>o</span>
@@ -97,7 +98,7 @@ const TopSection = () => {
 
          </div>
           
-          <div className=' w-fit hidden lg:block  '>
+          <div className=' w-fit hidden sm:block  '>
              <span className='float-right'>
                 <TopRightImage />
             </span>
