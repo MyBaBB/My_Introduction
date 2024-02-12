@@ -35,11 +35,22 @@
                   onClick={handleImageClick}
                    />
 
-                 <div className='absolute text-[12px] xs:text-[15px] p-1 border-2 border-pink-400 rounded-2xl
-                 top-1 right-3  font-bold text-pink-400  bg-pink-950 animate-spin rotate-2'>
+                 <div className='absolute
+                  text-[7px] sm:text-[7px] md:text-[11.5px]
+                   p-1 border-2 border-pink-400 rounded-2xl
+
+                 top-[0.2rem] md:top-[.2rem] md:top-[.2rem] lg:top-[.4rem]
+
+                 right-[.625rem] sm:right-[.5rem] md:right-[.6rem]   
+                 font-bold text-pink-400  bg-pink-950 animate-spin rotate-2'>
                   <span className='cindy '>Cindy&apos;s</span></div>
-                 <div className='absolute text-[12px] xs:text-[15px] p-1 border-2 border-pink-400 rounded-2xl
-                 top-[2.5rem] right-3  font-bold text-pink-400  bg-pink-950 '>Mobile</div>
+                 <div className='absolute 
+                 text-[7px] sm:text-[7px] md:text-[11.5px]
+                  p-1 border-2 border-pink-400 rounded-2xl
+
+                  top-[1.59rem] sm:top-[1.6rem] md:top-[2.1rem] lg:top-[2.5rem]
+                  right-[.625rem] sm:right-[.5rem] md:right-[.6rem] 
+                   font-bold text-pink-400  bg-pink-950 '>Mobile</div>
                 </div>
                 
                 <img
