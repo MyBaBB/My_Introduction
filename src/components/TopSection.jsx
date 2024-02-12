@@ -83,7 +83,7 @@ const TopSection = () => {
 
          </div>
           
-          <div className=' w-fit h-fit hidden sm:block border border-red-500 '>
+          <div className=' w-fit h-fit hidden sm:block '>
              <span className='float-right'>
                 <TopRightImage />
             </span>
