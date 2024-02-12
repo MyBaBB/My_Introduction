@@ -35,10 +35,10 @@
                   onClick={handleImageClick}
                    />
 
-                 <div className='absolute text-[15px] p-1 border-2 border-pink-400 rounded-2xl
+                 <div className='absolute text-[12px] xs:text-[15px] p-1 border-2 border-pink-400 rounded-2xl
                  top-1 right-3  font-bold text-pink-400  bg-pink-950 animate-spin rotate-2'>
                   <span className='cindy '>Cindy&apos;s</span></div>
-                 <div className='absolute text-[15px] p-1 border-2 border-pink-400 rounded-2xl
+                 <div className='absolute text-[12px] xs:text-[15px] p-1 border-2 border-pink-400 rounded-2xl
                  top-[2.5rem] right-3  font-bold text-pink-400  bg-pink-950 '>Mobile</div>
                 </div>
                 
