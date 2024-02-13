@@ -27,7 +27,7 @@ const TopSection = () => {
           <div className='extraWrapper  w-[100%] '>
             <div className='topParagraphNew relative flex w-[100%]'>
               <div className='w-[100%]'>
-                <div className='TitleMyBaBB  text-center'><h2 className='text-center text-4xl mt-[-1rem]'>
+                <div className='TitleMyBaBB  text-center'><h2 className='text-center text-4xl mt-[-2.1rem]'>
                   MyBabb Custom Websites
                 </h2></div>
                 <hr className='w-[65%] border-[3px] border-blue-500 bg-amber-400 rounded-full m-0 m-auto -mt-4 p-[.275px]' />
@@ -38,7 +38,7 @@ const TopSection = () => {
 
 
           <a href="https://mybabb.github.io/BetterMcTransport/ ">
-          &nbsp;<h2 className='customHover underline text-center text-4xl whitespace-nowrap mt-[-2.5rem]'>
+          &nbsp;<h2 className='customHover underline  text-center text-4xl whitespace-nowrap mt-[-2.5rem]'>
           <RiDoubleQuotesL className=' inline-block
                   text-blue-400 mb-3 whitespace-nowrap' />
 
