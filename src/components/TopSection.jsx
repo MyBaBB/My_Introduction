@@ -38,11 +38,13 @@ const TopSection = () => {
 
 
           <a href="https://mybabb.github.io/BetterMcTransport/ ">
-          &nbsp;<h2 className='customHover underline  text-center text-4xl whitespace-nowrap mt-[-2.5rem]'>
+          &nbsp;<h2 className='customHover underline text-center text-4xl  mt-[-2.5rem]'>
           <RiDoubleQuotesL className=' inline-block
-                  text-blue-400 mb-3 whitespace-nowrap' />
+                  text-blue-400 mb-3 ' />
 
-            <span className='text-amber-200'>Custom Landing Page</span><RiDoubleQuotesR className='inline-block text-blue-400 mb-3' /></h2>&nbsp;
+            <span className='text-amber-200
+             text-[16px]  xxs:text-[22px]  xs:text-[26px]  sm:text-[29px]  md:text-[24px]  lg:text-[32px]'>Custom Landing Page</span><RiDoubleQuotesR className='inline-block text-blue-400 mb-3
+            ' /></h2>&nbsp;
            </a>
         <br/>
 
