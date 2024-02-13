@@ -94,7 +94,7 @@
   font-size: larger;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
   color:white;
-  border: 2px solid #FFDB58;
+  border: 2px solid #565656;
   border-radius:  10px;
   background:#0d2d52;
 }
@@ -149,7 +149,7 @@
  }
 
 .sideNavImg img {
- border: 1px solid #800020;
+ border: 2px solid #565656;
 }
 
 

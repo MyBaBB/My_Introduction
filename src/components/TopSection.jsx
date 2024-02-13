@@ -30,11 +30,14 @@ const TopSection = () => {
                 <div className='TitleMyBaBB  text-center'><h2 className='text-center text-4xl mt-[-2.1rem]'>
                   MyBabb Custom Websites
                 </h2></div>
-                <hr className='w-[70%] border-[3px] border-blue-500 bg-[#800020] rounded-full m-0 m-auto -mt-4 p-[1.55px]' />
-                <h2 className='customFont13  text-amber-200 text-center mt-4'>
-               
-                  Attract more Customers</h2>
-                  <span className='customFont13 block text-center m-0 m-auto text-amber-200 '>with a </span>
+                   <hr className='w-[70%] border-[3px] border-blue-500 bg-[#800020] rounded-full m-0 m-auto -mt-4 p-[1.55px]' />
+                   <h2 className='customFont13  text-amber-200 text-center 
+                      mt-1 xs:mt-2'>
+                      Attract more Customers
+                  </h2>
+                  <span className='customFont13 block text-center m-0 m-auto text-amber-200 '>
+                    with a
+                  </span>
 
 
           <a href="https://mybabb.github.io/BetterMcTransport/ ">
@@ -43,7 +46,7 @@ const TopSection = () => {
                   text-blue-400 mb-3 ' />
 
             <span className='text-amber-200  hover:text-[#800020]  
-            text-[16px]  xxs:text-[22px]  xs:text-[26px]  sm:text-[29px]  md:text-[24px]  lg:text-[32px]'>Custom Landing Page</span><RiDoubleQuotesR className=' inline-block text-blue-400 mb-3
+            text-[16px]  xxs:text-[21px]  xs:text-[26px]  sm:text-[29px]  md:text-[24px]  lg:text-[32px]'>Custom Landing Page</span><RiDoubleQuotesR className=' inline-block text-blue-400 mb-3
             ' /></h2>&nbsp;
              <hr className='
              w-[70%] border-[3px] border-blue-500 bg-[#800020] rounded-full m-0 m-auto -mt-8 p-[1.55px] ' />
@@ -174,13 +177,13 @@ const TopSection = () => {
         
        
         
-        <p className="objectiveParagraph mt-[-2rem] xxs:mt-[-3rem] xs:mt-[-4rem] sm:mt-[-5rem] md:mt-[-6rem] lg:mt-[-9rem] xl:mt-[-7rem]
+        <p className="objectiveParagraph mt-[-2rem] xxs:mt-[-3rem] xs:mt-[-4rem] sm:mt-[-5rem] md:mt-[-6rem] lg:mt-[-7.5rem] xl:mt-[-7rem]
         text-[12px] xxs:text-[16px] xs:text-[20px] sm:text-[24px] md:text-[28px]
         p-[12px] xxs:p-[22px] xs:p-[32px] sm:p-[42px] md:p-[52px] lg:p-[52px] ">
           
           <br />
           <h5 className='customFont13 text-center text-amber-200'>&nbsp;&nbsp;I offer Web Development that is Proficient in the following technologies:</h5>
-          <hr className='w-[80%] border-[4px] border-blue-500 bg-[#800020] rounded-full m-0 m-auto  p-[1.275px]' />
+          <hr className='w-[65%] border-[4px] border-blue-500 bg-[#800020] rounded-full m-0 m-auto  p-[1.275px]' />
           <br />
          
           <TfiHandPointRight className='inline-block text-blue-400 -mt-1 ' />&nbsp;&nbsp;
