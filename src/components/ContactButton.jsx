@@ -20,7 +20,9 @@ const ContactButton = () => {
          text-center
          whitespace-nowrap
          mt-10
-         -mb-5"
+         
+         mb-[1rem] sm:mb-[0rem]
+         "
          > 
          
      <span className='span1'>

@@ -17,9 +17,10 @@
 
           return (
             <div>
-              <div className='relative flex-col  mt-2   p-1'>
+              <div className='sideNavImg relative flex-col  mt-2   p-1'>
                 
                 <img
+                  
                   src={phoneInHands}
                   alt="phoneInHands"
                   width={isZoomed ? 800 : 400}

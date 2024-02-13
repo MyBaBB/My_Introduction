@@ -17,11 +17,11 @@ const TopSection = () => {
   return (
     <div>
       
-      <section>
-         <h1 className='reObjective relative p-2 text-[12px] xs:text-[24px]'>&nbsp;MyBaBB</h1>
-  <div className="objectiveWrapper flex-col ">
+      <section className='-mt-[1.6rem]'>
+         <h1 className='reObjective relative p-2  text-[12px] xs:text-[24px]'>&nbsp;MyBaBB</h1>
+  <div className="objectiveWrapper flex-col -mt-4">
  
-    <p className="objectiveParagraph pb flex  h-[100%] w-[100%]
+    <p className="objectiveParagraph  flex  h-[100%] w-[100%]
         text-[12px] xxs:text-[16px] xs:text-[20px] sm:text-[24px] md:text-[28px]
         p-[12px] xxs:p-[22px] xs:p-[32px] sm:p-[42px] md:p-[52px] lg:p-[52px] " >
           <div className='extraWrapper  w-[100%] '>
@@ -30,7 +30,7 @@ const TopSection = () => {
                 <div className='TitleMyBaBB  text-center'><h2 className='text-center text-4xl mt-[-2.1rem]'>
                   MyBabb Custom Websites
                 </h2></div>
-                <hr className='w-[65%] border-[3px] border-blue-500 bg-amber-400 rounded-full m-0 m-auto -mt-4 p-[.275px]' />
+                <hr className='w-[70%] border-[3px] border-blue-500 bg-[#800020] rounded-full m-0 m-auto -mt-4 p-[1.55px]' />
                 <h2 className='customFont13  text-amber-200 text-center mt-4'>
                
                   Attract more Customers</h2>
@@ -38,13 +38,15 @@ const TopSection = () => {
 
 
           <a href="https://mybabb.github.io/BetterMcTransport/ ">
-          &nbsp;<h2 className='customHover underline text-center text-4xl  mt-[-2.5rem]'>
+          &nbsp;<h2 className='customHover text-center text-4xl  mt-[-2.5rem]'>
           <RiDoubleQuotesL className=' inline-block
                   text-blue-400 mb-3 ' />
 
-            <span className='text-amber-200
-             text-[16px]  xxs:text-[22px]  xs:text-[26px]  sm:text-[29px]  md:text-[24px]  lg:text-[32px]'>Custom Landing Page</span><RiDoubleQuotesR className='inline-block text-blue-400 mb-3
+            <span className='text-amber-200  hover:text-[#800020]  
+            text-[16px]  xxs:text-[22px]  xs:text-[26px]  sm:text-[29px]  md:text-[24px]  lg:text-[32px]'>Custom Landing Page</span><RiDoubleQuotesR className=' inline-block text-blue-400 mb-3
             ' /></h2>&nbsp;
+             <hr className='
+             w-[70%] border-[3px] border-blue-500 bg-[#800020] rounded-full m-0 m-auto -mt-8 p-[1.55px] ' />
            </a>
         <br/>
 
@@ -177,8 +179,8 @@ const TopSection = () => {
         p-[12px] xxs:p-[22px] xs:p-[32px] sm:p-[42px] md:p-[52px] lg:p-[52px] ">
           
           <br />
-          <h5 className='customFont13 text-center text-gray-100'>&nbsp;&nbsp;I offer Web Development that is Proficient in the following technologies:</h5>
-          <hr className='w-[80%] border-[3px] border-blue-400 rounded-full m-0 m-auto mt-2 pt-1' />
+          <h5 className='customFont13 text-center text-amber-200'>&nbsp;&nbsp;I offer Web Development that is Proficient in the following technologies:</h5>
+          <hr className='w-[80%] border-[4px] border-blue-500 bg-[#800020] rounded-full m-0 m-auto  p-[1.275px]' />
           <br />
          
           <TfiHandPointRight className='inline-block text-blue-400 -mt-1 ' />&nbsp;&nbsp;
