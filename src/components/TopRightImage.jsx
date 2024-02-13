@@ -41,15 +41,15 @@
 
                  top-[0.2rem] md:top-[.2rem] md:top-[.2rem] lg:top-[.4rem]
 
-                 right-[.625rem] sm:right-[.5rem] md:right-[.6rem]   
+                 right-[.625rem] sm:right-[.15rem] md:right-[.3rem]   
                  font-bold text-pink-400  bg-pink-950 animate-spin rotate-2'>
                   <span className='cindy '>Cindy&apos;s</span></div>
-                 <div className='absolute 
+                 <div className='absolute hidden lg:block 
                  text-[7px] sm:text-[7px] md:text-[11.5px]
                   p-1 border-2 border-pink-400 rounded-2xl
 
                   top-[1.59rem] sm:top-[1.6rem] md:top-[2.1rem] lg:top-[2.5rem]
-                  right-[.625rem] sm:right-[.5rem] md:right-[.6rem] 
+                  right-[.625rem] sm:right-[.5rem] md:right-[.3rem] 
                    font-bold text-pink-400  bg-pink-950 '>Mobile</div>
                 </div>
                 

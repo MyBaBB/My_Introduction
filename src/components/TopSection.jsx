@@ -30,7 +30,7 @@ const TopSection = () => {
                 <div className='TitleMyBaBB  text-center'><h2 className='text-center text-4xl mt-[-1rem]'>
                   MyBabb Custom Websites
                 </h2></div>
-                <hr className='w-[80%] border-[2px] border-blue-400 rounded-full m-0 m-auto -mt-4 pt-1' />
+                <hr className='w-[65%] border-[3px] border-blue-500 bg-amber-400 rounded-full m-0 m-auto -mt-4 p-[.275px]' />
                 <h2 className='customFont13  text-amber-200 text-center mt-4'>
                
                   Attract more Customers</h2>
@@ -38,7 +38,7 @@ const TopSection = () => {
 
 
           <a href="https://mybabb.github.io/BetterMcTransport/ ">
-          &nbsp;<h2 className='customHover underline text-center text-3xl whitespace-nowrap mt-[-2.5rem]'>
+          &nbsp;<h2 className='customHover underline text-center text-4xl whitespace-nowrap mt-[-2.5rem]'>
           <RiDoubleQuotesL className=' inline-block
                   text-blue-400 mb-3 whitespace-nowrap' />
 
