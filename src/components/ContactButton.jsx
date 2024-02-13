@@ -15,7 +15,7 @@ const ContactButton = () => {
         text-[.75rem] sm:text-[1rem] lg:text-[1.5rem]
          hover:bg-gray-600
         
-         active:bg-varLIGHTBLUEFEATHER 
+          
          dark:border-none sm:text-3xl
          text-center
          whitespace-nowrap
@@ -28,9 +28,11 @@ const ContactButton = () => {
      <span className='span1'>
        📡
      </span>
-         <span  className="z-50 text-blue-400 hover:text-varLIGHTDUCKHEAD">
+        <a href="https://mybabb.com">
+         <span className=" text-blue-400 hover:text-varLIGHTDUCKHEAD" >
             Contact 
          </span>
+         </a>
      <span>
        📡
      </span>

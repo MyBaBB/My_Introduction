@@ -12,6 +12,7 @@ const header = () => {
         <h1 className="reheaderh1 ">Brett Baker</h1>
         <img src={CssLogo} alt="CssLogo" className='reheaderimg' /> 
         <MeImg />
+      
       </header>
 
 

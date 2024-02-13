@@ -18,8 +18,8 @@ const TopSection = () => {
     <div>
       
       <section className='-mt-[1.6rem]'>
-         <h1 className='reObjective relative p-2  text-[12px] xs:text-[24px]'>&nbsp;MyBaBB</h1>
-  <div className="objectiveWrapper flex-col -mt-4">
+        
+  <div className="objectiveWrapper flex-col mt-[4.1rem]">
  
     <p className="objectiveParagraph  flex  h-[100%] w-[100%]
         text-[12px] xxs:text-[16px] xs:text-[20px] sm:text-[24px] md:text-[28px]
