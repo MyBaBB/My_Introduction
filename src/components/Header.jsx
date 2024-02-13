@@ -14,7 +14,7 @@ const header = () => {
         <MeImg />
         <button className=" block md:hidden border=2 border-solid border-black bg-gray-400 hover:bg-gray-600 text-black hover:text-white p-2 rounded-md
         textMe text-xs absolute left-[10px] top-[101px] sm:top-[123px]">
-					<a href="tel:14696673305">Send Text</a>
+					<a href="tel:4696673305">Send Text</a>
 				</button>
         <button className="emailMe block  border=2 border-solid border-black bg-gray-400 hover:bg-gray-600 text-black hover:text-white p-2 rounded-md
          text-xs absolute right-[10px] sm:right-[20px] md:right-[30px] lg:right-[50px] 
