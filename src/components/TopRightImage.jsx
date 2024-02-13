@@ -5,7 +5,7 @@
         import Tours from '../img/Tours400x300.webp';
         import Beach from '../img/BeachRentals.png';
         import Groomer1 from '../img/Groomer1.png';
-        import Chili from '../img/Chili.png';
+        // import Chili from '../img/Chili.png';
  
   
         const TopRightImage = () => {
@@ -17,7 +17,7 @@
 
           return (
             <div>
-              <div className='relative flex-col m-2 border border-red-500 p-1'>
+              <div className='relative flex-col m-2  p-1'>
                 
                 <img
                   src={phoneInHands}

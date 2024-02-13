@@ -21,7 +21,7 @@ const TopSection = () => {
          <h1 className='reObjective relative p-2 text-[12px] xs:text-[24px]'>&nbsp;MyBaBB</h1>
   <div className="objectiveWrapper flex-col ">
  
-    <p className="objectiveParagraph pb flex border-[4px] border-green-800 h-[100%] w-[100%]
+    <p className="objectiveParagraph pb flex  h-[100%] w-[100%]
         text-[12px] xxs:text-[16px] xs:text-[20px] sm:text-[24px] md:text-[28px]
         p-[12px] xxs:p-[22px] xs:p-[32px] sm:p-[42px] md:p-[52px] lg:p-[52px] " >
           <div className='extraWrapper  w-[100%] '>
@@ -83,7 +83,8 @@ const TopSection = () => {
 
 
 
-           <div  className='hidden lg:block'>
+           <div  className='hidden lg:block
+           lg:mt-[3rem]'>
             <br />
          
           <RiDoubleQuotesL className=' inline-block text-blue-400 mb-6' />
@@ -136,8 +137,9 @@ const TopSection = () => {
 <section>
 
 </section>
-        <p className="objectiveParagraph mt-[-1rem]
-        text-[12px] xxs:text-[16px] xs:text-[20px] sm:text-[24px] md:text-[28px]
+        <p className="objectiveParagraph 
+        mt-[-3rem]  xxs:mt-[-5rem]  xs:mt-[-6rem] sm:mt-[-8.5rem]  md:mt-[-9rem]  
+        text-[11px] xxs:text-[13px] xs:text-[18px] sm:text-[19px] md:text-[28px]
         p-[12px] xxs:p-[22px] xs:p-[32px] sm:p-[42px] md:p-[52px] lg:p-[52px]
         pb-[12px] xxs:pb-[22px] xs:pb-[32px] sm:pb-[42px] md:pb-[52px] lg:pb-[52px]
         ">  
@@ -166,7 +168,7 @@ const TopSection = () => {
         
        
         
-        <p className="objectiveParagraph mt-[-3rem] sm:-mt-[7rem]
+        <p className="objectiveParagraph mt-[-2rem] xxs:mt-[-3rem] xs:mt-[-4rem] sm:mt-[-5rem] md:mt-[-6rem] lg:mt-[-9rem] xl:mt-[-7rem]
         text-[12px] xxs:text-[16px] xs:text-[20px] sm:text-[24px] md:text-[28px]
         p-[12px] xxs:p-[22px] xs:p-[32px] sm:p-[42px] md:p-[52px] lg:p-[52px] ">
           
