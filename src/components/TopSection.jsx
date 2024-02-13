@@ -30,21 +30,23 @@ const TopSection = () => {
                 <div className='TitleMyBaBB  text-center'><h2 className='text-center text-4xl mt-[-1rem]'>
                   MyBabb Custom Websites
                 </h2></div>
-                <RiDoubleQuotesL className='absolute inline-block
-                 left-[-.75rem] xxs:left-[-.95rem] xs:left-[-1.25rem] sm:left-[-1.65rem] text-blue-400 '/>
-                <span className='customFont13  text-amber-200'>
-      
-          Attract more customers by adding A
-          <a href="https://mybabb.github.io/BetterMcTransport/ ">
-          &nbsp;<span className='customHover underline'>Custom Landing Page</span>&nbsp;
-           </a>
-            to your Website.
-         </span>
-         
-        <RiDoubleQuotesR className='inline-block text-blue-400 ' />  
-            <br/>
+                <hr className='w-[80%] border-[2px] border-blue-400 rounded-full m-0 m-auto -mt-4 pt-1' />
+                <h2 className='customFont13  text-amber-200 text-center mt-4'>
+               
+                  Attract more Customers</h2>
+                  <span className='customFont13 block text-center m-0 m-auto text-amber-200 '>with a </span>
 
-            
+
+          <a href="https://mybabb.github.io/BetterMcTransport/ ">
+          &nbsp;<h2 className='customHover underline text-center text-3xl whitespace-nowrap mt-[-2.5rem]'>
+          <RiDoubleQuotesL className=' inline-block
+                  text-blue-400 mb-3 whitespace-nowrap' />
+
+            <span className='text-amber-200'>Custom Landing Page</span><RiDoubleQuotesR className='inline-block text-blue-400 mb-3' /></h2>&nbsp;
+           </a>
+        <br/>
+
+      <article className='-mt-4'> 
         <SiGooglechrome className='inline-block text-blue-400' />&nbsp;<span className='googleG1 text-red-600'>G</span>
         <span className='googleO1 text-green-600'>o</span>
         <span className='googleO2 text-yellow-600'>o</span>
@@ -57,8 +59,8 @@ const TopSection = () => {
            lightning fast for&nbsp;
             <a href="https://mybabb.github.io/SEO-BEST_PRACTICES/">
           <span className='customHoverSEO underline'>(SEO)</span>
-          </a>
-
+           </a>
+           
 
          
             <br/>         
@@ -68,7 +70,7 @@ const TopSection = () => {
             <br/>
             <RiLinksFill className='inline-block text-blue-400' />&nbsp;Custom links that Directs the Flow for new customers.
             <br/>
-
+      </article> 
           <div>
             <LiaLifeRingSolid className='inline-block text-green-500 -mt-1' />&nbsp;&nbsp;I can Repair your Generic Website (Including platforms like WordPress-WooCommerce, Wix, and Drupal). 
              <br /> 
@@ -174,6 +176,7 @@ const TopSection = () => {
           
           <br />
           <h5 className='customFont13 text-center text-gray-100'>&nbsp;&nbsp;I offer Web Development that is Proficient in the following technologies:</h5>
+          <hr className='w-[80%] border-[3px] border-blue-400 rounded-full m-0 m-auto mt-2 pt-1' />
           <br />
          
           <TfiHandPointRight className='inline-block text-blue-400 -mt-1 ' />&nbsp;&nbsp;
