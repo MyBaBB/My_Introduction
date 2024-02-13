@@ -42,7 +42,7 @@ Error generating stack: `+i.message+`
     left-1 xxs:left-2 xs:left-4 sm:left-4 md:left-5 lg:left-5\r
     w-[60px] sm:w-[90px] lg:w-[105px]`,children:a.jsx("img",{src:Kd,alt:"NewMe",className:"NewMeJsx border-2 border-[#565656] rounded-full"})}),Zd=()=>a.jsx("div",{children:a.jsxs("header",{className:`reheader\r
         text-[2rem] sm:text-[2.5rem] lg:text-[3rem] `,children:[a.jsx("h1",{className:"reheaderh1 ",children:"Brett Baker"}),a.jsx("img",{src:Qd,alt:"CssLogo",className:"reheaderimg"}),a.jsx(Gd,{}),a.jsx("button",{className:` block sm:hidden border=2 border-solid border-black bg-gray-400 hover:bg-gray-600 text-black hover:text-white p-2 rounded-md\r
-        textMe text-xs absolute left-[10px] top-[101px]`,children:a.jsx("a",{href:"sms:+14696673305?body=I'm%20interested%20in%20your%20product.%20Please%20contact%20me.",children:"Send Text"})}),a.jsx("button",{className:` block sm:hidden border=2 border-solid border-black bg-gray-400 hover:bg-gray-600 text-black hover:text-white p-2 rounded-md\r
+        textMe text-xs absolute left-[10px] top-[101px]`,children:a.jsx("a",{href:"sms:+14696673305?body=I'm%20interested%20in%20your%20product.%20Please%20contact%20me.",children:"Send Text"})}),a.jsx("button",{className:`border=2 border-solid border-black bg-gray-400 hover:bg-gray-600 text-black hover:text-white p-2 rounded-md\r
         textMe text-xs absolute right-[10px] top-[101px]`,children:a.jsx("a",{href:"mailto:contact@mybabb.com",children:"Email Me"})})]})}),Yd=()=>a.jsx("div",{children:a.jsx("a",{href:"https://Mybabb.com",children:a.jsx("div",{className:"reContactButtonWrapper",children:a.jsxs("div",{className:` reContactButton content-center p-10 \r
          rounded-full\r
          border border-solid \r
