@@ -19,7 +19,7 @@ const TopSection = () => {
       
       <section className='-mt-[1.6rem]'>
         
-  <div className="objectiveWrapper flex-col mt-[4.1rem]">
+  <div className="objectiveWrapper flex-col mt-[3.1rem] sm:mt-[4.1rem] ">
  
     <p className="objectiveParagraph  flex  h-[100%] w-[100%]
         text-[12px] xxs:text-[16px] xs:text-[20px] sm:text-[24px] md:text-[28px]
