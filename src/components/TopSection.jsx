@@ -18,12 +18,12 @@ const TopSection = () => {
     <div>
       
       <section>
-         <h1 className='reObjective text-[12px] xs:text-[24px]'>&nbsp;MyBaBB</h1>
-  <div className="objectiveWrapper ">
+         <h1 className='reObjective relative p-2 text-[12px] xs:text-[24px]'>&nbsp;MyBaBB</h1>
+  <div className="objectiveWrapper flex-col ">
  
-    <p className="objectiveParagraph 
+    <p className="objectiveParagraph pb flex border-[4px] border-green-800 h-[100%] w-[100%]
         text-[12px] xxs:text-[16px] xs:text-[20px] sm:text-[24px] md:text-[28px]
-        p-[12px] xxs:p-[22px] xs:p-[32px] sm:p-[42px] md:p-[52px] lg:p-[52px]" >
+        p-[12px] xxs:p-[22px] xs:p-[32px] sm:p-[42px] md:p-[52px] lg:p-[52px] " >
           <div className='extraWrapper  w-[100%] '>
             <div className='topParagraphNew relative flex w-[100%]'>
               <div className='w-[100%]'>
@@ -58,6 +58,9 @@ const TopSection = () => {
             <a href="https://mybabb.github.io/SEO-BEST_PRACTICES/">
           <span className='customHoverSEO underline'>(SEO)</span>
           </a>
+
+
+         
             <br/>         
             <SlEyeglass className='inline-block text-blue-400' /> It looks great on all devices.(Mobile Responsive)
             <br/>       
@@ -65,6 +68,8 @@ const TopSection = () => {
             <br/>
             <RiLinksFill className='inline-block text-blue-400' />&nbsp;Custom links that Directs the Flow for new customers.
             <br/>
+
+          <div>
             <LiaLifeRingSolid className='inline-block text-green-500 -mt-1' />&nbsp;&nbsp;I can Repair your Generic Website (Including platforms like WordPress-WooCommerce, Wix, and Drupal). 
              <br /> 
              <LiaLifeRingSolid className='inline-block text-green-500 -mt-1' />&nbsp;
@@ -72,8 +77,42 @@ const TopSection = () => {
             <br />
             <LiaLifeRingSolid className='inline-block text-green-500 ' />&nbsp;&nbsp;Feel free to reach out if you need assistance or have any inquiries. Let&apos;s create exceptional web experiences together! 
            <br/>
- 
- 
+        </div>
+
+         
+
+
+
+           <div  className='hidden lg:block'>
+            <br />
+         
+          <RiDoubleQuotesL className=' inline-block text-blue-400 mb-6' />
+                 <span className='customFont13 text-amber-200'>
+                  Building High Performance Websites.
+          <RiDoubleQuotesR className='inline-block text-blue-400 mb-6' />
+                 </span>
+            <br />
+            <TbDiamond className='inline-block text-blue-400 ' />&nbsp;Adding Style shows more Class.
+            <br />
+            <TbDiamond className='inline-block text-blue-400 ' />&nbsp;Add more Functions with a Custom Landing Page 
+            <br/>
+            <TbDiamond className='inline-block text-blue-400 ' />&nbsp;I can also Repair and add Customizations to Generic Websites.
+            <br/>
+           
+            <TbDiamond className='inline-block text-blue-400 ' />&nbsp;I am looking for Quality Business owners to Grow and Expand with.
+            <br/>
+            <TbDiamond className='inline-block text-blue-400 ' />&nbsp;I can offer a Professional Website at a very reasonable price.  
+            <br/>
+     </div>
+     {/* <div className=' block lg:hidden'>
+            <LiaLifeRingSolid className='inline-block text-green-500 -mt-1' />&nbsp;&nbsp;I can Repair your Generic Website (Including platforms like WordPress-WooCommerce, Wix, and Drupal). 
+             <br /> 
+             <LiaLifeRingSolid className='inline-block text-green-500 -mt-1' />&nbsp;
+            I also have certifications in Professional Adobe Photo-Shop and Advanced Illustrator, which puts me in a position to pick up some side work as well.
+            <br />
+            <LiaLifeRingSolid className='inline-block text-green-500 ' />&nbsp;&nbsp;Feel free to reach out if you need assistance or have any inquiries. Let&apos;s create exceptional web experiences together! 
+           <br/>
+        </div> */}
 
 <br />
 
@@ -83,7 +122,7 @@ const TopSection = () => {
 
          </div>
           
-          <div className=' w-fit h-fit hidden sm:block '>
+          <div className=' w-fit h-fit hidden md:block '>
              <span className='float-right'>
                 <TopRightImage />
             </span>
@@ -99,8 +138,10 @@ const TopSection = () => {
 </section>
         <p className="objectiveParagraph mt-[-1rem]
         text-[12px] xxs:text-[16px] xs:text-[20px] sm:text-[24px] md:text-[28px]
-        p-[12px] xxs:p-[22px] xs:p-[32px] sm:p-[42px] md:p-[52px] lg:p-[52px]">  
-       <div >
+        p-[12px] xxs:p-[22px] xs:p-[32px] sm:p-[42px] md:p-[52px] lg:p-[52px]
+        pb-[12px] xxs:pb-[22px] xs:pb-[32px] sm:pb-[42px] md:pb-[52px] lg:pb-[52px]
+        ">  
+          <div className='block lg:hidden' >
           <RiDoubleQuotesL className=' inline-block text-blue-400 mb-6' />
                  <span className='customFont13 text-amber-200'>
                   Building High Performance Websites.

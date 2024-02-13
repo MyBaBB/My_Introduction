@@ -17,7 +17,7 @@
 
           return (
             <div>
-              <div>
+              <div className='relative flex-col m-2 border border-red-500 p-1'>
                 
                 <img
                   src={phoneInHands}
