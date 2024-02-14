@@ -6,7 +6,7 @@ const ContactButton = () => {
 <div>
  <a href="https://Mybabb.com">
    <div className="reContactButtonWrapper">
-     <div className=" reContactButton content-center p-10 
+     <div className=" reContactButton content-center p-1 
          rounded-full
          border border-solid 
          border-slate-900 
