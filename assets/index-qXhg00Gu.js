@@ -46,7 +46,7 @@ Error generating stack: `+i.message+`
         textMe text-xs absolute left-[10px] top-[101px] sm:top-[123px]`,children:a.jsx("a",{href:"sms:14696673305",children:"Send Text"})}),a.jsx("button",{className:`emailMe block  border=2 border-solid border-black bg-gray-400\r
          hover:bg-gray-600 text-black hover:text-varLIGHTDUCKHEAD p-2 rounded-md\r
          text-xs absolute right-[10px] sm:right-[20px] md:right-[30px] lg:right-[50px] \r
-         top-[101px] xs:top-[101px] sm:top-[122px] md:top-[125px] lg:top-[135px]`,children:a.jsx("a",{href:"mailto:contact@mybabb.com",children:"Email Me"})})]})}),Yd=()=>a.jsx("div",{children:a.jsx("a",{href:"https://Mybabb.com",children:a.jsx("div",{className:"reContactButtonWrapper",children:a.jsxs("div",{className:` reContactButton content-center p-10 \r
+         top-[101px] xs:top-[101px] sm:top-[122px] md:top-[125px] lg:top-[135px]`,children:a.jsx("a",{href:"mailto:contact@mybabb.com",children:"Email Me"})})]})}),Yd=()=>a.jsx("div",{children:a.jsx("a",{href:"https://Mybabb.com",children:a.jsx("div",{className:"reContactButtonWrapper",children:a.jsxs("div",{className:` reContactButton content-center p-1 \r
          rounded-full\r
          border border-solid \r
          border-slate-900 \r
