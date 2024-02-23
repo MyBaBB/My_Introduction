@@ -1,1 +1,4 @@
-This is an itroduction of Mybabb that I use as an Email Template to put on Emails to folks like on Craig's list and such.
+# This is My Introduction for Mybabb
+
+I send this out as a kind of Resume that Describes my Skills and Talents.
+![imaage](MyIntroReadme.png)
