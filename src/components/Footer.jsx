@@ -6,7 +6,7 @@ const Footer = () => {
       <div></div>
       <a
         href="mailto:howdy@mybabb.com"
-        className=" text-bold relative m-0 m-auto flex w-fit rounded-lg
+        className="text-bold relative m-0 m-auto mt-4 flex w-fit rounded-lg
          border-2 border-gray-300 bg-blue-950 p-2 text-center text-center
         text-lg text-gray-300"
       >
