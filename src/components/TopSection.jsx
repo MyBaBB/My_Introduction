@@ -33,8 +33,8 @@ const TopSection = () => {
                   </div>
                   <p className="relative mb-[1.25rem] mt-3 text-center text-amber-50">
                     <FcEngineering className="FcEngineering -mt-1 inline-block text-green-500" />
-                    &nbsp;&nbsp;I&apos;m a React Front End Developer with a
-                    passion
+                    &nbsp;&nbsp;I&apos;m a React Front End Developer
+<br />
                   </p>
                   <hr className="m-0 m-auto -mt-4 w-[70%] rounded-full border-[3px] border-blue-500 bg-[#800020] p-[1.55px]" />
                   <h2
@@ -43,7 +43,7 @@ const TopSection = () => {
                   >
                     Attract more Customers
                   </h2>
-                  <span className="customFont13 m-0 m-auto block text-center text-amber-200 ">
+                  <span className="customFont13 m-0 m-auto mb-[-.25rem] block text-center text-amber-200 ">
                     with a
                   </span>
 
@@ -57,7 +57,7 @@ const TopSection = () => {
 
                       <span
                         className="customHover text-[16px]  text-amber-200  
-            hover:text-[#800020]  xxs:text-[21px]  xs:text-[26px]  sm:text-[29px]  md:text-[24px]  lg:text-[32px]"
+            hover:text-[#800020]  xxs:text-[21px]  xs:text-[26px]  sm:text-[29px]  md:text-[24px]  lg:text-[32px] "
                       >
                         &nbsp; Custom Landing Page &nbsp;
                       </span>
@@ -66,7 +66,10 @@ const TopSection = () => {
             "
                       />
                     </h2>
-                    &nbsp;
+                    
+                    <br />
+                    <p className="text-center text-base mt-[-2.5rem] ">&apos;&nbsp;Generic Website Booster Page&nbsp;&apos;</p>
+                    <br />
                     <hr
                       className="
              m-0 m-auto -mt-8 w-[70%] rounded-full border-[3px] border-blue-500 bg-[#800020] p-[1.55px] "
