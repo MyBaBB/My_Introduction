@@ -11,7 +11,7 @@ import { RiDoubleQuotesR } from "react-icons/ri";
 import { TfiHandPointRight } from "react-icons/tfi";
 import { TbDiamond } from "react-icons/tb";
 import { LiaLifeRingSolid } from "react-icons/lia";
-
+import { FcEngineering } from "react-icons/fc";
 const TopSection = () => {
   return (
     <div>
@@ -30,6 +30,11 @@ const TopSection = () => {
                       MyBabb Custom Websites
                     </h2>
                   </div>
+                  <p className="relative mb-[1.25rem] mt-3 text-center text-amber-200">
+                    <FcEngineering className="FcEngineering -mt-1 inline-block text-green-500" />
+                    &nbsp;&nbsp;I&apos;m a React Front End Developer with a
+                    passion
+                  </p>
                   <hr className="m-0 m-auto -mt-4 w-[70%] rounded-full border-[3px] border-blue-500 bg-[#800020] p-[1.55px]" />
                   <h2
                     className="customFont13  mt-1 text-center 
@@ -66,9 +71,11 @@ const TopSection = () => {
              m-0 m-auto -mt-8 w-[70%] rounded-full border-[3px] border-blue-500 bg-[#800020] p-[1.55px] "
                     />
                   </a>
+
+                  <br />
                   <br />
 
-                  <article className="-mt-4">
+                  <article className="-mt-6">
                     <SiGooglechrome className="inline-block text-blue-400" />
                     &nbsp;<span className="googleG1 text-red-600">G</span>
                     <span className="googleO1 text-green-600">o</span>
@@ -95,11 +102,12 @@ const TopSection = () => {
                   </article>
                   <div>
                     <LiaLifeRingSolid className="-mt-1 inline-block text-green-500" />
-                    &nbsp;&nbsp;I can Repair your Generic Website (Including
-                    platforms like WordPress-WooCommerce, Wix, and Drupal).
+                    &nbsp;&nbsp;I can also Repair your Generic Website
+                    (Including platforms like WordPress-WooCommerce, Wix, and
+                    Drupal).
                     <br />
                     <LiaLifeRingSolid className="-mt-1 inline-block text-green-500" />
-                    &nbsp; I also have certifications in Professional Adobe
+                    &nbsp; I have certifications in Professional Adobe
                     Photo-Shop and Advanced Illustrator, which puts me in a
                     position to pick up some side work as well.
                     <br />

@@ -5,6 +5,10 @@
   background-color: #2a61a1;
 }
 
+.FcEngineering {
+  animation: spin 5s linear infinite;
+}
+
 .TestAppWrapper {
   font-family: "Creepster", cursive;
 }
