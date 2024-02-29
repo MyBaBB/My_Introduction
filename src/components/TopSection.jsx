@@ -32,31 +32,31 @@ const TopSection = () => {
                     </h2>
                   </div>
                   <p className="relative mb-[1.25rem] mt-3 text-center text-amber-50">
-                    <FcEngineering className="FcEngineering -mt-1 inline-block text-green-500" />
+                    <FcEngineering className="FcEngineering -mt-1 inline-block" />
                     &nbsp;&nbsp;I&apos;m a React Front End Developer
 <br />
                   </p>
                   <hr className="m-0 m-auto -mt-4 w-[70%] rounded-full border-[3px] border-blue-500 bg-[#800020] p-[1.55px]" />
                   <h2
                     className="customFont13  mt-1 text-center 
-                      text-amber-200 xs:mt-2"
+                      text-green-300 xs:mt-2"
                   >
                     Attract more Customers
                   </h2>
-                  <span className="customFont13 m-0 m-auto mb-[-.25rem] block text-center text-amber-200 ">
+                  <span className="customFont13 m-0 m-auto mb-[-.25rem] block text-center text-green-300 ">
                     with a
                   </span>
 
                   <a href="https://mybabb.github.io/BetterMcTransport/ ">
                     &nbsp;
-                    <h2 className=" mt-[-2.5rem] text-center  text-4xl">
+                    <h2 className=" mt-[-2.5rem] text-center  text-4xl whitespace-nowrap">
                       <TfiEye
                         className=" 
                   inline-block text-blue-300 "
                       />
 
                       <span
-                        className="customHover text-[16px]  text-amber-200  
+                        className="customHover text-[16px]  text-green-300 
             hover:text-[#800020]  xxs:text-[21px]  xs:text-[26px]  sm:text-[29px]  md:text-[24px]  lg:text-[32px] "
                       >
                         &nbsp; Custom Landing Page &nbsp;
@@ -68,15 +68,30 @@ const TopSection = () => {
                     </h2>
                     
                     <br />
-                    <p className="text-center text-base mt-[-2.5rem] ">&apos;&nbsp;Generic Website Booster Page&nbsp;&apos;</p>
+                    <p className="text-center text-base mt-[-1rem] sm:mt-[-2.5rem] ">&apos;&nbsp;Generic Website Booster Page&nbsp;&apos;</p>
+                    <p className="text-center text-base mt-2  ">&apos;&nbsp;I can build from Scratch Custom Websites or I can be your Personal Assistant/Builder on your Generic Website&nbsp;&apos;</p>
                     <br />
+                    
                     <hr
                       className="
-             m-0 m-auto -mt-8 w-[70%] rounded-full border-[3px] border-blue-500 bg-[#800020] p-[1.55px] "
+             m-0 m-auto -mt-4 sm-mt-8 w-[70%] rounded-full border-[3px] border-blue-500 bg-[#800020] p-[1.55px] "
                     />
                   </a>
-                  <p className="text-center text-base mt-2  ">&apos;&nbsp;I can build from Scratch Custom Websites or I can be your Personal Assistant/Builder on your Generic Website&nbsp;&apos;</p>
+                 
                   <br />
+                  <div className="text-left  w-full">
+                  <span className="customFont13 whitespace-nowrap  text-amber-200">
+                  <TfiHandPointRight className="-mt-1 inline-block text-blue-400 " />
+            &nbsp;
+            
+               <span className="text-lg sm:text-xl md:text-[1.25rem] lg:text-3xl ">Customization for Performance:</span>
+            </span>
+            <br />
+            <span className="text-center p-4 inline-block">&nbsp;&nbsp;While I appreciate conventional techniques, I also
+            advocate for advanced strategies to achieve outstanding results.
+            </span>
+            </div>
+            <br />
                   <br />
 
                   <article className="-mt-6">
@@ -226,14 +241,7 @@ const TopSection = () => {
             </h5>
             <hr className="m-0 m-auto w-[65%] rounded-full border-[4px] border-blue-500 bg-[#800020]  p-[1.275px]" />
             <br />
-            <TfiHandPointRight className="-mt-1 inline-block text-blue-400 " />
-            &nbsp;&nbsp;
-            <span className="customFont13 text-amber-200">
-              Customization for Performance:
-            </span>
-            &nbsp;&nbsp;While I appreciate conventional techniques, I also
-            advocate for advanced strategies to achieve outstanding results.
-            <br />
+            
             <TfiHandPointRight className="-mt-1 inline-block text-blue-400" />
             &nbsp;&nbsp;
             <span className="customFont13 text-amber-200">React:</span>
