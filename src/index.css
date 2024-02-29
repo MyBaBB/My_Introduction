@@ -4,6 +4,12 @@
 :root {
   background-color: #2a61a1;
 }
+.customHover:hover {
+  text-shadow: whitesmoke 1px 1px 1px;
+}
+.customHovery:hover {
+  display: inline-block;
+}
 
 .FcEngineering {
   animation: spin 5s linear infinite;

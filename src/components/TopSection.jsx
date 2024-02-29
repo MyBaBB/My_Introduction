@@ -12,6 +12,7 @@ import { TfiHandPointRight } from "react-icons/tfi";
 import { TbDiamond } from "react-icons/tb";
 import { LiaLifeRingSolid } from "react-icons/lia";
 import { FcEngineering } from "react-icons/fc";
+import { TfiEye } from "react-icons/tfi";
 const TopSection = () => {
   return (
     <div>
@@ -30,7 +31,7 @@ const TopSection = () => {
                       MyBabb Custom Websites
                     </h2>
                   </div>
-                  <p className="relative mb-[1.25rem] mt-3 text-center text-amber-200">
+                  <p className="relative mb-[1.25rem] mt-3 text-center text-amber-50">
                     <FcEngineering className="FcEngineering -mt-1 inline-block text-green-500" />
                     &nbsp;&nbsp;I&apos;m a React Front End Developer with a
                     passion
@@ -48,20 +49,20 @@ const TopSection = () => {
 
                   <a href="https://mybabb.github.io/BetterMcTransport/ ">
                     &nbsp;
-                    <h2 className="customHover mt-[-2.5rem] text-center  text-4xl">
-                      <RiDoubleQuotesL
-                        className=" mb-3
-                  inline-block text-blue-400 "
+                    <h2 className=" mt-[-2.5rem] text-center  text-4xl">
+                      <TfiEye
+                        className=" 
+                  inline-block text-blue-300 "
                       />
 
                       <span
-                        className="text-[16px]  text-amber-200  
+                        className="customHover text-[16px]  text-amber-200  
             hover:text-[#800020]  xxs:text-[21px]  xs:text-[26px]  sm:text-[29px]  md:text-[24px]  lg:text-[32px]"
                       >
-                        Custom Landing Page
+                        &nbsp; Custom Landing Page &nbsp;
                       </span>
-                      <RiDoubleQuotesR
-                        className=" mb-3 inline-block text-blue-400
+                      <TfiEye
+                        className=" inline-block text-blue-300
             "
                       />
                     </h2>
