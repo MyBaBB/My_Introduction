@@ -75,7 +75,7 @@ const TopSection = () => {
              m-0 m-auto -mt-8 w-[70%] rounded-full border-[3px] border-blue-500 bg-[#800020] p-[1.55px] "
                     />
                   </a>
-
+                  <p className="text-center text-base mt-2  ">&apos;&nbsp;I can build from Scratch Custom Websites or I can be your Personal Assistant/Builder on your Generic Website&nbsp;&apos;</p>
                   <br />
                   <br />
 
