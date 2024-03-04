@@ -30,14 +30,7 @@ const ThirdSection = () => {
             <IoBookSharp className="inline-block text-blue-400" />
             &nbsp;&nbsp;&nbsp;JavaScript
           </li>
-          <li>
-            <IoBookSharp className="inline-block text-blue-400" />
-            &nbsp;&nbsp;&nbsp;Adobe Photo-Shop
-          </li>
-          <li>
-            <IoBookSharp className="inline-block text-blue-400" />
-            &nbsp;&nbsp;&nbsp;Adobe Illustrator
-          </li>
+          
           <li>
             <IoBookSharp className="inline-block text-blue-400" />
             &nbsp;&nbsp;&nbsp;Vite with Firebase
@@ -49,6 +42,18 @@ const ThirdSection = () => {
           <li>
             <IoBookSharp className="inline-block text-blue-400" />
             &nbsp;&nbsp;&nbsp;Streamline Existing Websites{" "}
+          </li>
+          <li>
+            <IoBookSharp className="inline-block text-blue-400" />
+            &nbsp;&nbsp;&nbsp;Adobe Photo-Shop
+          </li>
+          <li>
+            <IoBookSharp className="inline-block text-blue-400" />
+            &nbsp;&nbsp;&nbsp;Adobe Illustrator
+          </li>
+          <li>
+            <IoBookSharp className="inline-block text-blue-400" />
+            &nbsp;&nbsp;&nbsp;Stable Diffusion
           </li>
         </ul>
       </section>
