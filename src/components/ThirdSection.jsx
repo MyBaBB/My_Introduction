@@ -5,7 +5,7 @@ const ThirdSection = () => {
   return (
     <div>
       <section className="pl-8">
-        <h2 className="reSkills">Skills</h2>
+        <h2 className="reSkills">My Repertoire</h2>
         <ul
           className="reUnOrderedList2
             text-[12px] xxs:text-[19px] xs:text-[23px] sm:text-[20px] md:text-[23px] "
