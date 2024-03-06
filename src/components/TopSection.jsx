@@ -35,15 +35,18 @@ const TopSection = () => {
                     <FcEngineering className="FcEngineering -mt-1 inline-block" />
                     &nbsp;&nbsp;I&apos;m a React Front End Developer
 <br />
-                  </p>
+</p>
                   <hr className="m-0 m-auto -mt-4 w-[70%] rounded-full border-[3px] border-blue-500 bg-[#800020] p-[1.55px]" />
                   <h2
                     className="customFont13  mt-1 text-center 
-                      text-green-300 xs:mt-2"
+                      text-green-300 xs:mt-2 xxs:text-[21px]  xs:text-[26px]  sm:text-[29px]  md:text-[24px]  lg:text-[32px] "
                   >
                     Attract more Customers
                   </h2>
-                  <span className="customFont13 m-0 m-auto mb-[-.25rem] block text-center text-green-300 ">
+                  <span className="
+                   m-0 m-auto 
+                   mb-[-0rem] sm:mb-[-.2rem] md:mb-[-.9rem] lg:mb-[-.5rem]
+                   mt-[-.3rem]  block text-center text-green-300 ">
                     with a
                   </span>
 
@@ -68,8 +71,10 @@ const TopSection = () => {
                     </h2>
                     
                     <br />
-                    <p className="text-center text-base mt-[-1rem] sm:mt-[-2.5rem] ">&apos;&nbsp;Generic Website Booster Page&nbsp;&apos;</p>
-                    <p className="text-center text-base mt-2  ">&apos;&nbsp;I can build from Scratch Custom Websites or I can be your Personal Assistant/Builder on your Generic Website&nbsp;&apos;</p>
+                    <p className="text-center
+                     text-[12px] xxs:text-[16px]  xs:text-[16px]  sm:text-[18px]  md:text-[20px]  lg:text-[22px]
+                      mt-[-1.8rem] xs:mt-[-2.5rem] sm:mt-[-2.5rem] ">&apos;&nbsp;Generic Website Booster Page&nbsp;&apos;</p>
+                    <p className="text-center text-base mt-2 text-[12px] xxs:text-[16px]  xs:text-[16px]  sm:text-[18px]  md:text-[20px]  lg:text-[22px] ">&apos;&nbsp;I can build from Scratch Custom Websites or I can be your Personal Assistant/Builder on your Generic Website&nbsp;&apos;</p>
                     <br />
                     
                     <hr
