@@ -79,10 +79,22 @@ const TopSection = () => {
                     >
                       &apos;&nbsp;Generic Website Booster Page&nbsp;&apos;
                     </p>
-                    <p className="mt-2 text-center text-[12px] text-base xxs:text-[16px]  xs:text-[16px]  sm:text-[18px]  md:text-[20px]  lg:text-[22px] ">
-                      <span className="whitespace-nowrap"><span className="inline-block"><RiDoubleQuotesL /></span>&nbsp;I can build</span> from Scratch Custom Websites or I
-                      can be your Personal Assistant/Builder on your <span className="whitespace-nowrap"> Generic
-                      Website&nbsp;<span className="inline-block"><RiDoubleQuotesR /></span></span>
+                    <p className="mt-2 text-center text-[12px] text-base xxs:text-[16px]  xs:text-[16px]  sm:text-[20px]  md:text-[24px]  lg:text-[27px] ">
+                      <span className="whitespace-nowrap">
+                        <span className="inline-block">
+                          <RiDoubleQuotesL />
+                        </span>
+                        &nbsp;I can build
+                      </span>{" "}
+                      from Scratch Custom Websites or I can be your Personal
+                      Assistant/Builder on your{" "}
+                      <span className="whitespace-nowrap">
+                        {" "}
+                        Generic Website&nbsp;
+                        <span className="inline-block">
+                          <RiDoubleQuotesR />
+                        </span>
+                      </span>
                     </p>
                     <br />
                     <hr
@@ -102,9 +114,21 @@ const TopSection = () => {
                     </span>
                     <br />
                     <span className="inline-block p-4 text-center">
-                      &nbsp;&nbsp;<span className="whitespace-nowrap"><span className="inline-block"><RiDoubleQuotesL /></span>&nbsp;While I appreciate</span> conventional techniques, I
-                      also advocate for advanced strategies to achieve
-                      <span className="whitespace-nowrap">outstanding results.&nbsp;<span className="inline-block"><RiDoubleQuotesR /></span></span>
+                      &nbsp;&nbsp;
+                      <span className="whitespace-nowrap">
+                        <span className="inline-block">
+                          <RiDoubleQuotesL />
+                        </span>
+                        &nbsp;While I appreciate
+                      </span>{" "}
+                      conventional techniques, I also advocate for advanced
+                      strategies to achieve
+                      <span className="whitespace-nowrap">
+                        outstanding results.&nbsp;
+                        <span className="inline-block">
+                          <RiDoubleQuotesR />
+                        </span>
+                      </span>
                     </span>
                   </div>
                   <br />
