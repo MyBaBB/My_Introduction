@@ -34,25 +34,27 @@ const TopSection = () => {
                   <p className="relative mb-[1.25rem] mt-3 text-center text-amber-50">
                     <FcEngineering className="FcEngineering -mt-1 inline-block" />
                     &nbsp;&nbsp;I&apos;m a React Front End Developer
-<br />
-</p>
+                    <br />
+                  </p>
                   <hr className="m-0 m-auto -mt-4 w-[70%] rounded-full border-[3px] border-blue-500 bg-[#800020] p-[1.55px]" />
                   <h2
                     className="customFont13  mt-1 text-center 
-                      text-green-300 xs:mt-2 xxs:text-[21px]  xs:text-[26px]  sm:text-[29px]  md:text-[24px]  lg:text-[32px] "
+                      text-green-300 xxs:text-[21px] xs:mt-2  xs:text-[26px]  sm:text-[29px]  md:text-[24px]  lg:text-[32px] "
                   >
                     Attract more Customers
                   </h2>
-                  <span className="
+                  <span
+                    className="
                    m-0 m-auto 
-                   mb-[-0rem] sm:mb-[-.2rem] md:mb-[-.9rem] lg:mb-[-.5rem]
-                   mt-[-.3rem]  block text-center text-green-300 ">
+                   mb-[-0rem] mt-[-.3rem] block text-center
+                   text-green-300  sm:mb-[-.2rem] md:mb-[-.9rem] lg:mb-[-.5rem] "
+                  >
                     with a
                   </span>
 
                   <a href="https://mybabb.github.io/BetterMcTransport/ ">
                     &nbsp;
-                    <h2 className=" mt-[-2.5rem] text-center  text-4xl whitespace-nowrap">
+                    <h2 className=" mt-[-2.5rem] whitespace-nowrap  text-center text-4xl">
                       <TfiEye
                         className=" 
                   inline-block text-blue-300 "
@@ -69,34 +71,43 @@ const TopSection = () => {
             "
                       />
                     </h2>
-                    
                     <br />
-                    <p className="text-center
-                     text-[12px] xxs:text-[16px]  xs:text-[16px]  sm:text-[18px]  md:text-[20px]  lg:text-[22px]
-                      mt-[-1.8rem] xs:mt-[-2.5rem] sm:mt-[-2.5rem] ">&apos;&nbsp;Generic Website Booster Page&nbsp;&apos;</p>
-                    <p className="text-center text-base mt-2 text-[12px] xxs:text-[16px]  xs:text-[16px]  sm:text-[18px]  md:text-[20px]  lg:text-[22px] ">&apos;&nbsp;I can build from Scratch Custom Websites or I can be your Personal Assistant/Builder on your Generic Website&nbsp;&apos;</p>
+                    <p
+                      className="mt-[-1.8rem]
+                     text-center text-[12px]  xxs:text-[16px]  xs:mt-[-2.5rem]  xs:text-[16px]  sm:mt-[-2.5rem]
+                      sm:text-[18px] md:text-[20px] lg:text-[22px] "
+                    >
+                      &apos;&nbsp;Generic Website Booster Page&nbsp;&apos;
+                    </p>
+                    <p className="mt-2 text-center text-[12px] text-base xxs:text-[16px]  xs:text-[16px]  sm:text-[18px]  md:text-[20px]  lg:text-[22px] ">
+                      &apos;&nbsp;I can build from Scratch Custom Websites or I
+                      can be your Personal Assistant/Builder on your Generic
+                      Website&nbsp;&apos;
+                    </p>
                     <br />
-                    
                     <hr
                       className="
-             m-0 m-auto -mt-4 sm-mt-8 w-[70%] rounded-full border-[3px] border-blue-500 bg-[#800020] p-[1.55px] "
+             sm-mt-8 m-0 m-auto -mt-4 w-[70%] rounded-full border-[3px] border-blue-500 bg-[#800020] p-[1.55px] "
                     />
                   </a>
-                 
+
                   <br />
-                  <div className="text-left  w-full">
-                  <span className="customFont13 whitespace-nowrap  text-amber-200">
-                  <TfiHandPointRight className="-mt-1 inline-block text-blue-400 " />
-            &nbsp;
-            
-               <span className="text-lg sm:text-xl md:text-[1.25rem] lg:text-3xl ">Customization for Performance:</span>
-            </span>
-            <br />
-            <span className="text-center p-4 inline-block">&nbsp;&nbsp;While I appreciate conventional techniques, I also
-            advocate for advanced strategies to achieve outstanding results.
-            </span>
-            </div>
-            <br />
+                  <div className="w-full  text-left">
+                    <span className="customFont13 whitespace-nowrap  text-amber-200">
+                      <TfiHandPointRight className="-mt-1 inline-block text-blue-400 " />
+                      &nbsp;
+                      <span className="text-lg sm:text-xl md:text-[1.25rem] lg:text-3xl ">
+                        Customization for Performance:
+                      </span>
+                    </span>
+                    <br />
+                    <span className="inline-block p-4 text-center">
+                      &nbsp;&nbsp;While I appreciate conventional techniques, I
+                      also advocate for advanced strategies to achieve
+                      outstanding results.
+                    </span>
+                  </div>
+                  <br />
                   <br />
 
                   <article className="-mt-6">
@@ -246,7 +257,6 @@ const TopSection = () => {
             </h5>
             <hr className="m-0 m-auto w-[65%] rounded-full border-[4px] border-blue-500 bg-[#800020]  p-[1.275px]" />
             <br />
-            
             <TfiHandPointRight className="-mt-1 inline-block text-blue-400" />
             &nbsp;&nbsp;
             <span className="customFont13 text-amber-200">React:</span>

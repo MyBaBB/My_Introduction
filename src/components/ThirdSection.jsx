@@ -30,7 +30,7 @@ const ThirdSection = () => {
             <IoBookSharp className="inline-block text-blue-400" />
             &nbsp;&nbsp;&nbsp;JavaScript
           </li>
-          
+
           <li>
             <IoBookSharp className="inline-block text-blue-400" />
             &nbsp;&nbsp;&nbsp;Vite with Firebase
