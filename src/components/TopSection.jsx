@@ -122,7 +122,7 @@ const TopSection = () => {
                         &nbsp;While I appreciate
                       </span>{" "}
                       conventional techniques, I also advocate for advanced
-                      strategies to achieve
+                      strategies to achieve&nbsp;
                       <span className="whitespace-nowrap">
                         outstanding results.&nbsp;
                         <span className="inline-block">
