@@ -4,11 +4,12 @@ import React from "react";
 function Copyright() {
   return (
     <div>
-      <p className="fixed bottom-0 right-5 whitespace-nowrap text-xs">
-        <span className="text-varBoneWhite z-0  text-[9px] font-bold text-black sm:text-[9px]">
+      <p className="relative  flex  justify-center m-auto whitespace-nowrap ">
+        <span className="Orbitron text-blue-200 z-2  text-[px]   sm:text-[12px]">
           &lt;&lt;&lt;&copy;MyBaBB <em>12-2023</em>&gt;&gt;&gt;
         </span>
       </p>
+      <hr className="hrBottom"></hr>
     </div>
   );
 }

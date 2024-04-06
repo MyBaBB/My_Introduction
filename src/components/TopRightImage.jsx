@@ -1,10 +1,10 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from "react";
-import phoneInHands from "../img/phoneInHands.webp";
-import Tours from "../img/Tours400x300.webp";
-import Beach from "../img/BeachRentals.png";
-import Groomer1 from "../img/Groomer1.png";
-import Chili from "../img/Chili.png";
+import phoneInHands from ".././img/phoneInHands.webp";
+import Tours from "../img/./Tours400x300.webp";
+import Beach from "../img/./BeachRentals.png";
+import Groomer1 from ".././img/Groomer1.png";
+import Chili from ".././img/chili.png";
 
 const TopRightImage = () => {
   const [isZoomed, setIsZoomed] = useState(false);

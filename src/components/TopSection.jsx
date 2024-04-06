@@ -13,9 +13,11 @@ import { TbDiamond } from "react-icons/tb";
 import { LiaLifeRingSolid } from "react-icons/lia";
 import { FcEngineering } from "react-icons/fc";
 import { TfiEye } from "react-icons/tfi";
+
 const TopSection = () => {
   return (
     <div>
+     
       <section className="-mt-[1.6rem]">
         <div className="objectiveWrapper mt-[3.1rem] flex-col sm:mt-[4.1rem] ">
           <p
