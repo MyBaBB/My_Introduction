@@ -26,7 +26,7 @@ const AquariumStand = () => {
               }}
             >
               <span className="Kingthings m-4 whitespace-nowrap p-4 text-[2.2rem] ">
-              Custom Work
+              Resume&apos; Hub
               </span>
             </h3>
           </div>
