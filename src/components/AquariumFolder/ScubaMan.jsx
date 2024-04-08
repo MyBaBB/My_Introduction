@@ -8,7 +8,7 @@ import { MdOutlineScubaDiving } from "react-icons/md";
 
 const ScubaMan = () => {
   return (
-    <div className=" relative flex  ml-4 ">
+    <div className=" relative flex  ml-4  ">
     <div 
           className="dataToolTip13 Libre_Baskerville"
           data-tool-tip="Back To Top"

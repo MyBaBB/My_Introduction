@@ -9,7 +9,7 @@ const ScubaMask = () => {
         
             <div
              
-              className="absolute top-[8.5rem]  left-8  text-varLIGHTBLUEFEATHER hover:text-varLIGHTWING
+              className="absolute  top-[6.6rem] sm:top-[7.6rem] lg:top-[8.5rem] left-[1rem] lg:left-8  text-varLIGHTBLUEFEATHER hover:text-varLIGHTWING
                   "
             >
                 
