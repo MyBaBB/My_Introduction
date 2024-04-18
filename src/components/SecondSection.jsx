@@ -8,7 +8,7 @@ const SecondSection = () => {
       
       <section className="pl-8">
         <h2 className="reExperience">Experience</h2>
-        <div className="reExperienceHover">
+        <div id="experience" className="reExperienceHover scroll-mt-10">
           <a href="https://Mybabb.com">
             <p
               className="reUnOrderedList

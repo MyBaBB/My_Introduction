@@ -5,6 +5,7 @@ import NewMe from "../img/NewMe.png";
 import ScubaMask from "./ScubaNavFolder/ScubaMask";
 import ContactButton from "./ContactButton";
 import EmailButton from "./EmailButton";
+ 
 const header = () => {
   return (
     <div>
@@ -24,7 +25,7 @@ const header = () => {
        
    
  
-  
+ 
   
  
 
@@ -35,6 +36,7 @@ const header = () => {
     <div className="relative flex justify-between items-center p-4 ">
       <ScubaMask />
        <ContactButton />
+      
       <EmailButton />
     </div>
     </div>

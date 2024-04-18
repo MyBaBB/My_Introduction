@@ -105,7 +105,7 @@ const TopSection = () => {
                   </a>
 
                   <br />
-                  <div className="w-full  text-left">
+                  <div id="performance" className="w-full  text-left">
                     <span className="customFont13 whitespace-nowrap  text-amber-200">
                       <TfiHandPointRight className="-mt-1 inline-block text-blue-400 " />
                       &nbsp;
@@ -270,8 +270,8 @@ const TopSection = () => {
             </div>
           </p>
 
-          <p
-            className="objectiveParagraph mt-[-2rem] p-[12px] text-[12px] xxs:mt-[-3rem] xxs:p-[22px] xxs:text-[16px] xs:mt-[-4rem]
+          <p id="technologies"
+            className="objectiveParagraph scroll-mt-[-4rem] mt-[-2rem] p-[12px] text-[12px] xxs:mt-[-3rem] xxs:p-[22px] xxs:text-[16px] xs:mt-[-4rem]
         xs:p-[32px] xs:text-[20px] sm:mt-[-5rem] sm:p-[42px] sm:text-[24px]
         md:mt-[-6rem] md:p-[52px] md:text-[28px] lg:mt-[-7.5rem] lg:p-[52px] xl:mt-[-7rem] "
           >

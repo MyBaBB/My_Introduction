@@ -1,0 +1,176 @@
+.dataToolTip1 {
+  display: inline-block;
+  position: relative;
+}
+.dataToolTip1:hover::before,
+.dataToolTip1:hover::after {
+  --scale: 1;
+}
+.dataToolTip1::before {
+  content: "";
+  background: radial-gradient(black, #492407);
+  color: #dbeafe;
+  width: max-content;
+  position: absolute;
+  content: attr(data-tool-tip);
+
+  left: 50%;
+  transform: translateX(-50%) scale(var(--scale));
+  transform-origin: center;
+  transition: ease-in 0.15s;
+  bottom: -3.8rem;
+  background: radial-gradient(black, #492407);
+  border-radius: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  --scale: 0;
+  z-index: 3;
+  left: 14rem;
+}
+.dataToolTip1::after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  padding: 0.1em 0.1em 0.2em 0.1em;
+  left: 50%;
+  transform: translateX(-50%) scale(var(--scale));
+  transform-origin: bottom center;
+  transition: 0.25s;
+  bottom: -1.75rem;
+  border: 15px solid transparent;
+  border-bottom: #492407 10px solid;
+
+  --scale: 0;
+  z-index: 2;
+}
+
+.dataToolTip2 {
+  display: inline-block;
+  position: relative;
+}
+.dataToolTip2:hover::before,
+.dataToolTip2:hover::after {
+  --scale: 1;
+}
+.dataToolTip2::before {
+  content: "";
+  color: #dbeafe;
+  background: radial-gradient(black, #492407);
+  width: max-content;
+  position: absolute;
+  content: attr(data-tool-tip);
+
+  left: 50%;
+  transform: translateX(-50%) scale(var(--scale));
+  transform-origin: top center;
+  transition: ease-in 0.25s;
+  bottom: -3.85rem;
+
+  border-radius: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  --scale: 0;
+  z-index: 3;
+}
+
+.dataToolTip2::after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  padding: 0.1em 0.1em 0.2em 0.1em;
+  left: 50%;
+  transform: translateX(-50%) scale(var(--scale));
+  transform-origin: bottom center;
+  transition: 0.25s;
+  bottom: -1.75rem;
+  border: 15px solid transparent;
+  border-bottom: #492407 10px solid;
+
+  --scale: 0;
+  z-index: 2;
+}
+
+.dataToolTip3 {
+  top: -2px;
+}
+.dataToolTip3:hover::before,
+.dataToolTip3:hover::after {
+  --scale: 1;
+}
+.dataToolTip3::before {
+  content: "";
+  background: radial-gradient(black, #492407);
+  color: #dbeafe;
+  width: max-content;
+  position: absolute;
+  content: attr(data-tool-tip);
+
+  left: 0;
+  transform: translateX(-100%) scale(var(--scale));
+  transform-origin: top left;
+  transition: ease-in 0.25s;
+  bottom: -3.85rem;
+  background: radial-gradient(black, #492407);
+  border-radius: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  --scale: 0;
+  z-index: 3;
+  left: 14rem;
+}
+.dataToolTip3::after {
+  content: "";
+  top: 2.9rem;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  padding: 0.1em 0.1em 0.2em 0.1em;
+  left: 50%;
+  transform: translateX(-35%) scale(var(--scale));
+  transform-origin: bottom center;
+  transition: 0.25s;
+
+  border: 15px solid transparent;
+  border-bottom: #492407 10px solid;
+
+  --scale: 0;
+  z-index: 1;
+}
+
+.mybabb {
+  color: #fca802;
+}
+
+.NavbarTitle1 {
+  font-size: 20px;
+  white-space: nowrap;
+  text-shadow: 2px 2px 3px #1c0303;
+}
+.NavbarTitle2 {
+  font-size: 20px;
+  white-space: nowrap;
+  text-shadow: 2px 2px 3px #1c0303;
+}
+.NavbarTitle3 {
+  font-size: 20px;
+  white-space: nowrap;
+  text-shadow: 2px 2px 3px #1c0303;
+}
+.NavbarTitle4 {
+  text-shadow: 2px 2px 3px #1c0303;
+}
+
+.navLinksWrapper {
+  width: 100%;
+
+  display: flex;
+  justify-content: flex-start;
+}
