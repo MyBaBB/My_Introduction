@@ -15,7 +15,7 @@
     width: max-content;
     position: absolute;
     content: attr(data-tool-tip);
-    bottom: -2.05rem;
+    bottom: -1.65rem;
     left: 12rem;
     transform: translateX(-100%) scale(var(--scale));
     transform-origin: top left;
@@ -33,12 +33,13 @@
   }
   .dataToolTip23::after {
     content: "";
-    top: 1.5rem;
+    
     width: 15px;
     height: 15px;
     position: absolute;
     padding: 0.1em 0.1em 0.2em 0.1em;
-    left: 1.4rem;
+    top: 2.7rem;
+    left: 1.9rem;
     transform: translateX(-35%) scale(var(--scale));
     transform-origin: bottom center;
     transition: 0.25s;
@@ -78,7 +79,7 @@
     content: attr(data-tool-tip);
     padding: 0.1em 0.1em 0.2em 0.1em;
     bottom: 4.75rem;
-    left: 11.8rem;  
+    left: 11rem;  
     transform: translateX(-100%) scale(var(--scale));
     transform-origin: bottom left;
     transition: ease-in 0.25s;
@@ -101,7 +102,7 @@
     padding: 0.1em 0.1em 0.2em 0.1em;
     bottom: 3rem;
     left: 3.45rem;
-    transform: translateX(-85%) scale(var(--scale));
+    transform: translateX(-100%) scale(var(--scale));
     transform-origin: top center;
     transition: 0.25s;
   

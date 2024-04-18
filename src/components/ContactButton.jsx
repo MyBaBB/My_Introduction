@@ -5,22 +5,19 @@ const ContactButton = () => {
   return (
     <div>
         
-        <div className="reContactButtonWrapper">
+        <div className="reContactButtonWrapper ">
           <div
-            className=" reContactButton mb-[1rem] mt-10 
+            className=" reContactButton    
          content-center
          whitespace-nowrap rounded-full 
-         border 
          border-solid
          border-slate-900 
-        bg-varMEDBLUEFEATHER p-1 p-3
+        bg-varMEDBLUEFEATHER p-2 
          text-center
-        
-          
          text-[.75rem] hover:bg-gray-600
-         sm:mb-[0rem]
-         sm:text-3xl
-         sm:text-[1rem]
+        
+         sm:text-xl
+        
          
          lg:text-[1.5rem] dark:border-none
          "

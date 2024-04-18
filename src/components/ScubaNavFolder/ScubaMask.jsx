@@ -8,7 +8,7 @@ const ScubaMask = () => {
 
 <a
               href="#toScubaMask"
-              className="absolute  left-4 top-[8.5rem] text-varLIGHTBLUEFEATHER hover:text-varLIGHTWING
+              className="text-varLIGHTBLUEFEATHER hover:text-varLIGHTWING
                 "
             >
               <div
@@ -16,7 +16,7 @@ const ScubaMask = () => {
                 data-tool-tip="To The Bottom"
               >
                 <div
-                  className="inline-block rounded-xl  
+                  className=" rounded-xl  
                              border-[1px]  border-varLIGHTBLUEFEATHER"
                 >
                   <div className="rounded-xl   border-[2px]  border-black">
@@ -25,7 +25,7 @@ const ScubaMask = () => {
                                  p-2 hover:bg-black xxs:bg-gray-700"
                     >
                       <span className="NavbarTitle4">
-                        <div className="  hidden sm:block  ">
+                        <div className="   ">
                           <TbScubaMask
                             size={20}
                             className="z-50 text-blue-200  "

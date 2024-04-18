@@ -18,8 +18,8 @@ const TopSection = () => {
   return (
     <div>
      
-      <section className="-mt-[1.6rem]">
-        <div className="objectiveWrapper mt-[3.1rem] flex-col sm:mt-[4.1rem] ">
+      <section className="">
+        <div className="objectiveWrapper flex-col  ">
           <p
             className="objectiveParagraph  flex  h-[100%] w-[100%]
         p-[12px] text-[12px] xxs:p-[22px] xxs:text-[16px] xs:p-[32px]
@@ -280,7 +280,7 @@ const TopSection = () => {
               &nbsp;&nbsp;I offer Web Development that is Proficient in the
               following technologies:
             </h5>
-            <hr className="m-0 m-auto w-[65%] rounded-full border-[4px] border-blue-500 bg-[#800020]  p-[1.275px]" />
+            <hr className=" m-auto w-[65%] rounded-full border-[4px] border-blue-500 bg-[#800020]  p-[1.275px]" />
             <br />
             <TfiHandPointRight className="-mt-1 inline-block text-blue-400" />
             &nbsp;&nbsp;
