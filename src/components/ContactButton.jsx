@@ -8,7 +8,7 @@ const ContactButton = () => {
         <div className="reContactButtonWrapper ">
           <div
             className=" reContactButton    
-         content-center
+         content-center   translate-x-4 md:-translate-x-0
          whitespace-nowrap rounded-full 
          border-solid
          border-slate-900 

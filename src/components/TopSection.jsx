@@ -11,7 +11,7 @@ import { RiDoubleQuotesR } from "react-icons/ri";
 import { TfiHandPointRight } from "react-icons/tfi";
 import { TbDiamond } from "react-icons/tb";
 import { LiaLifeRingSolid } from "react-icons/lia";
-import { FcEngineering } from "react-icons/fc";
+import { GiFrogPrince } from "react-icons/gi";
 import { TfiEye } from "react-icons/tfi";
 
 const TopSection = () => {
@@ -34,8 +34,12 @@ const TopSection = () => {
                     </h2>
                   </div>
                   <p className="relative mb-[1.25rem] mt-3 text-center text-amber-50">
-                    <FcEngineering className="FcEngineering -mt-1 inline-block" />
-                    &nbsp;&nbsp;I&apos;m a React Front End Developer
+                  <span className="whitespace-nowrap">
+                    <GiFrogPrince className="frogPrince -mt-1 inline-block text-green-500"  />&nbsp;&nbsp;
+                    I&apos;m a React</span>
+                       Front End <span className="whitespace-nowrap">
+                       Developer&nbsp;&nbsp;
+                    <GiFrogPrince className="frogPrince -mt-1 inline-block  text-green-500"  /></span>
                     <br />
                   </p>
                   <hr className=" m-auto -mt-4 w-[70%] rounded-full border-[3px] border-blue-500 bg-[#800020] p-[1.55px]" />

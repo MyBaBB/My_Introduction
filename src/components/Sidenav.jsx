@@ -23,8 +23,8 @@ const Sidenav = () => {
       <AiOutlineMenu
         size={50}
         onClick={handleNav}
-        className="absolute right-8 top-6 z-[99] md:hidden"
-        style={{ color: "black" }}
+        className="absolute right-8 top-6 z-[99] md:hidden text-blue-950  "
+        
       />
       {nav ? (
         <div className="fixed  z-20 flex h-screen w-full flex-col items-center justify-center bg-[#24558d]/90 ">

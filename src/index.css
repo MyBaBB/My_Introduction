@@ -4,6 +4,36 @@
 :root {
   background-color: #2a61a1;
 }
+.reactSpin {
+  animation: spin 11s infinite;
+}
+ 
+
+@keyframes reactSpin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.frogPrince {
+  animation: pulser 30s infinite;
+}
+@keyframes pulser {
+  0% {
+       color: #0d2d52;  
+      transform: scale(.3);  
+  }
+  100% {
+     color: #22c55e;  
+      transform: scale(1.8);  
+  }
+ 
+
+}
+
+
 .customHover:hover {
   text-shadow: whitesmoke 1px 1px 1px;
 }
@@ -11,13 +41,9 @@
   display: inline-block;
 }
 
-.FcEngineering {
-  animation: spin 5s linear infinite;
-}
 
-.TestAppWrapper {
-  font-family: "Creepster", cursive;
-}
+ 
+
 .reContactButtonWrapper {
   display: flex;
   justify-content: center;
