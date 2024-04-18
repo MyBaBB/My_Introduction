@@ -52,7 +52,7 @@ export default {
       'EmilysCandy': ['Emilys Candy', 'cursive'],
           'HoltwoodOneSC': ['Holtwood One SC', 'sans-serif'],
     'Itim': ['Itim, cursive'],
-    'Kingthings_Petrock': ['Kingthings Petrock', 'cursive'],
+    'Kingthings_Petrock': ['Kingthings_Petrock', 'cursive'],
     'Kranky': ['Kranky', 'cursive'],
     'LibreBaskerville': ['Libre Baskerville', 'serif'],
     "Montserrat": ['Montserrat', 'sans-serif'],
