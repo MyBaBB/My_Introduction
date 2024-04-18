@@ -37,7 +37,7 @@ const ThirdSection = () => {
           </li>
           <li>
             <IoBookSharp className="inline-block text-blue-400" />
-            &nbsp;&nbsp;&nbsp;Repair/Customize Wordpress, Wix, Drupal
+            &nbsp;&nbsp;&nbsp;Assist with Generic Websites
           </li>
           <li>
             <IoBookSharp className="inline-block text-blue-400" />

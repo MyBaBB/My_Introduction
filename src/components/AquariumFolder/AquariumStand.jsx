@@ -33,7 +33,7 @@ const AquariumStand = () => {
             >
               <span className="font-Kingthings_Petrock relative inline-block m-1 whitespace-nowrap p-1 text-[1.5rem] ">
               <FaLink size={12} className="inline-block text-varLIGHTBLUEFEATHER" />
-                       &nbsp;Portfolio&nbsp;Hub&nbsp;
+              &nbsp;&nbsp;Portfolio&nbsp;Hub&nbsp;&nbsp;
               <FaLink size={12} className="inline-block rotate-90 text-varLIGHTBLUEFEATHER" />
               </span>
             </h3>
