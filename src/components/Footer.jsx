@@ -2,7 +2,7 @@
 import React from "react";
  
 import AquariumStandDataTip from "./AquariumFolder/AquariumDataTip.jsx";
-import ScubaMan from "./AquariumFolder/ScubaMan.jsx";
+import ScubaMan from "./ScubaNavFolder/ScubaManNav.jsx";
 
 const Footer = () => {
   return (

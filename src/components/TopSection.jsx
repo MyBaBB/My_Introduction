@@ -29,7 +29,7 @@ const TopSection = () => {
               <div className="topParagraphNew relative flex w-[100%]">
                 <div className="w-[100%]">
                   <div className="TitleMyBaBB  text-center">
-                    <h2 className="mt-[-1.1rem] text-center text-4xl">
+                    <h2 className="font-Nosifer mt-[-1.1rem] text-center text-4xl">
                       MyBabb Custom Websites
                     </h2>
                   </div>
@@ -38,7 +38,7 @@ const TopSection = () => {
                     &nbsp;&nbsp;I&apos;m a React Front End Developer
                     <br />
                   </p>
-                  <hr className="m-0 m-auto -mt-4 w-[70%] rounded-full border-[3px] border-blue-500 bg-[#800020] p-[1.55px]" />
+                  <hr className=" m-auto -mt-4 w-[70%] rounded-full border-[3px] border-blue-500 bg-[#800020] p-[1.55px]" />
                   <h2
                     className="customFont13  mt-1 text-center 
                       text-green-300 xxs:text-[21px] xs:mt-2  xs:text-[26px]  sm:text-[29px]  md:text-[24px]  lg:text-[32px] "
@@ -47,7 +47,7 @@ const TopSection = () => {
                   </h2>
                   <span
                     className="
-                   m-0 m-auto 
+                    m-auto 
                    mb-[-0rem] mt-[-.3rem] block text-center
                    text-green-300  sm:mb-[-.2rem] md:mb-[-.9rem] lg:mb-[-.5rem] "
                   >
@@ -69,8 +69,7 @@ const TopSection = () => {
                         &nbsp; Custom Landing Page &nbsp;
                       </span>
                       <TfiEye
-                        className=" inline-block text-blue-300
-            "
+                        className=" inline-block text-blue-300"
                       />
                     </h2>
                     <br />

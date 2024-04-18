@@ -1,13 +1,17 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import "./AquariumStand.css";
+import { FaLink } from "react-icons/fa";
+import Octopus from "./OctoPus22x80.png";
 const AquariumStand = () => {
   return (
-    <div className="  mb-[.3rem] mt-4 flex justify-center">
-      <a href="https://Resume-Hub.mybabb.com">
+    <div className=" flex-row items-center justify-center">
+      <div className="OctopusWrapper OctopusHideLandscape  relative m-auto flex  justify-center  ">
+        <img src={Octopus} alt="Octopus" />
+      </div>
       <div
-        className="aquariumStandWrapper rounded-xl border-[1px] border-varMEDBLUEFEATHER
-       border-l-transparent border-r-transparent "
+        className="aquariumStandWrapper rounded-xl border-[2px] border-varLIGHTBLUEFEATHER
+       border-l-transparent border-r-transparent sm:block"
       >
         <div
           className="border-[12px] border-black border-b-gray-800 
@@ -19,21 +23,26 @@ const AquariumStand = () => {
               boxShadow: "inset 0px 0px 20px rgba(0, 0, 0, 1)",
             }}
           >
+            
+           
+            
             <h3
               className="h2 relative whitespace-nowrap  text-center text-blue-200 "
               style={{
-                textShadow: "2px 2px 4px rgba(0, 0, 0, 1)",
-              }}
+                textShadow: "2px 2px 4px rgba(0, 0, 0, 1)", }}
             >
-              <span className="Kingthings m-4 whitespace-nowrap p-4 text-[2.2rem] ">
-              Portfolio&nbsp;Hub
+              <span className="font-Kingthings_Petrock relative inline-block m-1 whitespace-nowrap p-1 text-[1.5rem] ">
+              <FaLink size={12} className="inline-block text-varLIGHTBLUEFEATHER" />
+                       &nbsp;Portfolio&nbsp;Hub&nbsp;
+              <FaLink size={12} className="inline-block rotate-90 text-varLIGHTBLUEFEATHER" />
               </span>
             </h3>
+            
+              
+            
           </div>
-          
         </div>
       </div>
-      </a>
     </div>
   );
 };

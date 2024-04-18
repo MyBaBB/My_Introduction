@@ -2,7 +2,7 @@
 import React from "react";
 import CssLogo from "../img/cssLogoHeight80px.png";
 import MeImg from "./MeImg";
-import ScubaMask from "../components/AquariumFolder/ScubaMask";
+import ScubaMask from "./ScubaNavFolder/ScubaMask";
 
 const header = () => {
   return (
