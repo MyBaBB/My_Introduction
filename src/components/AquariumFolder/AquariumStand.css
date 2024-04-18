@@ -66,7 +66,6 @@
   transform: translateX(-50%) scale(var(--scale));
   transform-origin: bottom center;
   transition: ease-in 0.25s;
-  
 
   border-radius: 10px;
   padding-top: 3px;
@@ -88,10 +87,10 @@
   transform: translateX(-50%) scale(var(--scale));
   transform-origin: top center;
   transition: 0.25s;
-  
+
   border: 15px solid transparent;
   border-top: lightblue 10px solid;
-  
+
   --scale: 0;
   z-index: 2;
 }

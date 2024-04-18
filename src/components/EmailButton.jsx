@@ -1,20 +1,20 @@
 // eslint-disable-next-line no-unused-vars
-import React from 'react'
+import React from "react";
 
 const EmailButton = () => {
   return (
     <div>
-       <div >
-       <button
-          className=" emailMe scale-[70%] xxs:scale-[80%] sm:scale-[100%]  border=2  
-         rounded border-solid border-black bg-gray-400 p-2 mr-4
-         text-xs text-black hover:bg-gray-600 hover:text-varLIGHTDUCKHEAD"
+      <div>
+        <button
+          className=" emailMe border=2 mr-4 scale-[70%]  rounded  
+         border-solid border-black bg-gray-400 p-2 text-xs text-black
+         hover:bg-gray-600 hover:text-varLIGHTDUCKHEAD xxs:scale-[80%] sm:scale-[100%]"
         >
           <a href="mailto:contact@mybabb.com">Email Me</a>
         </button>
-        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default EmailButton
+export default EmailButton;

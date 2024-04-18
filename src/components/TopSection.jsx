@@ -17,7 +17,6 @@ import { TfiEye } from "react-icons/tfi";
 const TopSection = () => {
   return (
     <div>
-     
       <section className="">
         <div className="objectiveWrapper flex-col  ">
           <p
@@ -29,17 +28,20 @@ const TopSection = () => {
               <div className="topParagraphNew relative flex w-[100%]">
                 <div className="w-[100%]">
                   <div className="TitleMyBaBB  text-center">
-                    <h2 className="font-Nosifer mt-[-1.1rem] text-center text-4xl">
+                    <h2 className="mt-[-1.1rem] text-center font-Nosifer text-4xl">
                       MyBabb Custom Websites
                     </h2>
                   </div>
                   <p className="relative mb-[1.25rem] mt-3 text-center text-amber-50">
-                  <span className="whitespace-nowrap">
-                    <GiFrogPrince className="frogPrince -mt-1 inline-block text-green-500"  />&nbsp;&nbsp;
-                    I&apos;m a React</span>
-                       Front End <span className="whitespace-nowrap">
-                       Developer&nbsp;&nbsp;
-                    <GiFrogPrince className="frogPrince -mt-1 inline-block  text-green-500"  /></span>
+                    <span className="whitespace-nowrap">
+                      <GiFrogPrince className="frogPrince -mt-1 inline-block text-green-500" />
+                      &nbsp;&nbsp; I&apos;m a React
+                    </span>
+                    Front End{" "}
+                    <span className="whitespace-nowrap">
+                      Developer&nbsp;&nbsp;
+                      <GiFrogPrince className="frogPrince -mt-1 inline-block  text-green-500" />
+                    </span>
                     <br />
                   </p>
                   <hr className=" m-auto -mt-4 w-[70%] rounded-full border-[3px] border-blue-500 bg-[#800020] p-[1.55px]" />
@@ -72,9 +74,7 @@ const TopSection = () => {
                       >
                         &nbsp; Custom Landing Page &nbsp;
                       </span>
-                      <TfiEye
-                        className=" inline-block text-blue-300"
-                      />
+                      <TfiEye className=" inline-block text-blue-300" />
                     </h2>
                     <br />
                     <p
@@ -274,8 +274,9 @@ const TopSection = () => {
             </div>
           </p>
 
-          <p id="technologies"
-            className="objectiveParagraph scroll-mt-[-4rem] mt-[-2rem] p-[12px] text-[12px] xxs:mt-[-3rem] xxs:p-[22px] xxs:text-[16px] xs:mt-[-4rem]
+          <p
+            id="technologies"
+            className="objectiveParagraph mt-[-2rem] scroll-mt-[-4rem] p-[12px] text-[12px] xxs:mt-[-3rem] xxs:p-[22px] xxs:text-[16px] xs:mt-[-4rem]
         xs:p-[32px] xs:text-[20px] sm:mt-[-5rem] sm:p-[42px] sm:text-[24px]
         md:mt-[-6rem] md:p-[52px] md:text-[28px] lg:mt-[-7.5rem] lg:p-[52px] xl:mt-[-7rem] "
           >

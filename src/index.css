@@ -1,38 +1,34 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 :root {
   background-color: #2a61a1;
 }
 .reactSpin {
   animation: spin 11s infinite;
 }
- 
 
 @keyframes reactSpin {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 .frogPrince {
   animation: pulser 30s infinite;
 }
 @keyframes pulser {
   0% {
-       color: #0d2d52;  
-      transform: scale(.3);  
+    color: #0d2d52;
+    transform: scale(0.3);
   }
   100% {
-     color: #22c55e;  
-      transform: scale(1.8);  
+    color: #22c55e;
+    transform: scale(1.8);
   }
- 
-
 }
-
 
 .customHover:hover {
   text-shadow: whitesmoke 1px 1px 1px;
@@ -40,9 +36,6 @@
 .customHover:hover {
   display: inline-block;
 }
-
-
- 
 
 .reContactButtonWrapper {
   display: flex;
@@ -68,7 +61,6 @@
   font-weight: bold;
 }
 .TitleMyBaBB {
-  
   text-align: center;
   color: #ffdb58;
   text-shadow: 2px 2px 3px #1c0303;
@@ -78,18 +70,13 @@
 }
 
 .header {
-  
   box-shadow:
     inset 0 0 10px rgba(0, 0, 0, 0.5),
     inset 0 0 20px rgba(0, 0, 0, 0.3),
     inset 0 0 30px rgba(0, 0, 0, 0.2),
     inset 0 0 40px rgba(0, 0, 0, 0.1);
-   text-shadow: 2px 2px 3px #1c0303;
-
+  text-shadow: 2px 2px 3px #1c0303;
 }
-
-
-
 
 .span1 {
   display: inline-block;
@@ -185,18 +172,15 @@
   src: url(../GoogleFonts/Creepster-Regular.ttf);
 }
 
-
 @font-face {
   font-family: "DM_Serif_Display";
   src: url(../GoogleFonts/DMSerifDisplay-Regular.ttf);
 }
 
-
 @font-face {
   font-family: "Itim";
   src: url(../GoogleFonts/Itim-Regular.ttf);
 }
- 
 
 @font-face {
   font-family: "Kranky";
@@ -208,72 +192,57 @@
   src: url(../GoogleFonts/Kingthings_Petrock.ttf);
 }
 
-
 @font-face {
   font-family: "Libre_Baskerville";
   src: url(../GoogleFonts/LibreBaskerville-Regular.ttf);
 }
 
-
 @font-face {
   font-family: "PT_Serif";
   src: url(../GoogleFonts/PTSerif-Regular.ttf);
 }
- 
-
 
 @font-face {
   font-family: "Rye";
   src: url(../GoogleFonts/Rye-Regular.ttf);
 }
 
-
 @font-face {
   font-family: "black_ops_one";
   src: url(../GoogleFonts/BlackOpsOne-Regular.ttf);
 }
-
 
 @font-face {
   font-family: "Caprasimo";
   src: url(../GoogleFonts/Caprasimo-Regular.ttf);
 }
 
-
 @font-face {
   font-family: "Archivo_Black";
   src: url(../GoogleFonts/ArchivoBlack-Regular.ttf);
 }
-
 
 @font-face {
   font-family: "Metal_Mania";
   src: url(../GoogleFonts/MetalMania-Regular.ttf);
 }
 
-
 @font-face {
   font-family: "Nosifer";
   src: url(../GoogleFonts/Nosifer-Regular.ttf);
 }
-
 
 @font-face {
   font-family: "Holtwood_one_sc";
   src: url(../GoogleFonts/HoltwoodOneSC-Regular.ttf);
 }
 
-
 @font-face {
   font-family: "orbitron";
   src: url(../GoogleFonts/Orbitron-VariableFont_wght.ttf);
 }
 
-
 @font-face {
   font-family: "Sixtyfour";
   src: url(../GoogleFonts/Sixtyfour-Regular-VariableFont_BLED\,SCAN.ttf);
 }
-
-
-

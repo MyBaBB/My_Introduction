@@ -12,9 +12,9 @@ const App = () => {
   return (
     <div className="relative flex h-full w-screen items-center justify-center p-2 pt-0 ">
       <div>
-      <Sidenav />
+        <Sidenav />
         <Header />
-        
+
         <TopSection />
         <SecondSection />
         <ThirdSection />

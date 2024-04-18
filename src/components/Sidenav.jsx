@@ -10,7 +10,6 @@ import { BsStack } from "react-icons/bs";
 import { SiTestinglibrary } from "react-icons/si";
 import { CgPerformance } from "react-icons/cg";
 
-
 const Sidenav = () => {
   const [nav, setNav] = useState(false);
 
@@ -23,8 +22,7 @@ const Sidenav = () => {
       <AiOutlineMenu
         size={50}
         onClick={handleNav}
-        className="absolute right-8 top-6 z-[99] md:hidden text-blue-950  "
-        
+        className="absolute right-8 top-6 z-[99] text-blue-950 md:hidden  "
       />
       {nav ? (
         <div className="fixed  z-20 flex h-screen w-full flex-col items-center justify-center bg-[#24558d]/90 ">
@@ -35,8 +33,8 @@ const Sidenav = () => {
            m-2 mt-[5rem]  flex w-[65%] cursor-pointer   items-center
             justify-center rounded-full bg-gradient-to-b from-white to-slate-700  p-4 shadow-lg shadow-gray-800 duration-200 ease-in hover:scale-110"
           >
-            <GiWoodCabin size={20} className="text-blue-950  " /> 
-            <span className="font-HoltwoodOneSC text-xl pl-4 text-blue-950 ">
+            <GiWoodCabin size={20} className="text-blue-950  " />
+            <span className="pl-4 font-HoltwoodOneSC text-xl text-blue-950 ">
               Home
             </span>
           </a>
@@ -46,8 +44,8 @@ const Sidenav = () => {
             className="m-2 flex w-[65%] cursor-pointer items-center justify-center rounded-full bg-gradient-to-b from-white to-slate-700 p-4 shadow-lg shadow-gray-800 duration-200 ease-in hover:scale-110"
           >
             <CgPerformance size={20} className="text-blue-950" />
-            <span className="font-HoltwoodOneSC text-xl pl-4 text-blue-950">
-              Performance 
+            <span className="pl-4 font-HoltwoodOneSC text-xl text-blue-950">
+              Performance
             </span>
           </a>
           <a
@@ -55,9 +53,10 @@ const Sidenav = () => {
             href="#technologies"
             className="m-2  flex w-[65%] cursor-pointer items-center justify-center rounded-full bg-gradient-to-b from-white to-slate-700 p-4 shadow-lg shadow-gray-800 duration-200 ease-in hover:scale-110"
           >
-            <GrTechnology size={20} className="text-blue-950" /> 
-            <span className="font-HoltwoodOneSC text-xl pl-4 text-blue-950">
-              Technologies</span>
+            <GrTechnology size={20} className="text-blue-950" />
+            <span className="pl-4 font-HoltwoodOneSC text-xl text-blue-950">
+              Technologies
+            </span>
           </a>
 
           <a
@@ -66,8 +65,9 @@ const Sidenav = () => {
             className="m-2 flex w-[65%] cursor-pointer items-center justify-center rounded-full bg-gradient-to-b from-white to-slate-700 p-4 shadow-lg shadow-gray-800 duration-200 ease-in hover:scale-110"
           >
             <BsStack size={20} className="text-blue-950" />
-             <span className="font-HoltwoodOneSC text-xl pl-4 text-blue-950">
-              Experience</span>
+            <span className="pl-4 font-HoltwoodOneSC text-xl text-blue-950">
+              Experience
+            </span>
           </a>
 
           <a
@@ -76,15 +76,15 @@ const Sidenav = () => {
             className="m-2 flex w-[65%] cursor-pointer items-center justify-center rounded-full bg-gradient-to-b from-white to-slate-700 p-4 shadow-lg shadow-gray-800 duration-200 ease-in hover:scale-110"
           >
             <SiTestinglibrary size={20} className="text-blue-950 " />
-            <span className="font-HoltwoodOneSC text-xl pl-4 text-blue-950">
-              Kraken</span>
+            <span className="pl-4 font-HoltwoodOneSC text-xl text-blue-950">
+              Kraken
+            </span>
           </a>
         </div>
       ) : (
         ""
       )}
-
-          </div>
+    </div>
   );
 };
 

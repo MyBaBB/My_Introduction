@@ -1,9 +1,9 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from "react";
 import "./Navbar.css";
- 
+
 import MobileMenu from "./MobileMenu";
- 
+
 const Navbar = () => {
   //to change burger classes
   const [burger_class, setBurgerClass] = useState("burger-bar unclicked");
@@ -24,7 +24,6 @@ const Navbar = () => {
 
   return (
     <div className="navWrapper relative bg-gradient-to-b from-[#1a3a5f] to-[#151a27]">
-     
       <nav>
         <div className="burger-menu sm:hidden " onClick={updateMenu}>
           <div
@@ -58,7 +57,7 @@ const Navbar = () => {
                             xxs:border-varLIGHTBLUEFEATHER xxs:bg-gray-700"
             >
               <span
-                className="font-Aclonica w-fit  whitespace-nowrap text-[12px] 
+                className="w-fit whitespace-nowrap  font-Aclonica text-[12px] 
                            text-blue-200   xs:text-3xl"
               >
                 MyBabb Web Development
@@ -70,7 +69,6 @@ const Navbar = () => {
       <div className={menu_class}>
         <MobileMenu />
       </div>
-    
     </div>
   );
 };

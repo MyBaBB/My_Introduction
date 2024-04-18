@@ -1,11 +1,10 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import { RiLinksFill } from "react-icons/ri";
- 
+
 const SecondSection = () => {
   return (
     <div>
-      
       <section className="pl-8">
         <h2 className="reExperience">Experience</h2>
         <div id="experience" className="reExperienceHover scroll-mt-10">
