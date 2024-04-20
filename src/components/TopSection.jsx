@@ -44,7 +44,7 @@ const TopSection = () => {
                     Front End{" "}
                     <span className="whitespace-nowrap">
                       Developer&nbsp;&nbsp;
-                      <GiFrogPrince className="frogPrince -mt-1 inline-block  text-green-500" />
+                      
                     </span>
                     <br />
                   </p>
