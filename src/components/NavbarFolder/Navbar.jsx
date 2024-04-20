@@ -4,20 +4,20 @@ import "./Navbar.css";
  
 import NewMe from "./NewMe.png";
  
- 
- 
+import { CgPerformance } from "react-icons/cg";
+import { GiWoodCabin } from "react-icons/gi";
 import { TbBrandCss3 } from "react-icons/tb";
 import { TbBrandHtml5 } from "react-icons/tb";
 import { TbBrandJavascript } from "react-icons/tb";
 import { SiTailwindcss } from "react-icons/si";
 import { GrReactjs } from "react-icons/gr";
-import { LiaInfoSolid } from "react-icons/lia";
+import { GrTechnology } from "react-icons/gr";
 import   OctoGlasses from "./OctoGlasses.png";
-import { SiQuicklook } from "react-icons/si";
-import { GiStrongMan } from "react-icons/gi";
-import { RiSeoLine } from "react-icons/ri";
-import { BsPersonVcard } from "react-icons/bs";
-import { LiaHourglassHalfSolid } from "react-icons/lia";
+ 
+import { BsStack } from "react-icons/bs";
+ 
+ 
+ 
 import { SiTestinglibrary } from "react-icons/si";
 const Navbar = () => {
   //to change burger classes
@@ -91,7 +91,7 @@ const Navbar = () => {
           alt="New Me"
           width={70}
           height={70}
-          className="absolute left-1 top-1"
+          className="absolute left-1 top-1 z-1"
         />
     </div>
   </a>
@@ -124,11 +124,11 @@ const Navbar = () => {
           </div>
         </a>
 <div
-      className="navWrapper  top-0 z-[5]"          
+      className="navWrapper  top-0 -right-2 z-[1]"          
     >
       
       <nav >
-        <div className="burger-menu   sm:hidden " onClick={updateMenu}>
+        <div className="burger-menu z-0  sm:hidden " onClick={updateMenu}>
           <div
             className={burger_class}
             style={{
@@ -159,11 +159,12 @@ const Navbar = () => {
       <div className={menu_class} >
         <section id="mobile-menu" className="relative  flex m-auto  text-base">
           <div
-            className=" relative mt-20 z-[1] w-fit  
-              bg-[#343945] px-[3rem]   text-center font-Aclonica-Regular"
-          >
+            className=" relative mt-[1rem] mb-2rem z-[1] w-fit h-fit 
+              bg-[#343945] px-[2rem]  rounded-3xl text-xl text-center font-Kingthings_Petrock"
+          > <p className="text-3xl pt-2 whitespace-nowrap text-white">Brett Baker</p>
+          <hr /><p className="text-white">Resume&apos;</p>
             <nav
-              className="relative justify-top my-auto   flex min-h-screen flex-col  "
+              className="relative justify-center mt-[-3rem] flex  flex-col  "
               aria-label="mobile"
             >
               <p id="mobile-menu">
@@ -171,48 +172,48 @@ const Navbar = () => {
                 <br />
                 <br />
                 <a
-                  href="https://mybabb.com"
+              href="#"
                  
-                  onClick={hideMobileMenu}
-                > <div className="relative flex text-center     origin-top animate-open-menu 
-                                 text-black border-2   border-gray-700 rounded-3xl
-                                 bg-gradient-to-b from-slate-100 to-slate-500 py-1
-                                 shadow-varMEDBLUEFEATHER shadow-md " >
-                  <div className="relative inline-block pl-4 "><BsPersonVcard /></div>
-                  <span className="hover:text-varMEDBLUEFEATHER m-auto ml-[2rem] pr-8 ] ">
-                  My Landing Page
+              onClick={hideMobileMenu}
+              > <div className="relative flex text-center     origin-top animate-open-menu 
+                               text-black px-1 border-2   border-gray-700 rounded-3xl
+                               bg-gradient-to-b from-slate-100 to-slate-500 py-1
+                               shadow-gray-300 shadow-md  " >
+                <div className="relative inline-block pl-4 text-varDARKWING pt-1 "><GiWoodCabin size={20}/></div>
+                <span className="hover:text-varMEDBLUEFEATHER m-auto  pr-6 ] ">
+                  Home
                   </span>
                   </div>
                 </a>
                 <br />
                
                 <a
-                  href="https://mybabb.github.io/My_Introduction/"
+                  href="#performance"
                    
                   onClick={hideMobileMenu}
                 > <div className="relative flex text-center     origin-top animate-open-menu 
-                                 text-black border-2   border-gray-700 rounded-3xl
+                                 text-black px-1 border-2   border-gray-700 rounded-3xl
                                  bg-gradient-to-b from-slate-100 to-slate-500 py-1
-                                 shadow-varMEDBLUEFEATHER shadow-md  " >
-                  <div className="relative inline-block pl-4 "><GiStrongMan /></div>
+                                 shadow-gray-300 shadow-md  " >
+                  <div className="relative inline-block pl-4 text-varDARKWING pt-1 "><CgPerformance size={20}/></div>
                   <span className="hover:text-varMEDBLUEFEATHER m-auto  pr-6 ] ">
-                   My Resume&apos; 
+                  &nbsp;&nbsp;Performance 
                   </span>
                   </div>
                 </a>
                 <br />
               
                 <a
-                  href="https://mybabb.github.io/About_MyBaBB/"
+                 href="#technologies"
                   
                   onClick={hideMobileMenu}
                 > <div className="relative flex text-center     origin-top animate-open-menu 
-                                 text-black border-2   border-gray-700 rounded-3xl
+                                 text-black px-1 border-2   border-gray-700 rounded-3xl
                                  bg-gradient-to-b from-slate-100 to-slate-500 py-1
-                                 shadow-varMEDBLUEFEATHER shadow-md  " >
-                  <div className="relative inline-block pl-4 "><LiaInfoSolid /></div>
-                  <span className="hover:text-varMEDBLUEFEATHER m-auto ml-[7.5rem]  pr-6 ] ">
-                  About
+                                 shadow-gray-300 shadow-md  " >
+                  <div className="relative inline-block pl-4 text-varDARKWING pt-1 "><GrTechnology size={20}/></div>
+                  <span className="hover:text-varMEDBLUEFEATHER m-auto  pr-6 ] ">
+                  Technologies
                   </span>
                   </div>
                 </a>
@@ -220,57 +221,31 @@ const Navbar = () => {
                
                 <br />
                 <a
-                  href="https://mybabb.github.io/SEO-BEST_PRACTICES/"
+                href="#experience"
                    
                   onClick={hideMobileMenu}
                 > <div className="relative flex text-center     origin-top animate-open-menu 
-                                 text-black border-2   border-gray-700 rounded-3xl
+                                 text-black px-1 border-2   border-gray-700 rounded-3xl
                                  bg-gradient-to-b from-slate-100 to-slate-500 py-1
-                                 shadow-varMEDBLUEFEATHER shadow-md  " >
-                  <div className="relative inline-block pl-4 pr-2 "><RiSeoLine /></div>
+                                 shadow-gray-300 shadow-md  " >
+                  <div className="relative inline-block pl-4 text-varDARKWING pt-1 pr-2 ">< BsStack size={20} /></div>
                   <span className="hover:text-varMEDBLUEFEATHER m-auto  pr-6 ] ">
-                  Seo Booster 
+                  Experience 
                   </span>
                   </div>
                 </a>
-                <br />
-                <a
-                  href="https://mybabb.github.io/BetterMcTransport/"
-                   
-                  onClick={hideMobileMenu}
-                > <div className="relative flex text-center     origin-top animate-open-menu 
-                                 text-black border-2   border-gray-700 rounded-3xl
-                                 bg-gradient-to-b from-slate-100 to-slate-500 py-1
-                                 shadow-varMEDBLUEFEATHER shadow-md  " >
-                  <div className="relative inline-block pl-4 pr-2 "><SiQuicklook /></div>
-                  <span className="hover:text-varMEDBLUEFEATHER m-auto  pr-6 ] ">
-                   Basic Demo 
-                  </span>
-                  </div>
-                </a>
-                <br />
-               <a href="https://mybabb.github.io/Franken-Timer/">
-               <div className="relative flex text-center     origin-top animate-open-menu 
-                                 text-black border-2   border-gray-700 rounded-3xl
-                                  bg-gradient-to-b from-slate-100 to-slate-500 py-1
-                                  shadow-varMEDBLUEFEATHER shadow-md  " >
-                  <div className="relative inline-block pl-4 pr-2"><LiaHourglassHalfSolid /></div>
-                  <span className="hover:text-varMEDBLUEFEATHER m-auto  pr-6 ] ">
-                  Special Event
-                  </span>
-                  </div>
-                  </a>
+             
                 <br />
                
                <a
-                  href="#"
+                  href="https://resume-hub.mybabb.com/"
                    
                   onClick={hideMobileMenu}
                 > <div className="relative flex text-center     origin-top animate-open-menu 
-                                 text-black border-2   border-gray-700 rounded-3xl
+                                 text-black px-1 border-2   border-gray-700 rounded-3xl
                                   bg-gradient-to-b from-slate-100 to-slate-500 py-1
-                                  shadow-varMEDBLUEFEATHER shadow-md  " >
-                  <div className="relative inline-block pl-4 "><SiTestinglibrary /></div>
+                                  shadow-gray-300 shadow-md  " >
+                  <div className="relative inline-block pl-4 text-varDARKWING pt-1 "><SiTestinglibrary /></div>
                   <span className="hover:text-varMEDBLUEFEATHER m-auto  pr-6 ] ">
                   Kraken 
                   </span>

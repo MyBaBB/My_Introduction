@@ -15,7 +15,7 @@ const header = () => {
   return (
     <div>
       <header
-        className="header relative z-50 flex h-[100px] w-screen items-center bg-[#24558d]
+        className="header relative  flex h-[100px] w-screen items-center bg-[#24558d]
         text-[2rem] sm:text-[2.5rem] lg:text-[3rem]  "
       >
         <img
@@ -23,11 +23,11 @@ const header = () => {
           alt="New Me"
           width={80}
           height={80}
-          className="absolute left-2 top-2"
+          className="absolute left-2 top-2 z-[50]"
         />
 
         <div className="m-auto w-fit scale-[50%] xxs:scale-[60%] xs:scale-[80%] sm:scale-[100%] md:-translate-x-4  ">
-          <h1 className=" mb-[.5rem] mt-[-.2rem] text-center font-Caprasimo  text-amber-300 ">
+          <h1 className="z-50 mb-[.5rem] mt-[-.2rem] text-center font-Caprasimo  text-amber-300 ">
             Brett Baker
           </h1>
           <div className="LogoItems relative mt-[-1rem] flex justify-center space-x-2 ">

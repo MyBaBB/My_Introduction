@@ -6,10 +6,10 @@
 /* -------------Navbar and Burger menu ---------- */
 .navWrapper {
   position: absolute;
-  display: flex;
-  justify-content: center;
+   
+ 
   height: 5em;
-  z-index: 101;
+  z-index: 5;
   display: flex;
   padding: 1em;
   border-radius: 12px;
@@ -39,7 +39,7 @@
   display: flex;
   width: 100%;
   height: 100vh;
-  background-color: #000;
+  background-color: rgba(0, 0, 0, .9);
   position: fixed;
   left: 0;
   right: 0;
