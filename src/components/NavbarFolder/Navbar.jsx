@@ -83,7 +83,7 @@ const Navbar = () => {
       </div>
       <a href="https://mybabb.com">
         <div
-          className="dataToolTip81 z-0 font-Itim  sm:block"
+          className="dataToolTip81 z-4 font-Itim hidden sm:block"
           data-tool-tip="My HomePage "
         >
           <img
@@ -91,7 +91,7 @@ const Navbar = () => {
             alt="New Me"
             width={70}
             height={70}
-            className="z-1 absolute left-1 top-1"
+            className="z-4 absolute left-1 top-1"
           />
         </div>
       </a>
