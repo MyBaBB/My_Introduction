@@ -97,7 +97,7 @@ const Navbar = () => {
       </a>
       <a href="https://resume-hub.mybabb.com/">
         <div
-          className="dataToolTip82 z-0 hidden font-Itim sm:block"
+          className="dataToolTip82 z-0 hidden font-Itim md:block"
           data-tool-tip="Portfolio Hub "
         >
           <div className="z-5 absolute -top-7 right-4 p-1">
@@ -124,7 +124,7 @@ const Navbar = () => {
       </a>
       <div className="navWrapper  -right-2 top-0 z-[1]">
         <nav>
-          <div className="burger-menu z-0  sm:hidden " onClick={updateMenu}>
+          <div className="burger-menu z-0  md:hidden " onClick={updateMenu}>
             <div
               className={burger_class}
               style={{
@@ -156,14 +156,14 @@ const Navbar = () => {
           >
             <div
               className=" mb-2rem relative z-[1] mt-[1rem] h-fit w-fit 
-              rounded-3xl bg-[#343945]  px-[2rem] text-center font-Kingthings_Petrock text-xl"
+              rounded-3xl bg-[#343945]  px-[2rem] border-2 border-slate-700 text-center font-Kingthings_Petrock text-xl"
             >
               {" "}
               <p className="whitespace-nowrap pt-2 text-3xl text-white">
                 Brett Baker
               </p>
-              <hr />
-              <p className="text-white">Resume&apos;</p>
+              <hr className=" border-slate-400 border-[.75px] shadow-xl shadow-black m-auto w-[80%] h-[3px] bg-slate-500 rounded-xl"/>
+              <p className="text-white mt-2">Resume&apos;</p>
               <nav
                 className="relative mt-[-3rem] flex flex-col  justify-center  "
                 aria-label="mobile"
@@ -183,7 +183,7 @@ const Navbar = () => {
                       <div className="relative inline-block pl-4 pt-1 text-varDARKWING ">
                         <GiWoodCabin size={20} />
                       </div>
-                      <span className="] m-auto  pr-6 hover:text-varMEDBLUEFEATHER ">
+                      <span className="] m-auto  pr-6 hover:text-varDARKWING ">
                         Home
                       </span>
                     </div>
@@ -201,7 +201,7 @@ const Navbar = () => {
                       <div className="relative inline-block pl-4 pt-1 text-varDARKWING ">
                         <CgPerformance size={20} />
                       </div>
-                      <span className="] m-auto  pr-6 hover:text-varMEDBLUEFEATHER ">
+                      <span className="] m-auto  pr-6 hover:text-varDARKWING ">
                         &nbsp;&nbsp;Performance
                       </span>
                     </div>
@@ -219,7 +219,7 @@ const Navbar = () => {
                       <div className="relative inline-block pl-4 pt-1 text-varDARKWING ">
                         <GrTechnology size={20} />
                       </div>
-                      <span className="] m-auto  pr-6 hover:text-varMEDBLUEFEATHER ">
+                      <span className="] m-auto  pr-6 hover:text-varDARKWING ">
                         Technologies
                       </span>
                     </div>
@@ -237,7 +237,7 @@ const Navbar = () => {
                       <div className="relative inline-block pl-4 pr-2 pt-1 text-varDARKWING ">
                         <BsStack size={20} />
                       </div>
-                      <span className="] m-auto  pr-6 hover:text-varMEDBLUEFEATHER ">
+                      <span className="] m-auto  pr-6 hover:text-varDARKWING ">
                         Experience
                       </span>
                     </div>
@@ -259,7 +259,7 @@ const Navbar = () => {
                       <div className="relative inline-block pl-4 pt-1 text-varDARKWING ">
                         <SiTestinglibrary />
                       </div>
-                      <span className="] m-auto  pr-6 hover:text-varMEDBLUEFEATHER ">
+                      <span className="] m-auto  pr-6 hover:text-varDARKWING ">
                         Kraken
                       </span>
                     </div>
