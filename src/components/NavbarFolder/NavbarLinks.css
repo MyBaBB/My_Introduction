@@ -168,9 +168,104 @@
   text-shadow: 2px 2px 3px #1c0303;
 }
 
-.navLinksWrapper {
-  width: 100%;
 
-  display: flex;
-  justify-content: flex-start;
+
+.dataToolTip82:hover::before,
+.dataToolTip82:hover::after {
+  --scale: 1;
+}
+.dataToolTip82::before {
+  content: attr(data-tool-tip);
+  background: radial-gradient(black, #492407);
+  bottom: 0.25rem;
+  width: max-content;
+  position: absolute;
+  content: attr(data-tool-tip);
+  padding: 0.1em 0.1em 0.2em 0.1em;
+  right: 1.9rem;
+  transform: translateX(-50%) scale(var(--scale));
+  transform-origin: right;
+  transition: ease-in 0.25s;
+  bottom: .95rem;
+
+  border-radius: 10px;
+  color: #dbeafe;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  --scale: 0;
+  z-index: 3;
+}
+
+.dataToolTip82::after {
+  content: "";
+
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  padding: 0.1em 0.1em 0.2em 0.1em;
+  
+  transform: translateX(-50%) scale(var(--scale));
+  transform-origin: left;
+  transition: 0.35s;
+  right: 4.58rem;
+  bottom: .8rem;
+  border: 15px solid transparent;
+  border-left: #a9917e 10px solid;
+  border-radius: 15px;
+  
+  color: #492407;
+  --scale: 0;
+  z-index: 1;
+}
+
+.dataToolTip81:hover::before,
+.dataToolTip81:hover::after {
+  --scale: 1;
+}
+.dataToolTip81::before {
+  content: attr(data-tool-tip);
+  background: radial-gradient(black, #492407);
+  bottom: 0.25rem;
+  width: max-content;
+  position: absolute;
+  content: attr(data-tool-tip);
+  padding: 0.1em 0.1em 0.2em 0.1em;
+  left: 10.9rem;
+  transform: translateX(-50%) scale(var(--scale));
+  transform-origin: left;
+  transition: ease-in 0.25s;
+  bottom: .95rem;
+
+  border-radius: 10px;
+  color: #dbeafe;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  --scale: 0;
+  z-index: 3;
+}
+
+.dataToolTip81::after {
+  content: "";
+
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  padding: 0.1em 0.1em 0.2em 0.1em;
+  
+  transform: translateX(-50%) scale(var(--scale));
+  transform-origin: right;
+  transition: 0.35s;
+  left: 5.3rem;
+  bottom: .8rem;
+  border: 15px solid transparent;
+  border-right: #a9917e 10px solid;
+  border-radius: 15px;
+  
+  color: #492407;
+  --scale: 0;
+  z-index: 1;
 }

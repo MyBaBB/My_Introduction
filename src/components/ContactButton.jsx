@@ -4,18 +4,18 @@ import React from "react";
 const ContactButton = () => {
   return (
     <div>
-      <div className="reContactButtonWrapper ">
+      <div className="reContactButtonWrapper  w-fit m-auto "> 
         <div
           className=" reContactButton    
-         translate-x-4   content-center whitespace-nowrap
+           content-center whitespace-nowrap
          rounded-full border-solid 
          border-slate-900
          bg-varMEDBLUEFEATHER 
-        p-2 text-center 
+        p-1 text-center 
          text-[.75rem]
          hover:bg-gray-600 sm:text-xl
         
-         md:-translate-x-0
+        
         
          
          lg:text-[1.5rem] dark:border-none

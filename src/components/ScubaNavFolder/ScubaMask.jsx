@@ -4,16 +4,16 @@ import { TbScubaMask } from "react-icons/tb";
 import "./ScubaNav.css";
 const ScubaMask = () => {
   return (
-    <div>
+    <div className="w-fit ml-4  ">
       <a
         href="#toScubaMask"
-        className="text-varLIGHTBLUEFEATHER hover:text-varLIGHTWING
+        className=" 
                 "
       >
         <div
-          className="dataToolTip23 font-LibreBaskerville"
-          data-tool-tip="To The Bottom"
-        >
+          className="dataToolTip23  font-Itim text-[1rem]"
+          data-tool-tip="To The Bottom"> <div/>
+        
           <div
             className=" rounded-xl  
                              border-[1px]  border-varLIGHTBLUEFEATHER"
@@ -25,7 +25,7 @@ const ScubaMask = () => {
               >
                 <span className="NavbarTitle4">
                   <div className="   ">
-                    <TbScubaMask size={20} className="z-50 text-blue-200  " />
+                    <TbScubaMask size={20} className="z-5 text-blue-200  " />
                   </div>
                 </span>
               </div>
