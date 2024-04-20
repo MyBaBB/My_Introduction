@@ -13,19 +13,16 @@ import { TbDiamond } from "react-icons/tb";
 import { LiaLifeRingSolid } from "react-icons/lia";
 import { GiFrogPrince } from "react-icons/gi";
 import { TfiEye } from "react-icons/tfi";
- 
+
 import NavbarLinks from "./NavbarFolder/NavbarLinks";
 const TopSection = () => {
   return (
     <div>
-      <div className=" relative flex justify-center  mt-2">
-    
-     </div>
-   
+      <div className=" relative mt-2 flex  justify-center"></div>
+
       <section>
-   
         <div className="objectiveWrapper flex-col  ">
-        <NavbarLinks />
+          <NavbarLinks />
           <p
             className="objectiveParagraph  flex  h-[100%] w-[100%]
         p-[12px] text-[12px] xxs:p-[22px] xxs:text-[16px] xs:p-[32px]

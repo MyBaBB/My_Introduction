@@ -168,8 +168,6 @@
   text-shadow: 2px 2px 3px #1c0303;
 }
 
-
-
 .dataToolTip82:hover::before,
 .dataToolTip82:hover::after {
   --scale: 1;
@@ -186,7 +184,7 @@
   transform: translateX(-50%) scale(var(--scale));
   transform-origin: right;
   transition: ease-in 0.25s;
-  bottom: .95rem;
+  bottom: 0.95rem;
 
   border-radius: 10px;
   color: #dbeafe;
@@ -205,16 +203,16 @@
   height: 15px;
   position: absolute;
   padding: 0.1em 0.1em 0.2em 0.1em;
-  
+
   transform: translateX(-50%) scale(var(--scale));
   transform-origin: left;
   transition: 0.35s;
   right: 4.58rem;
-  bottom: .8rem;
+  bottom: 0.8rem;
   border: 15px solid transparent;
   border-left: #a9917e 10px solid;
   border-radius: 15px;
-  
+
   color: #492407;
   --scale: 0;
   z-index: 1;
@@ -236,7 +234,7 @@
   transform: translateX(-50%) scale(var(--scale));
   transform-origin: left;
   transition: ease-in 0.25s;
-  bottom: .95rem;
+  bottom: 0.95rem;
 
   border-radius: 10px;
   color: #dbeafe;
@@ -255,16 +253,16 @@
   height: 15px;
   position: absolute;
   padding: 0.1em 0.1em 0.2em 0.1em;
-  
+
   transform: translateX(-50%) scale(var(--scale));
   transform-origin: right;
   transition: 0.35s;
   left: 5.3rem;
-  bottom: .8rem;
+  bottom: 0.8rem;
   border: 15px solid transparent;
   border-right: #a9917e 10px solid;
   border-radius: 15px;
-  
+
   color: #492407;
   --scale: 0;
   z-index: 1;

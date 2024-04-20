@@ -4,7 +4,7 @@ import React from "react";
 const ContactButton = () => {
   return (
     <div>
-      <div className="reContactButtonWrapper  w-fit m-auto "> 
+      <div className="reContactButtonWrapper  m-auto w-fit ">
         <div
           className=" reContactButton    
            content-center whitespace-nowrap

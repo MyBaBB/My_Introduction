@@ -20,7 +20,7 @@
   transform: translateX(-100%) scale(var(--scale));
   transform-origin: top left;
   transition: ease-in 0.25s;
-  
+
   background: radial-gradient(black, #492407);
   border-radius: 10px;
   padding-top: 3px;
