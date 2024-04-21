@@ -175,17 +175,15 @@
 .dataToolTip82::before {
   content: attr(data-tool-tip);
   background: radial-gradient(black, #492407);
-  bottom: 0.25rem;
   width: max-content;
   position: absolute;
   content: attr(data-tool-tip);
   padding: 0.1em 0.1em 0.2em 0.1em;
-  right: 1.9rem;
   transform: translateX(-50%) scale(var(--scale));
   transform-origin: right;
   transition: ease-in 0.25s;
-  bottom: 0.95rem;
-
+  top: 2.9rem;
+  right: 2.3rem;
   border-radius: 10px;
   color: #dbeafe;
   padding-left: 2rem;
@@ -198,21 +196,18 @@
 
 .dataToolTip82::after {
   content: "";
-
   width: 15px;
   height: 15px;
   position: absolute;
-  padding: 0.1em 0.1em 0.2em 0.1em;
-
+  padding: 0.1em 0.1em 0.1em 0.1em;
   transform: translateX(-50%) scale(var(--scale));
   transform-origin: left;
   transition: 0.35s;
-  right: 4.58rem;
-  bottom: 0.8rem;
+  top: 2.9rem;
+  right: 4.88rem;
   border: 15px solid transparent;
   border-left: #a9917e 10px solid;
   border-radius: 15px;
-
   color: #492407;
   --scale: 0;
   z-index: 1;
@@ -225,17 +220,16 @@
 .dataToolTip81::before {
   content: attr(data-tool-tip);
   background: radial-gradient(black, #492407);
-  bottom: 0.25rem;
   width: max-content;
   position: absolute;
   content: attr(data-tool-tip);
   padding: 0.1em 0.1em 0.2em 0.1em;
-  left: 10.9rem;
+  top: 2.95rem;
+
+  left: 10.85rem;
   transform: translateX(-50%) scale(var(--scale));
   transform-origin: left;
   transition: ease-in 0.25s;
-  bottom: 0.95rem;
-
   border-radius: 10px;
   color: #dbeafe;
   padding-left: 2rem;
@@ -252,11 +246,11 @@
   width: 15px;
   height: 15px;
   position: absolute;
-  padding: 0.1em 0.1em 0.2em 0.1em;
-
+  padding: 0.1em 0.1em 0.1em 0.1em;
   transform: translateX(-50%) scale(var(--scale));
   transform-origin: right;
   transition: 0.35s;
+  top: 2.9rem;
   left: 5.3rem;
   bottom: 0.8rem;
   border: 15px solid transparent;

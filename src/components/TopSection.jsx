@@ -85,24 +85,24 @@ const TopSection = () => {
                      text-center text-[12px]  xxs:text-[16px]  xs:mt-[-2.5rem]  xs:text-[16px]  sm:mt-[-2.5rem]
                       sm:text-[18px] md:text-[20px] lg:text-[22px] "
                     >
-                      &apos;&nbsp;Generic Website Booster Page&nbsp;&apos;
+                    
                     </p>
                     <p className="mt-2 text-center text-[12px] text-base xxs:text-[16px]  xs:text-[16px]  sm:text-[20px]  md:text-[24px]  lg:text-[27px] ">
                       <span className="whitespace-nowrap">
                         <span className="inline-block">
                           <RiDoubleQuotesL />
                         </span>
-                        &nbsp;I can build
+                        &nbsp;I specialize
                       </span>{" "}
-                      from Scratch Custom Websites or I can be your Personal
-                      Assistant/Builder on your{" "}
+                       in developing Custom Websites from scratch and
+                       providing personal assistant services for your {" "}
                       <span className="whitespace-nowrap">
                         {" "}
-                        Generic Website&nbsp;
+                        &nbsp;project needs.
                         <span className="inline-block">
                           <RiDoubleQuotesR />
                         </span>
-                      </span>
+                      </span> <div className="bg-green-200">     </div>
                     </p>
                     <br />
                     <hr

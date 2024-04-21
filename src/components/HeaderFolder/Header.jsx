@@ -54,7 +54,7 @@ const Header = () => {
       </div>
       <a href="https://mybabb.com">
         <div
-          className="dataToolTip81 z-4 hidden font-Itim sm:block"
+          className="dataToolTip81 z-50 font-Itim  "
           data-tool-tip="My HomePage "
         >
           <img
@@ -74,7 +74,7 @@ const Header = () => {
           <div className="z-5 absolute -top-7 right-4 p-1">
             <div
               className="octoGlasses z-5 relative mb-4 mt-[2rem] h-[70px] w-[70px] rounded-full p-[5px] pb-1
-                         hover:bg-varMEDBEAKTOP active:bg-varLIGHTBLUEFEATHER"
+                         hover:bg-varLIGHTDUCKHEAD"
               style={{
                 position: "relative",
                 display: "block",

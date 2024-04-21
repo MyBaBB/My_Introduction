@@ -27,11 +27,15 @@ const Navbar = () => {
   const hideMobileMenu = () => {
     setMenuClass("menu hidden");
     setIsMenuClicked(false);
+    setBurgerClass("burger-bar unclicked");
   };
 
+
+
+  
   return (
     <div className="">
-      <div className="navWrapper  -right-2 top-0 z-[1]">
+      <div className="navWrapper  -right-2 top-0 z-1">
         <nav>
           <div className="burger-menu z-0  md:hidden " onClick={updateMenu}>
             <div
@@ -64,7 +68,7 @@ const Navbar = () => {
             className="relative  m-auto flex  text-base"
           >
             <div
-              className=" mb-2rem relative z-[1] mt-[1rem] h-fit w-fit 
+              className=" mb-2rem relative z-1 mt-[1rem] h-fit w-fit 
               rounded-3xl border-2  border-slate-700 bg-[#343945] px-[2rem] text-center font-Kingthings_Petrock text-xl"
             >
               {" "}
@@ -81,7 +85,7 @@ const Navbar = () => {
                   <br />
                   <br />
                   <br />
-                  <a href="#" onClick={hideMobileMenu}>
+                  <a href="#" onClick={hideMobileMenu  }>
                     {" "}
                     <div
                       className="animate-open-menu relative flex     origin-top rounded-3xl 
@@ -92,7 +96,7 @@ const Navbar = () => {
                       <div className="relative inline-block pl-4 pt-1 text-varDARKWING ">
                         <GiWoodCabin size={20} />
                       </div>
-                      <span className="] m-auto  pr-6 hover:text-varDARKWING ">
+                      <span className=" m-auto  pr-6 hover:text-varDARKWING ">
                         Home
                       </span>
                     </div>
@@ -110,7 +114,7 @@ const Navbar = () => {
                       <div className="relative inline-block pl-4 pt-1 text-varDARKWING ">
                         <CgPerformance size={20} />
                       </div>
-                      <span className="] m-auto  pr-6 hover:text-varDARKWING ">
+                      <span className=" m-auto  pr-6 hover:text-varDARKWING ">
                         &nbsp;&nbsp;Performance
                       </span>
                     </div>
@@ -128,7 +132,7 @@ const Navbar = () => {
                       <div className="relative inline-block pl-4 pt-1 text-varDARKWING ">
                         <GrTechnology size={20} />
                       </div>
-                      <span className="] m-auto  pr-6 hover:text-varDARKWING ">
+                      <span className=" m-auto  pr-6 hover:text-varDARKWING ">
                         Technologies
                       </span>
                     </div>
@@ -146,7 +150,7 @@ const Navbar = () => {
                       <div className="relative inline-block pl-4 pr-2 pt-1 text-varDARKWING ">
                         <BsStack size={20} />
                       </div>
-                      <span className="] m-auto  pr-6 hover:text-varDARKWING ">
+                      <span className=" m-auto  pr-6 hover:text-varDARKWING ">
                         Experience
                       </span>
                     </div>
@@ -168,7 +172,7 @@ const Navbar = () => {
                       <div className="relative inline-block pl-4 pt-1 text-varDARKWING ">
                         <SiTestinglibrary />
                       </div>
-                      <span className="] m-auto  pr-6 hover:text-varDARKWING ">
+                      <span className=" m-auto  pr-6 hover:text-varDARKWING ">
                         Kraken
                       </span>
                     </div>
