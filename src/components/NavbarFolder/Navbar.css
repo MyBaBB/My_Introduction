@@ -2,6 +2,10 @@
   margin: 0;
   box-sizing: 0;
 }
+.animate-bounce{
+  animation: bounce 1s infinite;
+}
+
 
 /* -------------Navbar and Burger menu ---------- */
 .navWrapper {

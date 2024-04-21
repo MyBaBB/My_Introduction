@@ -65,7 +65,7 @@ const Navbar = () => {
         <div className={menu_class}>
           <section
             id="mobile-menu"
-            className="relative  m-auto flex  text-base"
+            className="relative  m-auto flex  text-base  "
           >
             <div
               className=" mb-2rem relative z-1 mt-[1rem] h-fit w-fit 
@@ -88,7 +88,7 @@ const Navbar = () => {
                   <a href="#" onClick={hideMobileMenu  }>
                     {" "}
                     <div
-                      className="animate-open-menu relative flex     origin-top rounded-3xl 
+                      className="relative flex  origin-middle animate-open-menu   rounded-3xl 
                                border-2 border-gray-700 bg-gradient-to-b   from-slate-100 to-slate-500
                                px-1 py-1 text-center text-black
                                shadow-md shadow-gray-300  "
