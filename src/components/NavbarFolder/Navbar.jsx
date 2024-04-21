@@ -1,21 +1,10 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from "react";
 import "./Navbar.css";
-
-import NewMe from "./NewMe.png";
-
 import { CgPerformance } from "react-icons/cg";
 import { GiWoodCabin } from "react-icons/gi";
-import { TbBrandCss3 } from "react-icons/tb";
-import { TbBrandHtml5 } from "react-icons/tb";
-import { TbBrandJavascript } from "react-icons/tb";
-import { SiTailwindcss } from "react-icons/si";
-import { GrReactjs } from "react-icons/gr";
 import { GrTechnology } from "react-icons/gr";
-import OctoGlasses from "./OctoGlasses.png";
-
 import { BsStack } from "react-icons/bs";
-
 import { SiTestinglibrary } from "react-icons/si";
 const Navbar = () => {
   //to change burger classes
@@ -42,86 +31,6 @@ const Navbar = () => {
 
   return (
     <div className="">
-      <div className="headerWrapper relative flex h-[80px] justify-center ">
-        <div className="m-auto w-fit scale-[50%] xxs:scale-[60%] xs:scale-[80%] sm:scale-[100%]    ">
-          <h1 className="mb-[1.5rem] mt-[-.2rem] pb-1 text-center font-Caprasimo   text-3xl text-amber-300  xs:mb-[.5rem] ">
-            Brett Baker
-          </h1>
-          <div className="LogoItems relative mt-[-1rem]  flex justify-center space-x-2 ">
-            <span className="inline-block">
-              <GrReactjs
-                size={35}
-                className="reactSpin bg-transparent text-[#01b9f1]"
-              />
-            </span>
-            <span className="inline-block">
-              <TbBrandHtml5
-                size={35}
-                className="bg-transparent text-[rgb(226,60,35)]"
-              />
-            </span>
-            <span className="inline-block">
-              <TbBrandJavascript
-                size={35}
-                className="bg-transparent text-[#e6bb2e]"
-              />
-            </span>
-            <span className="inline-block">
-              <TbBrandCss3
-                size={35}
-                className="bg-transparent text-[#93c7ed]"
-              />
-            </span>
-            <span className="inline-block">
-              <SiTailwindcss
-                size={35}
-                className="bg-transparent text-[#00ffff]"
-              />
-            </span>
-          </div>
-        </div>
-      </div>
-      <a href="https://mybabb.com">
-        <div
-          className="dataToolTip81 z-4 font-Itim hidden sm:block"
-          data-tool-tip="My HomePage "
-        >
-          <img
-            src={NewMe}
-            alt="New Me"
-            width={70}
-            height={70}
-            className="z-4 absolute left-1 top-1"
-          />
-        </div>
-      </a>
-      <a href="https://resume-hub.mybabb.com/">
-        <div
-          className="dataToolTip82 z-0 hidden font-Itim md:block"
-          data-tool-tip="Portfolio Hub "
-        >
-          <div className="z-5 absolute -top-7 right-4 p-1">
-            <div
-              className="octoGlasses z-5 relative mb-4 mt-[2rem] h-[70px] w-[70px] rounded-full p-[5px] pb-1
-                         hover:bg-varMEDBEAKTOP active:bg-varLIGHTBLUEFEATHER"
-              style={{
-                position: "relative",
-                display: "block",
-                boxShadow:
-                  "inset 0 0 10px rgba(0, 0, 0, 0.5), 0 0 10px rgba(0, 0, 0, 0.5)",
-              }}
-            >
-              <img
-                src={OctoGlasses}
-                alt="OctoGlasses"
-                width={75}
-                height={75}
-                className="octoGlasses absolute left-[-1px] top-[-1px]"
-              />
-            </div>
-          </div>
-        </div>
-      </a>
       <div className="navWrapper  -right-2 top-0 z-[1]">
         <nav>
           <div className="burger-menu z-0  md:hidden " onClick={updateMenu}>
@@ -156,14 +65,14 @@ const Navbar = () => {
           >
             <div
               className=" mb-2rem relative z-[1] mt-[1rem] h-fit w-fit 
-              rounded-3xl bg-[#343945]  px-[2rem] border-2 border-slate-700 text-center font-Kingthings_Petrock text-xl"
+              rounded-3xl border-2  border-slate-700 bg-[#343945] px-[2rem] text-center font-Kingthings_Petrock text-xl"
             >
               {" "}
               <p className="whitespace-nowrap pt-2 text-3xl text-white">
                 Brett Baker
               </p>
-              <hr className=" border-slate-400 border-[.75px] shadow-xl shadow-black m-auto w-[80%] h-[3px] bg-slate-500 rounded-xl"/>
-              <p className="text-white mt-2">Resume&apos;</p>
+              <hr className=" m-auto h-[3px] w-[80%] rounded-xl border-[.75px] border-slate-400 bg-slate-500 shadow-xl shadow-black" />
+              <p className="mt-2 text-white">Resume&apos;</p>
               <nav
                 className="relative mt-[-3rem] flex flex-col  justify-center  "
                 aria-label="mobile"

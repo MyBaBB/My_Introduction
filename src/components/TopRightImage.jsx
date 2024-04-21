@@ -40,7 +40,7 @@ const TopRightImage = () => {
                  bg-pink-950 p-1 text-[7px] font-bold
 
                  text-pink-400 sm:right-[.15rem] sm:text-[7px]   
-                 md:right-[.3rem] md:top-[.2rem]  md:top-[.2rem] md:text-[11.5px] lg:top-[.4rem]"
+                 md:right-[.3rem]  md:top-[.2rem] md:text-[11.5px] lg:top-[.4rem]"
           >
             <span className="cindy ">Cindy&apos;s</span>
           </div>

@@ -44,7 +44,6 @@ const TopSection = () => {
                     Front End{" "}
                     <span className="whitespace-nowrap">
                       Developer&nbsp;&nbsp;
-                      
                     </span>
                     <br />
                   </p>
