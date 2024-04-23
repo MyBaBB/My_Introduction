@@ -32,7 +32,7 @@ const TopSection = () => {
               <div className="topParagraphNew relative flex w-[100%]">
                 <div className="w-[100%]">
                   <div className="TitleMyBaBB  text-center">
-                    <h2 className="mt-[-1.1rem] text-center font-Nosifer text-4xl">
+                    <h2 className="mt-[-1.7rem] mb-8 text-center font-Kingthings_Petrock text-5xl">
                       MyBabb Custom Websites
                     </h2>
                   </div>
