@@ -40,7 +40,7 @@ const TopSection = () => {
                     <span className="whitespace-nowrap">
                       <GiFrogPrince className="frogPrince -mt-1 inline-block text-green-500" />
                       &nbsp;&nbsp; I&apos;m a React
-                    </span>
+                    </span>&nbsp;
                     Front End{" "}
                     <span className="whitespace-nowrap">
                       Developer&nbsp;&nbsp;
