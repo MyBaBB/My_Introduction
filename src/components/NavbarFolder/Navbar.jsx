@@ -173,7 +173,7 @@ const Navbar = () => {
                         <SiTestinglibrary />
                       </div>
                       <span className=" m-auto  pr-6 hover:text-varDARKWING ">
-                        Kraken
+                        Resume Hub
                       </span>
                     </div>
                   </a>
