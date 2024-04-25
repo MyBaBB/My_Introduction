@@ -311,12 +311,7 @@ const TopSection = () => {
             interactivity and functionality to web applications. My current tech
             stack includes:
             <br />
-            <TfiHandPointRight className="-mt-1 inline-block text-blue-400" />
-            &nbsp;&nbsp;
-            <span className="customFont13 text-amber-200">Vite: </span>
-            &nbsp;&nbsp;I utilize Vite as my build tool, enhancing development
-            speed and performance.
-            <br />
+            
           </p>
         </div>
         <hr className="objectiveDivider" />
