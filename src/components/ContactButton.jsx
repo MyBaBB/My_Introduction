@@ -22,9 +22,9 @@ const ContactButton = () => {
          "
         >
           <span className="span1">📡</span>
-          <a href="https://mybabb.com">
+          <a href="https://resume-hub.mybabb.com/">
             <span className=" text-blue-400 hover:text-varLIGHTDUCKHEAD">
-              Contact
+              Resume&apos; Hub
             </span>
           </a>
           <span>📡</span>
