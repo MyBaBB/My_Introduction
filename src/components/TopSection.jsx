@@ -32,7 +32,7 @@ const TopSection = () => {
               <div className="topParagraphNew relative flex w-[100%]">
                 <div className="w-[100%]">
                   <div className="TitleMyBaBB  text-center">
-                    <h2 className="mt-[-1.7rem] mb-8 text-center font-Kingthings_Petrock text-5xl">
+                    <h2 className="mb-8 mt-[-1.7rem] text-center font-Kingthings_Petrock text-5xl">
                       MyBabb Custom Websites
                     </h2>
                   </div>
@@ -40,8 +40,8 @@ const TopSection = () => {
                     <span className="whitespace-nowrap">
                       <GiFrogPrince className="frogPrince -mt-1 inline-block text-green-500" />
                       &nbsp;&nbsp; I&apos;m a React
-                    </span>&nbsp;
-                    Front End{" "}
+                    </span>
+                    &nbsp; Front End{" "}
                     <span className="whitespace-nowrap">
                       Developer&nbsp;&nbsp;
                     </span>
@@ -84,9 +84,7 @@ const TopSection = () => {
                       className="mt-[-1.8rem]
                      text-center text-[12px]  xxs:text-[16px]  xs:mt-[-2.5rem]  xs:text-[16px]  sm:mt-[-2.5rem]
                       sm:text-[18px] md:text-[20px] lg:text-[22px] "
-                    >
-                    
-                    </p>
+                    ></p>
                     <p className="mt-2 text-center text-[12px] text-base xxs:text-[16px]  xs:text-[16px]  sm:text-[20px]  md:text-[24px]  lg:text-[27px] ">
                       <span className="whitespace-nowrap">
                         <span className="inline-block">
@@ -94,15 +92,16 @@ const TopSection = () => {
                         </span>
                         &nbsp;I specialize
                       </span>{" "}
-                       in developing Custom Websites from scratch and
-                       providing personal assistant services for your {" "}
+                      in developing Custom Websites from scratch and providing
+                      personal assistant services for your{" "}
                       <span className="whitespace-nowrap">
                         {" "}
                         &nbsp;project needs.
                         <span className="inline-block">
                           <RiDoubleQuotesR />
                         </span>
-                      </span> <div className="bg-green-200">     </div>
+                      </span>{" "}
+                      <div className="bg-green-200"> </div>
                     </p>
                     <br />
                     <hr
@@ -311,7 +310,6 @@ const TopSection = () => {
             interactivity and functionality to web applications. My current tech
             stack includes:
             <br />
-            
           </p>
         </div>
         <hr className="objectiveDivider" />

@@ -35,7 +35,6 @@ const ThirdSection = () => {
             &nbsp;&nbsp;&nbsp;Create Custom Websites
           </li>
 
-         
           <li>
             <IoBookSharp className="inline-block text-blue-400" />
             &nbsp;&nbsp;&nbsp;Assist with Generic Websites

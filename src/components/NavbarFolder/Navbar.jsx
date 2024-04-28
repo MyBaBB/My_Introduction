@@ -34,12 +34,9 @@ const Navbar = () => {
     setBurgerClass("burger-bar unclicked");
   };
 
-
-
-  
   return (
     <div className="">
-      <div className="navWrapper absolute   z-1">
+      <div className="navWrapper z-1   absolute">
         <nav>
           <div className="burger-menu z-0  md:hidden " onClick={updateMenu}>
             <div
@@ -66,84 +63,67 @@ const Navbar = () => {
           </div>
         </nav>
 
-
-
         <div className={menu_class}>
-          <section id="mobile-menu" className="relative text-2xl m-auto flex  ">
+          <section id="mobile-menu" className="relative m-auto flex text-2xl  ">
             <div
               className="menuBackGround relative top-0 z-[1] w-fit  
                px-[1rem]   text-center  "
             >
               <nav
-                className="mobileNav   justify-center relative my-auto    flex min-h-screen flex-col  "
+                className="mobileNav   relative my-auto flex    min-h-screen flex-col justify-center  "
                 aria-label="mobile"
-                 >   
-              
-              {/* xxxxxxx the mobile buttons xxxxxxxxx */}
-                <p id="mobile-menu" className="relative flex-row justify-center my-auto">
-                <a
+              >
+                {/* xxxxxxx the mobile buttons xxxxxxxxx */}
+                <p
+                  id="mobile-menu"
+                  className="relative my-auto flex-row justify-center"
+                >
+                  <a
                     href="https://mybabb.github.io/My_Introduction/"
                     onClick={hideMobileMenu}
                   >
                     {" "}
-                    <div
-                       className="buttonStyles   origin-top animate-open-menu text-blue-200 "                    >
+                    <div className="buttonStyles   origin-top animate-open-menu text-blue-200 ">
                       <div className="relative inline-block pl-4 ">
                         <GiStrongMan />
                       </div>
-                      <span className="menuButtonWords font-Kingthings_Petrock  text-3xl  pr-6 ">
+                      <span className="menuButtonWords pr-6  font-Kingthings_Petrock  text-3xl ">
                         <u>My&nbsp;&nbsp; Resume</u>&apos;
                       </span>
                     </div>
                   </a>
-                  
 
                   <a href="https://mybabb.com" onClick={hideMobileMenu}>
                     {" "}
-
-                             
-
-                    <div
-                      className="buttonStyles font-LibreBaskerville   origin-top animate-open-menu text-blue-200 "
-                    >
+                    <div className="buttonStyles origin-top   animate-open-menu font-LibreBaskerville text-blue-200 ">
                       <div className="relative inline-block pl-4  ">
                         <BsPersonVcard />
                       </div>
                       <span className="menuButtonWords  ml-[2rem] pr-8 ">
-                     MyBaBB.com
+                        MyBaBB.com
                       </span>
                     </div>
                   </a>
-                  
-
-               
 
                   <a
                     href="https://mybabb.github.io/About_MyBaBB/"
                     onClick={hideMobileMenu}
                   >
                     {" "}
-                    <div
-                       className="buttonStyles font-LibreBaskerville   origin-top animate-open-menu text-blue-200 "
-                    >
+                    <div className="buttonStyles origin-top   animate-open-menu font-LibreBaskerville text-blue-200 ">
                       <div className="relative inline-block pl-4 ">
                         <LiaInfoSolid />
                       </div>
-                      <span className="menuButtonWords    pr-6 ">
-                        About
-                      </span>
+                      <span className="menuButtonWords    pr-6 ">About</span>
                     </div>
                   </a>
 
-                  
-                  
                   <a
                     href="https://mybabb.github.io/BetterMcTransport/"
                     onClick={hideMobileMenu}
                   >
                     {" "}
-                    <div
-                       className="buttonStyles font-LibreBaskerville   origin-top animate-open-menu text-blue-200 ">
+                    <div className="buttonStyles origin-top   animate-open-menu font-LibreBaskerville text-blue-200 ">
                       <div className="relative inline-block pl-4 pr-2 ">
                         <SiQuicklook />
                       </div>
@@ -152,10 +132,9 @@ const Navbar = () => {
                       </span>
                     </div>
                   </a>
-                  
+
                   <a href="https://mybabb.github.io/Franken-Timer/">
-                    <div
-                    className="buttonStyles font-LibreBaskerville   origin-top animate-open-menu text-blue-200 " >
+                    <div className="buttonStyles origin-top   animate-open-menu font-LibreBaskerville text-blue-200 ">
                       <div className="relative inline-block pl-4 pr-2">
                         <LiaHourglassHalfSolid />
                       </div>
@@ -164,57 +143,47 @@ const Navbar = () => {
                       </span>
                     </div>
                   </a>
-                  
+
+                  <a href="https://github.com/MyBaBB" onClick={hideMobileMenu}>
+                    {" "}
+                    <div className="buttonStyles origin-top   animate-open-menu font-LibreBaskerville text-blue-200 ">
+                      <div className="relative inline-block pl-4 pr-2 ">
+                        <BsGithub />
+                      </div>
+                      <span className="menuButtonWords   pr-6 ">GitHub</span>
+                    </div>
+                  </a>
+
                   <a
-                    href="https://github.com/MyBaBB"
+                    href="https://mybabb.github.io/100_Bucks_Intro/"
                     onClick={hideMobileMenu}
                   >
                     {" "}
-                    <div
-                       className="buttonStyles font-LibreBaskerville   origin-top animate-open-menu text-blue-200 ">
-                      <div className="relative inline-block pl-4 pr-2 ">
-                      <BsGithub />
-                      </div>
-                      <span className="menuButtonWords   pr-6 ">
-                        GitHub
-                      </span>
-                    </div>
-                  </a>
-                  
-                  <a href="https://mybabb.github.io/100_Bucks_Intro/" onClick={hideMobileMenu}>
-                    {" "}
-                    <div
-                       className="buttonStyles font-LibreBaskerville   origin-top animate-open-menu text-blue-200 ">
+                    <div className="buttonStyles origin-top   animate-open-menu font-LibreBaskerville text-blue-200 ">
                       <div className="relative inline-block pl-4 ">
-                      <GrBaby />
+                        <GrBaby />
                       </div>
                       <span className="menuButtonWords   pr-6 ">
-                       Starter Kit
+                        Starter Kit
                       </span>
                     </div>
                   </a>
-                  
+
                   <a href="#" onClick={hideMobileMenu}>
                     {" "}
-                    <div
-                       className="buttonStyles font-LibreBaskerville   origin-top animate-open-menu text-blue-200 ">
+                    <div className="buttonStyles origin-top   animate-open-menu font-LibreBaskerville text-blue-200 ">
                       <div className="relative inline-block pl-4 ">
                         <SiTestinglibrary />
                       </div>
-                      <span className="menuButtonWords   pr-6 ">
-                        Kraken
-                      </span>
+                      <span className="menuButtonWords   pr-6 ">Kraken</span>
                     </div>
                   </a>
-                  
-                
                 </p>
               </nav>
             </div>
           </section>
         </div>
-
-      </div> 
+      </div>
     </div>
   );
 };

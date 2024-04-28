@@ -12,7 +12,7 @@ const ScubaNav = () => {
         <a href="#">
           <div
             id="toScubaMask"
-            className="absolute bottom-4 left-4 z-1 h-[fit] w-[fit] 
+            className="z-1 absolute bottom-4 left-4 h-[fit] w-[fit] 
                                   rounded-xl border-[1px] border-varLIGHTBLUEFEATHER bg-gray-700 hover:bg-gray-800 "
           >
             <div className="scubaManThird  rounded-xl  border-[2px] border-black">

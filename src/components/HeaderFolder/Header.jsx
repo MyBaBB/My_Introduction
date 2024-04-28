@@ -12,10 +12,8 @@ import Navbar from "../NavbarFolder/Navbar";
 const Header = () => {
   return (
     <div>
-     
-
       <div className="headerWrapper   ">
-         <Navbar />
+        <Navbar />
         <div className="m-auto w-fit scale-[50%] xxs:scale-[60%] xs:scale-[80%] sm:scale-[100%]    ">
           <h1 className="mb-[1.5rem] mt-[-.2rem] pb-1 text-center font-Caprasimo   text-3xl text-amber-300  xs:mb-[.5rem] ">
             Brett Baker
