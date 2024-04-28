@@ -7,13 +7,15 @@ import { TbBrandCss3 } from "react-icons/tb";
 import { SiTailwindcss } from "react-icons/si";
 import NewMe from "./NewMe.png";
 import OctoGlasses from "./OctoGlasses.png";
-
+import "./Header.css";
 import Navbar from "../NavbarFolder/Navbar";
 const Header = () => {
   return (
     <div>
-      <Navbar />
-      <div className="headerWrapper relative flex h-[80px] justify-center ">
+     
+
+      <div className="headerWrapper   ">
+         <Navbar />
         <div className="m-auto w-fit scale-[50%] xxs:scale-[60%] xs:scale-[80%] sm:scale-[100%]    ">
           <h1 className="mb-[1.5rem] mt-[-.2rem] pb-1 text-center font-Caprasimo   text-3xl text-amber-300  xs:mb-[.5rem] ">
             Brett Baker

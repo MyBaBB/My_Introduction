@@ -18,7 +18,7 @@ import NavbarLinks from "./NavbarFolder/NavbarLinks";
 const TopSection = () => {
   return (
     <div>
-      <div className=" relative mt-2 flex  justify-center"></div>
+      <div className=" relative mt-[5.1rem] flex  justify-center"></div>
 
       <section>
         <div className="objectiveWrapper flex-col  ">

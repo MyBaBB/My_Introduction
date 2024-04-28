@@ -14,7 +14,7 @@
  .buttonStyles {
   position: relative;
   display: flex;
-  font-family: ;
+  
   border-radius: 24px;
   border:2px solid #282b30;
   background-image: linear-gradient(to bottom, #5b616b, #1a1c20);
@@ -33,7 +33,7 @@
  }
  @media screen and (min-width: 480px){
   .buttonStyles {
-  margin-top: 1.5rem ;
+  margin-top: 1rem ;
   margin-bottom: 1.5rem;
      }
    }
@@ -87,11 +87,14 @@ animation: open-menu 0.5s ease-in-out forwards;
 
   border-radius: 0.5em;
 }
+.menuBackGround {
+  background-color:rgb(34, 56, 56);
+ }
 .menu {
   display: flex;
   width: 100%;
   height: 100vh;
-  background-color: rgba(2, 6, 23, 0.9);
+  background-color: darkslategrey;
   position: fixed;
   left: 0;
   right: 0;

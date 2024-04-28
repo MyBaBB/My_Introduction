@@ -1,0 +1,10 @@
+.headerWrapper {
+    position: fixed;
+  
+    width: 100%;
+    padding: 0.5rem 4rem 0.5rem 4rem;
+    background-image: linear-gradient(  #2a61a1, black);
+    box-shadow: 2px 2px 5px black;
+  
+    z-index: 25;
+  }

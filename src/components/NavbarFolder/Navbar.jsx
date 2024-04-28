@@ -39,27 +39,27 @@ const Navbar = () => {
   
   return (
     <div className="">
-      <div className="navWrapper  -right-2 top-0 z-1">
+      <div className="navWrapper absolute   z-1">
         <nav>
           <div className="burger-menu z-0  md:hidden " onClick={updateMenu}>
             <div
               className={burger_class}
               style={{
-                backgroundColor: "aliceblue",
+                backgroundColor: "#bfdbfe",
                 boxShadow: "inset 0 0 5px rgba(0, 0, 0, 0.5)",
               }}
             ></div>
             <div
               className={burger_class}
               style={{
-                backgroundColor: "aliceblue",
+                backgroundColor: "#bfdbfe",
                 boxShadow: "inset 0 0 5px rgba(0, 0, 0, 0.5)",
               }}
             ></div>
             <div
               className={burger_class}
               style={{
-                backgroundColor: "aliceblue",
+                backgroundColor: "#bfdbfe",
                 boxShadow: "inset 0 0 5px rgba(0, 0, 0, 0.5)",
               }}
             ></div>
@@ -69,13 +69,13 @@ const Navbar = () => {
 
 
         <div className={menu_class}>
-          <section id="mobile-menu" className="relative m-auto flex  ">
+          <section id="mobile-menu" className="relative text-2xl m-auto flex  ">
             <div
-              className=" relative top-0 z-[1] w-fit  
-              bg-[#1d1d1f] px-[3rem]   text-center  "
+              className="menuBackGround relative top-0 z-[1] w-fit  
+               px-[1rem]   text-center  "
             >
               <nav
-                className="mobileNav xs:mt-8 justify-top relative my-auto text-3xl  flex min-h-screen flex-col  "
+                className="mobileNav   justify-center relative my-auto    flex min-h-screen flex-col  "
                 aria-label="mobile"
                  >   
               
@@ -91,7 +91,7 @@ const Navbar = () => {
                       <div className="relative inline-block pl-4 ">
                         <GiStrongMan />
                       </div>
-                      <span className="menuButtonWords font-Kingthings_Petrock  text-4xl  pr-6 ">
+                      <span className="menuButtonWords font-Kingthings_Petrock  text-3xl  pr-6 ">
                         <u>My&nbsp;&nbsp; Resume</u>&apos;
                       </span>
                     </div>
@@ -189,7 +189,7 @@ const Navbar = () => {
                       <GrBaby />
                       </div>
                       <span className="menuButtonWords   pr-6 ">
-                        Beginner&nbsp;s Kit
+                       Starter Kit
                       </span>
                     </div>
                   </a>
