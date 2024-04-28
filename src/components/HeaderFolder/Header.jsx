@@ -62,7 +62,7 @@ const Header = () => {
             alt="New Me"
             width={70}
             height={70}
-            className="z-4 absolute left-1 top-1"
+            className="z-4 absolute left-1 top-1 hidden md:block"
           />
         </div>
       </a>
