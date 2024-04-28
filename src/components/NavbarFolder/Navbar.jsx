@@ -142,19 +142,20 @@ const Navbar = () => {
                     </div>
                   </a>
 
-                
+              
+
                 
                   <a
                     href="https://mybabb.github.io/My_Introduction/"
                     onClick={hideMobileMenu}
                   >
                     {" "}
-                    <div className="buttonStyles   origin-top animate-open-menu text-blue-200 ">
+                    <div className="buttonStyles   origin-top animate-open-menu text-blue-200 opacity-30 ">
                       <div className="relative inline-block pl-4 ">
                         <GiStrongMan />
                       </div>
                       <span className="menuButtonWords pr-6  font-LibreBaskerville  ">
-                        <u>My&nbsp;&nbsp; Resume</u>&apos;
+                        My&nbsp;&nbsp; Resume &apos;
                       </span>
                     </div>
                   </a>
