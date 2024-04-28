@@ -3,6 +3,7 @@
 @import "tailwindcss/utilities";
 :root {
   background-color: #2a61a1;
+  
 }
 .reactSpin {
   animation: spin 11s infinite;
@@ -97,7 +98,7 @@
 }
 
 .objectiveWrapper {
-  text-align: left;
+  text-align: justify;
   font-size: larger;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   color: white;
