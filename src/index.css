@@ -17,19 +17,7 @@
     transform: rotate(360deg);
   }
 }
-.frogPrince {
-  animation: pulser 30s infinite;
-}
-@keyframes pulser {
-  0% {
-    color: #0d2d52;
-    transform: scale(0.3);
-  }
-  100% {
-    color: #22c55e;
-    transform: scale(1.8);
-  }
-}
+
 
 .customHover:hover {
   text-shadow: whitesmoke 1px 1px 1px;
@@ -47,9 +35,9 @@
 
 .TitleMyBaBB {
   text-align: center;
-  color: #ffdb58;
+ 
   text-shadow: 2px 2px 3px #1c0303;
-  font-size: 2rem;
+   
   margin-top: 0;
   margin-bottom: 0rem;
 }

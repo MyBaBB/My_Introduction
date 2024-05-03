@@ -11,7 +11,7 @@ import { RiDoubleQuotesR } from "react-icons/ri";
 import { TfiHandPointRight } from "react-icons/tfi";
 import { TbDiamond } from "react-icons/tb";
 import { LiaLifeRingSolid } from "react-icons/lia";
-import { GiFrogPrince } from "react-icons/gi";
+
 import { TfiEye } from "react-icons/tfi";
 
 import NavbarLinks from "./NavbarFolder/NavbarLinks";
@@ -31,15 +31,15 @@ const TopSection = () => {
             <div className="extraWrapper  w-[100%] ">
               <div className="topParagraphNew relative flex w-[100%]">
                 <div className="w-[100%]">
-                  <div className="TitleMyBaBB  text-center">
-                    <h2 className="mb-8 mt-[-1.7rem] text-center font-Kingthings_Petrock text-7xl">
+                  <div className="TitleMyBaBB text-amber-100 text-center">
+                    <h2 className="mb-8 mt-[-1.7rem] text-center font-Kingthings_Petrock text-8xl">
                       MyBabb Custom Websites
                     </h2>
                   </div>
                   <p className="relative mb-[1.25rem] mt-3 text-center text-amber-50">
                     <span className="whitespace-nowrap">
-                      <GiFrogPrince className="frogPrince -mt-1 inline-block text-green-500" />
-                      &nbsp;&nbsp; I&apos;m a React
+                      
+                     React
                     </span>
                     &nbsp; Front End{" "}
                     <span className="whitespace-nowrap">

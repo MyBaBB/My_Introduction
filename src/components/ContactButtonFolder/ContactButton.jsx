@@ -10,7 +10,9 @@ const ContactButton = () => {
        
         <div
           className="w-fit mt-4 flex reContactButton relative justify-center whitespace-nowrap
-                       rounded-full p-4 text-white hover:text-opacity-50">
+                       rounded-full p-4 text-blue-200 hover:text-opacity-50
+                       bg-gradient-to-b from-gray-700 to-gray-700
+                       ">
           <div className="w-fit p-1  "><GiClassicalKnowledge size={20}/></div>
           
             <div className="w-fit mx-0 text-4xl ">
