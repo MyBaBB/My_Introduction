@@ -168,9 +168,8 @@ const TopSection = () => {
                   </article>
                   <div>
                     <LiaLifeRingSolid className="-mt-1 inline-block text-green-500" />
-                    &nbsp;&nbsp;I can also Repair your Generic Website
-                    (Including platforms like WordPress-WooCommerce, Wix, and
-                    Drupal).
+                    &nbsp;&nbsp;I can also Repair your Generic Website and add Personalized Custom Parts.
+                    
                     <br />
                     <LiaLifeRingSolid className="-mt-1 inline-block text-green-500" />
                     &nbsp; I have certifications in Professional Adobe
