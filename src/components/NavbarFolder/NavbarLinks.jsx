@@ -1,6 +1,6 @@
 import "./NavbarLinks.css";
 import ScubaMask from "../ScubaNavFolder/ScubaMask";
-import ContactButton from "../ContactButton";
+import ContactButton from "../ContactButtonFolder/ContactButton";
 import EmailButton from "../EmailButton";
 const NavbarLinks = () => {
   return (

@@ -6,7 +6,7 @@ const ScubaNav = () => {
   return (
     <div>
       <div
-        className="dataToolTip13 font-LibreBaskerville"
+        className="dataToolTip13 text-3xl font-LibreBaskerville"
         data-tool-tip="Back To Top"
       >
         <a href="#">

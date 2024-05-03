@@ -24,17 +24,17 @@ const AquariumStand = () => {
             }}
           >
             <h3
-              className="h2 relative whitespace-nowrap  text-center text-blue-200 "
+              className="h2 relative whitespace-nowrap text-center text-blue-200 "
               style={{
                 textShadow: "2px 2px 4px rgba(0, 0, 0, 1)",
               }}
             >
-              <span className="relative m-1 inline-block whitespace-nowrap p-1 font-Kingthings_Petrock text-[1.5rem] ">
+              <span className="relative  m-1 inline-block whitespace-nowrap p-1 font-Kingthings_Petrock text-[1.5rem] ">
                 <FaLink
                   size={12}
-                  className="inline-block text-varLIGHTBLUEFEATHER"
+                  className="inline-block   text-varLIGHTBLUEFEATHER"
                 />
-                &nbsp;&nbsp;Portfolio&nbsp;Hub&nbsp;&nbsp;
+                <span className="text-4xl">&nbsp;&nbsp;Portfolio&nbsp;Hub&nbsp;&nbsp;</span>
                 <FaLink
                   size={12}
                   className="inline-block rotate-90 text-varLIGHTBLUEFEATHER"

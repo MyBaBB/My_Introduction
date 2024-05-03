@@ -16,7 +16,7 @@
   position: absolute;
   content: attr(data-tool-tip);
   bottom: -1.8rem;
-  left: 12rem;
+  left: 13rem;
   transform: translateX(-100%) scale(var(--scale));
   transform-origin: top left;
   transition: ease-in 0.25s;
@@ -37,14 +37,14 @@
   height: 15px;
   position: absolute;
   padding: 0.1em 0.1em 0.2em 0.1em;
-  top: 1.9rem;
+  top: 2.9rem;
   left: 2.5rem;
   transform: translateX(-35%) scale(var(--scale));
   transform-origin: bottom center;
   transition: 0.25s;
 
   border: 15px solid transparent;
-  border-bottom: #492407 10px solid;
+  border-bottom: #a9917e 10px solid;
 
   --scale: 0;
   z-index: 1;
@@ -71,8 +71,8 @@
   position: absolute;
   content: attr(data-tool-tip);
   padding: 0.1em 0.1em 0.2em 0.1em;
-  bottom: 4.75rem;
-  left: 11rem;
+  bottom: 6.75rem;
+  left: 17rem;
   transform: translateX(-100%) scale(var(--scale));
   transform-origin: bottom left;
   transition: ease-in 0.25s;
@@ -92,14 +92,14 @@
   height: 15px;
   position: absolute;
   padding: 0.1em 0.1em 0.2em 0.1em;
-  bottom: 3rem;
-  left: 3.45rem;
+  bottom: 4rem;
+  left: 4.75rem;
   transform: translateX(-100%) scale(var(--scale));
   transform-origin: top center;
   transition: 0.25s;
 
   border: 15px solid transparent;
-  border-top: #492407 10px solid;
+  border-top: #a9917e 10px solid;
   color: #fff9d7;
   --scale: 0;
   z-index: 1;

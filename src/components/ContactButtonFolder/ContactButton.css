@@ -1,0 +1,15 @@
+   .reContactButtonWrapper {
+     text-shadow: 2px 2px 3px #1c0303;
+     }
+.reContactButton {
+    box-shadow:
+      inset 0 0 10px rgba(0, 0, 0, 0.8),
+      0 0 10px rgba(0, 0, 0, 0.8);
+  
+    font-family: "orbitron";
+    font-weight: bold;
+  }
+  .span1 {
+    display: inline-block;
+    transform: scaleX(-1);
+  }

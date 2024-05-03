@@ -8,7 +8,7 @@ const Profile = () => {
       <div className=" relative flex justify-center">
         <a className="" href="https://Resume-Hub.mybabb.com">
           <div
-            className="dataToolTip10"
+            className="dataToolTip10 text-3xl"
             data-tool-tip="Go to https:// Resume' Hub"
           >
             <AquariumStand />

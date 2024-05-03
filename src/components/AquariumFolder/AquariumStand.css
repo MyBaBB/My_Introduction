@@ -61,7 +61,7 @@
   width: max-content;
   position: absolute;
   content: attr(data-tool-tip);
-  top: -3.1rem;
+  top: -5.1rem;
   left: 50%;
   transform: translateX(-50%) scale(var(--scale));
   transform-origin: bottom center;
@@ -82,7 +82,7 @@
   height: 15px;
   position: absolute;
   padding: 0.1em 0.1em 0.2em 0.1em;
-  bottom: 9.4rem;
+  bottom: 13.8rem;
   left: 50%;
   transform: translateX(-50%) scale(var(--scale));
   transform-origin: top center;

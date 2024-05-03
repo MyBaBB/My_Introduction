@@ -11,7 +11,7 @@ const ScubaMask = () => {
                 "
       >
         <div
-          className="dataToolTip23  font-Itim text-[1rem]"
+          className="dataToolTip23  font-Itim text-[1.35rem]"
           data-tool-tip="To The Bottom"
         >
           {" "}
@@ -27,7 +27,7 @@ const ScubaMask = () => {
               >
                 <span className="NavbarTitle4">
                   <div className="   ">
-                    <TbScubaMask size={20} className="z-5 text-blue-200  " />
+                    <TbScubaMask size={25} className="z-5 text-blue-200  " />
                   </div>
                 </span>
               </div>

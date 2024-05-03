@@ -15,7 +15,7 @@ const Header = () => {
       <div className="headerWrapper   ">
         <Navbar />
         <div className="m-auto w-fit scale-[50%] xxs:scale-[60%] xs:scale-[80%] sm:scale-[100%]    ">
-          <h1 className="mb-[1.5rem] mt-[-.2rem] pb-1 text-center font-Caprasimo   text-3xl text-amber-300  xs:mb-[.5rem] ">
+          <h1 className="mb-[1.5rem] mt-[-.2rem] pb-1 text-center font-Caprasimo   text-7xl text-amber-300  xs:mb-[.5rem] ">
             Brett Baker
           </h1>
           <div className="LogoItems relative mt-[-1rem]  flex justify-center space-x-2 ">
@@ -54,7 +54,7 @@ const Header = () => {
       </div>
       <a href="https://mybabb.com">
         <div
-          className="dataToolTip81 z-50 font-Itim  "
+          className="dataToolTip81 z-[452] font-Itim text-3xl "
           data-tool-tip="My HomePage "
         >
           <img
@@ -62,16 +62,16 @@ const Header = () => {
             alt="New Me"
             width={70}
             height={70}
-            className="z-4 absolute left-1 top-1 hidden md:block"
+            className="z-4 fixed z-30 left-1 top-2 hidden md:block"
           />
         </div>
       </a>
       <a href="https://resume-hub.mybabb.com/">
         <div
-          className="dataToolTip82 z-0 hidden font-Itim md:block"
+          className="dataToolTip82 z-0 hidden text-3xl font-Itim md:block"
           data-tool-tip="Portfolio Hub "
         >
-          <div className="z-5 absolute -top-7 right-4 p-1">
+          <div className="z-5 fixed z-30 -top-7 right-4 p-1">
             <div
               className="octoGlasses z-5 relative mb-4 mt-[2rem] h-[70px] w-[70px] rounded-full p-[5px] pb-1
                          hover:bg-varLIGHTDUCKHEAD"
@@ -87,7 +87,7 @@ const Header = () => {
                 alt="OctoGlasses"
                 width={75}
                 height={75}
-                className="octoGlasses absolute left-[-1px] top-[-1px]"
+                className="octoGlasses absolute left-[-3px] -top-1"
               />
             </div>
           </div>

@@ -18,7 +18,7 @@ import NavbarLinks from "./NavbarFolder/NavbarLinks";
 const TopSection = () => {
   return (
     <div>
-      <div className=" relative mt-[5.8rem] flex  justify-center"></div>
+      <div className=" relative mt-[8.8rem] flex  justify-center"></div>
 
       <section>
         <div className="objectiveWrapper flex-col  ">
@@ -32,7 +32,7 @@ const TopSection = () => {
               <div className="topParagraphNew relative flex w-[100%]">
                 <div className="w-[100%]">
                   <div className="TitleMyBaBB  text-center">
-                    <h2 className="mb-8 mt-[-1.7rem] text-center font-Kingthings_Petrock text-5xl">
+                    <h2 className="mb-8 mt-[-1.7rem] text-center font-Kingthings_Petrock text-7xl">
                       MyBabb Custom Websites
                     </h2>
                   </div>
@@ -115,7 +115,7 @@ const TopSection = () => {
                     <span className="customFont13 whitespace-nowrap  text-amber-200">
                       <TfiHandPointRight className="-mt-1 inline-block text-blue-400 " />
                       &nbsp;
-                      <span className="text-lg sm:text-xl md:text-[1.25rem] lg:text-3xl ">
+                      <span className="text-lg sm:text-xl md:text-[1.25rem] lg:text-4xl ">
                         Customization for Performance:
                       </span>
                     </span>

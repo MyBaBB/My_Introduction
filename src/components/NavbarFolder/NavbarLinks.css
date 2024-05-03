@@ -183,7 +183,7 @@
   transform-origin: right;
   transition: ease-in 0.25s;
   top: 2.9rem;
-  right: 2.3rem;
+  right: 2.9rem;
   border-radius: 10px;
   color: #dbeafe;
   padding-left: 2rem;
@@ -191,7 +191,7 @@
   padding-top: 3px;
   padding-bottom: 3px;
   --scale: 0;
-  z-index: 3;
+  z-index: 50;
 }
 
 .dataToolTip82::after {
@@ -203,14 +203,14 @@
   transform: translateX(-50%) scale(var(--scale));
   transform-origin: left;
   transition: 0.35s;
-  top: 2.9rem;
-  right: 4.88rem;
+  top: 2.65rem;
+  right: 6.5rem;
   border: 15px solid transparent;
   border-left: #a9917e 10px solid;
   border-radius: 15px;
   color: #492407;
   --scale: 0;
-  z-index: 1;
+  z-index: 49;
 }
 
 .dataToolTip81:hover::before,
@@ -224,9 +224,9 @@
   position: absolute;
   content: attr(data-tool-tip);
   padding: 0.1em 0.1em 0.2em 0.1em;
-  top: 2.95rem;
+  top: 2.99rem;
 
-  left: 10.85rem;
+  left: 16.8rem;
   transform: translateX(-50%) scale(var(--scale));
   transform-origin: left;
   transition: ease-in 0.25s;
@@ -237,7 +237,7 @@
   padding-top: 3px;
   padding-bottom: 3px;
   --scale: 0;
-  z-index: 3;
+  z-index: 50;
 }
 
 .dataToolTip81::after {
@@ -250,8 +250,8 @@
   transform: translateX(-50%) scale(var(--scale));
   transform-origin: right;
   transition: 0.35s;
-  top: 2.9rem;
-  left: 5.3rem;
+  top: 2.79rem;
+  left:8.3rem;
   bottom: 0.8rem;
   border: 15px solid transparent;
   border-right: #a9917e 10px solid;
@@ -259,5 +259,5 @@
 
   color: #492407;
   --scale: 0;
-  z-index: 1;
+  z-index: 49;
 }

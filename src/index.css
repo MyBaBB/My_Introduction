@@ -3,7 +3,7 @@
 @import "tailwindcss/utilities";
 :root {
   background-color: #2a61a1;
-  
+  font-size: 62.5%;
 }
 .reactSpin {
   animation: spin 11s infinite;
@@ -38,22 +38,13 @@
   display: inline-block;
 }
 
-.reContactButtonWrapper {
-  text-shadow: 2px 2px 3px #1c0303;
-}
+
 
 .customFont13 {
   font-family: "PT_Serif", cursive;
 }
 
-.reContactButton {
-  box-shadow:
-    inset 0 0 10px rgba(0, 0, 0, 0.8),
-    0 0 10px rgba(0, 0, 0, 0.8);
 
-  font-family: "orbitron";
-  font-weight: bold;
-}
 .TitleMyBaBB {
   text-align: center;
   color: #ffdb58;
@@ -72,10 +63,7 @@
   text-shadow: 2px 2px 3px #1c0303;
 }
 
-.span1 {
-  display: inline-block;
-  transform: scaleX(-1);
-}
+
 
 .reObjective,
 .reEducation,
@@ -84,7 +72,7 @@
 .reReferences {
   text-decoration: underline;
   font-family: "DM_Serif_Display";
-
+  font-size: 3rem;
   text-shadow: 2px 2px 3px #1c0303;
   color: #ffdb58;
   margin-top: 1rem;
