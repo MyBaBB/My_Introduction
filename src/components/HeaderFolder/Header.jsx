@@ -12,7 +12,8 @@ import Navbar from "../NavbarFolder/Navbar";
 const Header = () => {
   return (
     <div>
-      <div className="headerWrapper   ">
+      <div className="headerWrapper fixed    ">
+        <div>
         <Navbar />
         <div className="m-auto w-fit scale-[50%] xxs:scale-[60%] xs:scale-[80%] sm:scale-[100%]    ">
           <h1 className="mb-[1.5rem] mt-[-.2rem] pb-1 text-center font-Caprasimo  text-5xl xs:text-7xl text-blue-200  xs:mb-[.5rem] ">
@@ -52,6 +53,8 @@ const Header = () => {
           </div>
         </div>
       </div>
+
+
       <a href="https://mybabb.com">
         <div
           className="dataToolTip81 z-[452] font-Itim text-3xl "
@@ -66,6 +69,8 @@ const Header = () => {
           />
         </div>
       </a>
+
+
       <a href="https://resume-hub.mybabb.com/">
         <div
           className="dataToolTip82 z-0 hidden text-3xl font-Itim md:block"
@@ -93,6 +98,9 @@ const Header = () => {
           </div>
         </div>
       </a>
+
+      
+    </div>
     </div>
   );
 };

@@ -191,7 +191,7 @@
   padding-top: 3px;
   padding-bottom: 3px;
   --scale: 0;
-  z-index: 50;
+  z-index: 51;
 }
 
 .dataToolTip82::after {
