@@ -15,7 +15,7 @@ const Header = () => {
       <div className="headerWrapper   ">
         <Navbar />
         <div className="m-auto w-fit scale-[50%] xxs:scale-[60%] xs:scale-[80%] sm:scale-[100%]    ">
-          <h1 className="mb-[1.5rem] mt-[-.2rem] pb-1 text-center font-Caprasimo   text-7xl text-blue-200  xs:mb-[.5rem] ">
+          <h1 className="mb-[1.5rem] mt-[-.2rem] pb-1 text-center font-Caprasimo  text-5xl xs:text-7xl text-blue-200  xs:mb-[.5rem] ">
             Brett Baker
           </h1>
           <div className="LogoItems relative mt-[-1rem]  flex justify-center space-x-2 ">

@@ -15,7 +15,7 @@ const ContactButton = () => {
                        ">
           <div className="w-fit p-1  "><GiClassicalKnowledge size={20}/></div>
           
-            <div className="w-fit mx-0 text-4xl ">
+            <div className="w-fit mx-0 text-xl xs:text-4xl ">
             &nbsp;Resume&apos;&nbsp;Hub&nbsp;
             </div>
          
