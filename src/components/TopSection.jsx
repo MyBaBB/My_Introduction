@@ -85,7 +85,7 @@ const TopSection = () => {
                      text-center text-[12px]  xxs:text-[16px]  xs:mt-[-2.5rem]  xs:text-[16px]  sm:mt-[-2.5rem]
                       sm:text-[18px] md:text-[20px] lg:text-[22px] "
                     ></p>
-                    <p className="mt-2 text-center text-[12px] text-base xxs:text-[16px]  xs:text-[16px]  sm:text-[20px]  md:text-[24px]  lg:text-[27px] ">
+                    <p className="mt-2 leading-[1.75rem] text-center  text-[12px] text-base xxs:text-[16px]  xs:text-[16px]  sm:text-[20px]  md:text-[24px]  lg:text-[27px] ">
                       <span className="whitespace-nowrap">
                         <span className="inline-block">
                           <RiDoubleQuotesL />
