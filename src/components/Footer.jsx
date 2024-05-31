@@ -2,15 +2,21 @@
 import React from "react";
 
 import AquariumStandDataTip from "./AquariumFolder/AquariumDataTip.jsx";
-import ScubaMan from "./ScubaNavFolder/ScubaManNav.jsx";
+import ScubaSpear from "../components/ScubaManFolder/ScubaSpear.jsx";
 
 const Footer = () => {
   return (
-    <div>
-      <div id="bottomOfPage">
+    <div className="relative flex-col justify-center ">
+      
+      <div  className="font-Itim pt-20">
         <AquariumStandDataTip />
-        <ScubaMan />
+        
       </div>
+      <a href="#diverDown">
+      <div id="scubaSpear" className="absolute bottom-0  ml-8 ScubaSpearWrapper  w-fit hidden xxs:inline-block ">
+      <ScubaSpear />
+         </div>
+      </a>
     </div>
   );
 };

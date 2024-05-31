@@ -1,0 +1,59 @@
+.scubaSpear {
+  border: 0px solid #60a5fa;
+  border-radius: 40%;
+
+  padding: 0.4rem;
+}
+.scubaSpearWrapper :hover {
+  background-color: rgba(96, 165, 250, 0.1);
+  border-radius: 40%;
+}
+.dataToolTip13 {
+  top: -2px;
+}
+.dataToolTip13:hover::before,
+.dataToolTip13:hover::after {
+  --scale: 1;
+}
+.dataToolTip13::before {
+  content: "";
+  background: radial-gradient(black, #492407);
+  color: #dbeafe;
+  width: max-content;
+  position: absolute;
+  content: attr(data-tool-tip);
+  padding: 0.1em 0.1em 0.2em 0.1em;
+  bottom: 8.75rem;
+  left: 9rem;
+  transform: translateX(-100%) scale(var(--scale));
+  transform-origin: bottom left;
+  transition: ease-in 0.25s;
+
+  background: radial-gradient(black, #492407);
+  border-radius: 10px;
+
+  padding-left: 2rem;
+  padding-right: 2rem;
+  --scale: 0;
+  z-index: 3;
+}
+.dataToolTip13::after {
+  content: "";
+
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  padding: 0.1em 0.1em 0.2em 0.1em;
+  bottom: 6rem;
+  left: 4.75rem;
+  transform: translateX(-100%) scale(var(--scale));
+  transform-origin: top left;
+  transition: 0.25s;
+
+  border: 15px solid transparent;
+  border-top: #a9917e 10px solid;
+  color: #fff9d7;
+  --scale: 0;
+  z-index: 1;
+}
+
