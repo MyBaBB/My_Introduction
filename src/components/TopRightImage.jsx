@@ -44,16 +44,16 @@ const TopRightImage = () => {
           >
             <span className="cindy ">Cindy&apos;s</span>
           </div>
+          
           <div
             className="absolute right-[.625rem] top-[1.59rem] 
-                 hidden rounded-2xl border-2
-                  border-pink-400 bg-pink-950 p-1 text-[7px]
-
-                  font-bold text-pink-400 sm:right-[.5rem] sm:top-[1.6rem]
-                  sm:text-[7px] md:right-[.3rem] md:top-[2.1rem] 
-                   md:text-[11.5px] lg:top-[2.5rem]  lg:block "
+                   hidden rounded-2xl border-2
+                   border-pink-400 bg-pink-950 p-1 text-[7px]
+                   font-bold text-pink-400 
+                   md:right-[.3rem] md:top-[3rem] 
+                   md:text-[11.5px] lg:top-[3rem]  md:block "
           >
-            Mobile
+          <span> Mobile</span>
           </div>
         </div>
 
