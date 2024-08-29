@@ -78,11 +78,7 @@ const Navbar = () => {
                   id="mobile-menu"
                   className="relative my-auto flex-row justify-center"
                 >
-                
-                <a
-                    href="#"
-                    onClick={hideMobileMenu}
-                  >
+                  <a href="#" onClick={hideMobileMenu}>
                     {" "}
                     <div className="buttonStyles origin-top   animate-open-menu font-LibreBaskerville text-blue-200 ">
                       <div className="relative inline-block pl-4 ">
@@ -92,7 +88,7 @@ const Navbar = () => {
                     </div>
                   </a>
 
-                <a
+                  <a
                     href="https://mybabb.github.io/About_MyBaBB/"
                     onClick={hideMobileMenu}
                   >
@@ -119,7 +115,6 @@ const Navbar = () => {
                     </div>
                   </a>
 
-
                   <a href="https://github.com/MyBaBB" onClick={hideMobileMenu}>
                     {" "}
                     <div className="buttonStyles origin-top   animate-open-menu font-LibreBaskerville text-blue-200 ">
@@ -142,9 +137,6 @@ const Navbar = () => {
                     </div>
                   </a>
 
-              
-
-                
                   <a
                     href="https://mybabb.github.io/My_Introduction/"
                     onClick={hideMobileMenu}
@@ -160,13 +152,6 @@ const Navbar = () => {
                     </div>
                   </a>
 
-                
-              
-
-               
-
-
-
                   <a href="https://mybabb.github.io/Franken-Timer/">
                     <div className="buttonStyles origin-top   animate-open-menu font-LibreBaskerville text-blue-200 ">
                       <div className="relative inline-block pl-4 pr-2">
@@ -178,7 +163,6 @@ const Navbar = () => {
                     </div>
                   </a>
 
-                
                   <a
                     href="https://mybabb.github.io/100_Bucks_Intro/"
                     onClick={hideMobileMenu}
@@ -194,7 +178,10 @@ const Navbar = () => {
                     </div>
                   </a>
 
-                  <a href="https://resume-hub.mybabb.com/" onClick={hideMobileMenu}>
+                  <a
+                    href="https://resume-hub.mybabb.com/"
+                    onClick={hideMobileMenu}
+                  >
                     {" "}
                     <div className="buttonStyles origin-top   animate-open-menu font-LibreBaskerville text-blue-200 ">
                       <div className="relative inline-block pl-4 ">

@@ -25,22 +25,19 @@ const TopSection = () => {
           <NavbarLinks />
           <p
             className="objectiveParagraph  flex  h-[100%] w-[100%]
-        p-[12px] text-[12px] xxs:p-[22px] xxs:text-[16px] xs:p-[32px]
-        xs:text-[20px] sm:p-[42px] sm:text-[24px] md:p-[52px] md:text-[28px] lg:p-[52px] "
+        p-[12px] text-[12px] sm:p-[42px] sm:text-[24px] md:p-[52px]
+        md:text-[28px] lg:p-[52px] xxs:p-[22px] xxs:text-[16px] xs:p-[32px] xs:text-[20px] "
           >
             <div className="extraWrapper  w-[100%] ">
               <div className="topParagraphNew relative flex w-[100%]">
                 <div className="w-[100%]">
-                  <div className="TitleMyBaBB text-amber-100 text-center">
+                  <div className="TitleMyBaBB text-center text-amber-100">
                     <h2 className="mb-8 mt-[-1.7rem] text-center font-Kingthings_Petrock text-8xl">
                       MyBabb Custom Websites
                     </h2>
                   </div>
                   <p className="relative mb-[1.25rem] mt-3 text-center text-amber-50">
-                    <span className="whitespace-nowrap">
-                      
-                     React
-                    </span>
+                    <span className="whitespace-nowrap">React</span>
                     &nbsp; Front End{" "}
                     <span className="whitespace-nowrap">
                       Developer&nbsp;&nbsp;
@@ -50,7 +47,7 @@ const TopSection = () => {
                   <hr className=" m-auto -mt-4 w-[70%] rounded-full border-[3px] border-blue-500 bg-[#800020] p-[1.55px]" />
                   <h2
                     className="customFont13  mt-1 text-center 
-                      text-green-300 xxs:text-[21px] xs:mt-2  xs:text-[26px]  sm:text-[29px]  md:text-[24px]  lg:text-[32px] "
+                      text-green-300 sm:text-[29px] md:text-[24px]  lg:text-[32px]  xxs:text-[21px]  xs:mt-2  xs:text-[26px] "
                   >
                     Attract more Organic Matter
                   </h2>
@@ -73,7 +70,7 @@ const TopSection = () => {
 
                       <span
                         className="customHover text-[16px]  text-green-300 
-            hover:text-[#800020]  xxs:text-[21px]  xs:text-[26px]  sm:text-[29px]  md:text-[24px]  lg:text-[32px] "
+            hover:text-[#800020]  sm:text-[29px]  md:text-[24px]  lg:text-[32px]  xxs:text-[21px]  xs:text-[26px] "
                       >
                         &nbsp; Custom Landing Page &nbsp;
                       </span>
@@ -82,10 +79,10 @@ const TopSection = () => {
                     <br />
                     <p
                       className="mt-[-1.8rem]
-                     text-center text-[12px]  xxs:text-[16px]  xs:mt-[-2.5rem]  xs:text-[16px]  sm:mt-[-2.5rem]
-                      sm:text-[18px] md:text-[20px] lg:text-[22px] "
+                     text-center text-[12px]  sm:mt-[-2.5rem]  sm:text-[18px]  md:text-[20px]  lg:text-[22px]
+                      xxs:text-[16px] xs:mt-[-2.5rem] xs:text-[16px] "
                     ></p>
-                    <p className=" leading-[1.95rem] text-center  text-[12px] text-base xxs:text-[16px]  xs:text-[16px]  sm:text-[20px]  md:text-[24px]  lg:text-[27px] ">
+                    <p className=" text-center text-[12px]  text-base leading-[1.95rem] sm:text-[20px]  md:text-[24px]  lg:text-[27px]  xxs:text-[16px]  xs:text-[16px] ">
                       <span className="whitespace-nowrap">
                         <span className="inline-block">
                           <RiDoubleQuotesL />
@@ -168,8 +165,8 @@ const TopSection = () => {
                   </article>
                   <div>
                     <LiaLifeRingSolid className="-mt-1 inline-block text-green-500" />
-                    &nbsp;&nbsp;I can also Repair your Generic Website and add Personalized Custom Parts.
-                    
+                    &nbsp;&nbsp;I can also Repair your Generic Website and add
+                    Personalized Custom Parts.
                     <br />
                     <LiaLifeRingSolid className="-mt-1 inline-block text-green-500" />
                     &nbsp; I have certifications in Professional Adobe
@@ -241,10 +238,10 @@ const TopSection = () => {
           <section></section>
           <p
             className="objectiveParagraph 
-        mt-[-3rem]  p-[12px]  pb-[12px] text-[11px]  xxs:mt-[-5rem]  
-        xxs:p-[22px] xxs:pb-[22px] xxs:text-[13px] xs:mt-[-6rem] xs:p-[32px]
-        xs:pb-[32px] xs:text-[18px] sm:mt-[-8.5rem] sm:p-[42px] sm:pb-[42px] sm:text-[19px]
-        md:mt-[-9rem] md:p-[52px] md:pb-[52px] md:text-[28px] lg:p-[52px] lg:pb-[52px]
+        mt-[-3rem]  p-[12px]  pb-[12px] text-[11px]  sm:mt-[-8.5rem]  
+        sm:p-[42px] sm:pb-[42px] sm:text-[19px] md:mt-[-9rem] md:p-[52px]
+        md:pb-[52px] md:text-[28px] lg:p-[52px] lg:pb-[52px] xxs:mt-[-5rem] xxs:p-[22px]
+        xxs:pb-[22px] xxs:text-[13px] xs:mt-[-6rem] xs:p-[32px] xs:pb-[32px] xs:text-[18px]
         "
           >
             <div className="block lg:hidden">
@@ -277,9 +274,9 @@ const TopSection = () => {
 
           <p
             id="technologies"
-            className="objectiveParagraph mt-[-2rem] scroll-mt-[-4rem] p-[12px] text-[12px] xxs:mt-[-3rem] xxs:p-[22px] xxs:text-[16px] xs:mt-[-4rem]
-        xs:p-[32px] xs:text-[20px] sm:mt-[-5rem] sm:p-[42px] sm:text-[24px]
-        md:mt-[-6rem] md:p-[52px] md:text-[28px] lg:mt-[-7.5rem] lg:p-[52px] xl:mt-[-7rem] "
+            className="objectiveParagraph mt-[-2rem] scroll-mt-[-4rem] p-[12px] text-[12px] sm:mt-[-5rem] sm:p-[42px] sm:text-[24px] md:mt-[-6rem]
+        md:p-[52px] md:text-[28px] lg:mt-[-7.5rem] lg:p-[52px] xl:mt-[-7rem]
+        xxs:mt-[-3rem] xxs:p-[22px] xxs:text-[16px] xs:mt-[-4rem] xs:p-[32px] xs:text-[20px] "
           >
             <br />
             <h5 className="customFont13 text-center text-amber-200">

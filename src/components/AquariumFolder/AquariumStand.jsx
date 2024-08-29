@@ -34,7 +34,9 @@ const AquariumStand = () => {
                   size={12}
                   className="inline-block   text-varLIGHTBLUEFEATHER"
                 />
-                <span className="text-4xl">&nbsp;&nbsp;Portfolio&nbsp;Hub&nbsp;&nbsp;</span>
+                <span className="text-4xl">
+                  &nbsp;&nbsp;Portfolio&nbsp;Hub&nbsp;&nbsp;
+                </span>
                 <FaLink
                   size={12}
                   className="inline-block rotate-90 text-varLIGHTBLUEFEATHER"

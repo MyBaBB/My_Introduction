@@ -49,8 +49,8 @@ export default {
     'Caprasimo': ['Caprasimo', 'cursive'],
     'Creepster': ['Creepster', 'cursive'],
     'DMSerifDisplay': ['DM Serif Display-italic', 'serif'],
-      'EmilysCandy': ['Emilys Candy', 'cursive'],
-          'HoltwoodOneSC': ['Holtwood One SC', 'sans-serif'],
+    'EmilysCandy': ['Emilys Candy', 'cursive'],
+    'HoltwoodOneSC': ['Holtwood One SC', 'sans-serif'],
     'Itim': ['Itim, cursive'],
     'Kingthings_Petrock': ['Kingthings_Petrock', 'cursive'],
     'Kranky': ['Kranky', 'cursive'],
@@ -67,7 +67,7 @@ export default {
     "Rye": ['Rye', 'cursive'], 
     'Vollkorn': ['Vollkorn', 'serif'],
     'Wallpoet': ['Wallpoet', 'cursive'],
-    'Sixtyfour': ['Sixtyfour', 'cursive'],
+   
     
   },
  

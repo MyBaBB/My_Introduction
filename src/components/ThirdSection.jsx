@@ -8,7 +8,7 @@ const ThirdSection = () => {
         <h2 className="reSkills">My Repertoire</h2>
         <ul
           className="reUnOrderedList2
-            text-[12px] xxs:text-[19px] xs:text-[23px] sm:text-[20px] md:text-[23px] "
+            text-[12px] sm:text-[20px] md:text-[23px] xxs:text-[19px] xs:text-[23px] "
         >
           <li>
             <IoBookSharp className="inline-block text-blue-400" />
