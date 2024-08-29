@@ -17,16 +17,19 @@ const SecondSection = () => {
                 <span className="Pointer">Owner of MyBaBB</span>{" "}
               </u>
             </p>
+            </a>
             <p
               className="reUnOrderedList
                  text-[12px] xxs:text-[19px] xs:text-[23px] sm:text-[20px] md:text-[20px]  "
             >
+              <a href="https://Mybabb.com">
               <span className="hidden md:block">
                 <RiLinksFill className="inline-block text-blue-400" />
-                &nbsp;&nbsp;&nbsp;https://Mybabb.com
+                &nbsp;&nbsp;&nbsp;My Landing Page
               </span>
+              </a>
             </p>
-          </a>
+          
           <a href="https://github.com/MyBaBB">
             <p
               className="reUnOrderedList
@@ -36,17 +39,20 @@ const SecondSection = () => {
                 <u>GitHub-Profile</u>
               </span>
             </p>
+            </a>
             <p
               className="reUnOrderedList
                  text-[12px] xxs:text-[19px] xs:text-[23px] sm:text-[20px] md:text-[20px]  "
             >
+              <a href="https://github.com/MyBaBB">
               <span className="hidden md:block">
                 <RiLinksFill className="inline-block text-blue-400" />
-                &nbsp;&nbsp;&nbsp; https://github.com/MyBaBB
+                &nbsp;&nbsp;&nbsp; My-GitHub
               </span>
+              </a>
             </p>
-          </a>
-          <a href="https://www.linkedin.com/in/mybabb-customweb/">
+         
+          <a href="https://linkedin.com/in/brett-baker-4703a5110/">
             <p
               className="reUnOrderedList
                  text-[12px] xxs:text-[19px] xs:text-[23px] sm:text-[20px] md:text-[20px]  "
@@ -55,16 +61,19 @@ const SecondSection = () => {
                 <u>Linked-In</u>
               </span>
             </p>
+            </a>
             <p
               className="reUnOrderedList
                  text-[12px] xxs:text-[19px] xs:text-[23px] sm:text-[20px] md:text-[20px]  "
             >
+              <a href="https://linkedin.com/in/brett-baker-4703a5110/">
               <span className="hidden md:block">
                 <RiLinksFill className="inline-block text-blue-400" />
-                &nbsp;&nbsp;&nbsp; https://www.linkedin.com/in/mybabb-customweb/
+                &nbsp;&nbsp;&nbsp;  My-linkedin.com
               </span>
+              </a>
             </p>
-          </a>
+          
         </div>
       </section>
     </div>

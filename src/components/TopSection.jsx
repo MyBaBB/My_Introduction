@@ -52,7 +52,7 @@ const TopSection = () => {
                     className="customFont13  mt-1 text-center 
                       text-green-300 xxs:text-[21px] xs:mt-2  xs:text-[26px]  sm:text-[29px]  md:text-[24px]  lg:text-[32px] "
                   >
-                    Attract more Customers
+                    Attract more Organic Matter
                   </h2>
                   <span
                     className="
