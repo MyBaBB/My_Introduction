@@ -4,8 +4,10 @@ import { IoBookSharp } from "react-icons/io5";
 const ThirdSection = () => {
   return (
     <div>
-      <section className="pl-8">
-        <h2 className="reSkills">My Repertoire</h2>
+       <p className="text-center"><h2 className="reSkills">My Repertoire</h2></p>
+      <section className="pl-8 relative flex justify-evenly">
+       
+<div>
         <ul
           className="reUnOrderedList2
             text-[12px] sm:text-[20px] md:text-[23px] xxs:text-[19px] xs:text-[23px] "
@@ -24,7 +26,7 @@ const ThirdSection = () => {
           </li>
           <li>
             <IoBookSharp className="inline-block text-blue-400" />
-            &nbsp;&nbsp;&nbsp;Tailwind CSS
+            &nbsp;&nbsp;&nbsp;Tailwind<span className="hidden lg:inline-block"> CSS</span>
           </li>
           <li>
             <IoBookSharp className="inline-block text-blue-400" />
@@ -32,16 +34,20 @@ const ThirdSection = () => {
           </li>
           <li>
             <IoBookSharp className="inline-block text-blue-400" />
-            &nbsp;&nbsp;&nbsp;Create Custom Websites
+            &nbsp;&nbsp;&nbsp;Custom <span className="hidden lg:inline-block">Websites</span>
           </li>
-
+       </ul>
+       </div>
+       <div>
+       <ul className="reUnOrderedList2
+            text-[12px] sm:text-[20px] md:text-[23px] xxs:text-[19px] xs:text-[23px] ">
           <li>
             <IoBookSharp className="inline-block text-blue-400" />
-            &nbsp;&nbsp;&nbsp;Assist with Generic Websites
+            &nbsp;&nbsp;&nbsp;Website Assistance
           </li>
           <li>
             <IoBookSharp className="inline-block text-blue-400" />
-            &nbsp;&nbsp;&nbsp;Streamline Existing Websites{" "}
+            &nbsp;&nbsp;&nbsp;Streamline <span className="hidden sm:inline-block">Existing</span> Websites 
           </li>
           <li>
             <IoBookSharp className="inline-block text-blue-400" />
@@ -60,6 +66,7 @@ const ThirdSection = () => {
             &nbsp;&nbsp;&nbsp;Open Source Contributor
           </li>
         </ul>
+      </div>
       </section>
     </div>
   );

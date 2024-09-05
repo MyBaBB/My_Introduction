@@ -18,33 +18,45 @@ import NavbarLinks from "./NavbarFolder/NavbarLinks";
 const TopSection = () => {
   return (
     <div>
-      <div className=" relative mt-[8.8rem] flex  justify-center"></div>
-
-      <section>
-        <div className="objectiveWrapper flex-col  ">
+       <section>
+        <div className="objectiveWrapper flex-col mt-[8.8rem]   ">
           <NavbarLinks />
+          <div className=" relative  ">
+                  <span className="float-right">
+                    <TopRightImage />
+                  </span>
+                </div>
           <p
             className="objectiveParagraph  flex  h-[100%] w-[100%]
         p-[12px] text-[12px] sm:p-[42px] sm:text-[24px] md:p-[52px]
         md:text-[28px] lg:p-[52px] xxs:p-[22px] xxs:text-[16px] xs:p-[32px] xs:text-[20px] "
           >
-            <div className="extraWrapper  w-[100%] ">
-              <div className="topParagraphNew relative flex w-[100%]">
-                <div className="w-[100%]">
-                  <div className="TitleMyBaBB text-center text-amber-100">
+            <div className="extraWrapper relative flex-row w-[100%]   ">
+              <div className="topParagraphNew relative flex-row w-[85%] m-auto    ">
+                
+                
                     <h2 className="mb-8 mt-[-1.7rem] text-center font-Kingthings_Petrock text-8xl">
                       MyBabb Custom Websites
                     </h2>
                   </div>
-                  <p className="relative mb-[1.25rem] mt-3 text-center text-amber-50">
+                 <div className="  w-[85%] m-auto">
+                  <p className="relative mb-[1.25rem] mt-3 text-center text-amber-200">
                     <span className="whitespace-nowrap">React</span>
                     &nbsp; Front End{" "}
                     <span className="whitespace-nowrap">
                       Developer&nbsp;&nbsp;
                     </span>
+                    <span className="customFont13 whitespace-nowrap  text-amber-200">
+                      <TfiHandPointRight className="-mt-1 inline-block text-blue-400 " />
+                      &nbsp;
+                      <span className="text-xl sm:text-2xl md:text-3xl lg:text-4xl ">
+                        Customized for Performance 
+                      </span>
+                    </span>
                     <br />
                   </p>
-                  <hr className=" m-auto -mt-4 w-[70%] rounded-full border-[3px] border-blue-500 bg-[#800020] p-[1.55px]" />
+                  </div>
+                  <hr className=" m-auto -mt-4 w-[70%] rounded-full border-[1px] border-blue-500 bg-[#800020] p-[1.55px]" />
                   <h2
                     className="customFont13  mt-1 text-center 
                       text-green-300 sm:text-[29px] md:text-[24px]  lg:text-[32px]  xxs:text-[21px]  xs:mt-2  xs:text-[26px] "
@@ -70,13 +82,15 @@ const TopSection = () => {
 
                       <span
                         className="customHover text-[16px]  text-green-300 
-            hover:text-[#800020]  sm:text-[29px]  md:text-[24px]  lg:text-[32px]  xxs:text-[21px]  xs:text-[26px] "
+            hover:text-[#800020]  sm:text-[29px]  md:text-[24px]  lg:text-[32px]  xxs:text-[21px]  xs:text-[26px]  "
                       >
                         &nbsp; Custom Landing Page &nbsp;
                       </span>
-                      <TfiEye className=" inline-block text-blue-300" />
+                      <TfiEye className=" inline-block text-blue-300" />                  
                     </h2>
-                    <br />
+
+<br />
+                         
                     <p
                       className="mt-[-1.8rem]
                      text-center text-[12px]  sm:mt-[-2.5rem]  sm:text-[18px]  md:text-[20px]  lg:text-[22px]
@@ -98,47 +112,61 @@ const TopSection = () => {
                           <RiDoubleQuotesR />
                         </span>
                       </span>{" "}
-                      <div className="bg-green-200"> </div>
-                    </p>
-                    <br />
-                    <hr
-                      className="
-             sm-mt-8 m-auto -mt-4 w-[70%] rounded-full border-[3px] border-blue-500 bg-[#800020] p-[1.55px] "
-                    />
+                    </p>              
                   </a>
+               
+                 <p className="LandingPageBookButton rounded-3xl py-1 px-3 mt-2 w-fit m-auto
+                                bg-gradient-to-b from-red-400 to-red-900 hover:from-red-900 hover:to-red-400   ">          
+                          <a href="https://amzn.to/47cywyv " >
+                          <button className="LandingPageBookWords  relative flex text-lg  ">
+                        Free Kindle Book 
+                          </button>
+                          </a>
+                   </p>
 
-                  <br />
-                  <div id="performance" className="w-full  text-left">
-                    <span className="customFont13 whitespace-nowrap  text-amber-200">
-                      <TfiHandPointRight className="-mt-1 inline-block text-blue-400 " />
-                      &nbsp;
-                      <span className="text-xl sm:text-2xl md:text-3xl lg:text-4xl ">
-                        Customized for Performance:
-                      </span>
-                    </span>
+                   <hr
+                      className="
+             mt-3 mb-8 m-auto  w-[70%] rounded-full border-[1px] border-blue-500 bg-[#800020] p-[1.55px] "
+                    />
+                  
+                  <div id="performance" className="objectiveParagraph text-center  w-[85%]
+                   m-auto   scroll-mt-[-4rem] p-[12px] text-[12px]   sm:p-[42px] sm:text-[24px]  
+                   md:p-[52px] md:text-[28px]   lg:p-[52px] xl:mt-[-7rem]
+                   xxs:p-[22px] xxs:text-[16px]   xs:p-[32px] xs:text-[20px] ">
+                    
                     <br />
-                    <span className="inline-block p-4 text-center">
+                    <p className="inline-block p-4 text-center">
                       &nbsp;&nbsp;
                       <span className="whitespace-nowrap">
-                        <span className="inline-block">
+
+                        <span className="inline-block text-blue-400">
                           <RiDoubleQuotesL />
                         </span>
+                        <span className="text-amber-200">
                         &nbsp;While I appreciate
                       </span>{" "}
-                      conventional techniques, I also advocate for advanced
+                      </span>
+                      <span className="text-amber-200">
+                      conventional techniques,<br /> I also advocate for advanced
                       strategies to achieve&nbsp;
+                      </span>
+                      <span className="text-amber-200">
                       <span className="whitespace-nowrap">
                         outstanding results.&nbsp;
-                        <span className="inline-block">
+                       </span> 
+                    
+                        <span className="inline-block text-blue-400">
                           <RiDoubleQuotesR />
                         </span>
                       </span>
-                    </span>
+                    </p>
                   </div>
-                  <br />
+                 
                   <br />
 
-                  <article className="-mt-6">
+                  <article className=" w-[85%] m-auto mt-[-2rem] scroll-mt-[-4rem] p-[12px] text-[12px] sm:mt-[-5rem] sm:p-[42px] sm:text-[24px] md:mt-[-6rem]
+           md:p-[52px] md:text-[28px] lg:mt-[-7.5rem] lg:p-[52px] xl:mt-[-7rem]
+           xxs:mt-[-3rem] xxs:p-[22px] xxs:text-[16px] xs:mt-[-4rem] xs:p-[32px] xs:text-[20px]">
                     <SiGooglechrome className="inline-block text-blue-400" />
                     &nbsp;<span className="googleG1 text-red-600">G</span>
                     <span className="googleO1 text-green-600">o</span>
@@ -163,7 +191,9 @@ const TopSection = () => {
                     &nbsp;Custom links that Directs the Flow for new customers.
                     <br />
                   </article>
-                  <div>
+                  <div className=" w-[85%] m-auto mt-[-2rem] scroll-mt-[-4rem] p-[12px] text-[12px] sm:mt-[-5rem] sm:p-[42px] sm:text-[24px] md:mt-[-6rem]
+           md:p-[52px] md:text-[28px] lg:mt-[-7.5rem] lg:p-[52px] xl:mt-[-7rem]
+           xxs:mt-[-3rem] xxs:p-[22px] xxs:text-[16px] xs:mt-[-4rem] xs:p-[32px] xs:text-[20px]">
                     <LiaLifeRingSolid className="-mt-1 inline-block text-green-500" />
                     &nbsp;&nbsp;I can also Repair your Generic Website and add
                     Personalized Custom Parts.
@@ -179,78 +209,23 @@ const TopSection = () => {
                     experiences together!
                     <br />
                   </div>
-
-                  <div
-                    className="hidden lg:mt-[3rem]
-           lg:block"
-                  >
-                    <br />
-                    <RiDoubleQuotesL className=" mb-6 inline-block text-blue-400" />
-                    <span className="customFont13 text-amber-200">
-                      Building High Performance Websites.
-                      <RiDoubleQuotesR className="mb-6 inline-block text-blue-400" />
-                    </span>
-                    <br />
-                    <TbDiamond className="inline-block text-blue-400 " />
-                    &nbsp;Adding Style shows more Class.
-                    <br />
-                    <TbDiamond className="inline-block text-blue-400 " />
-                    &nbsp;Add more Functions with a Custom Landing Page
-                    <br />
-                    <TbDiamond className="inline-block text-blue-400 " />
-                    &nbsp;I can also Repair and add Customizations to Generic
-                    Websites.
-                    <br />
-                    <TbDiamond className="inline-block text-blue-400 " />
-                    &nbsp;I am looking for Quality Business owners to Grow and
-                    Expand with.
-                    <br />
-                    <TbDiamond className="inline-block text-blue-400 " />
-                    &nbsp;I can offer a Professional Website at a very
-                    reasonable price.
-                    <br />
-                  </div>
-                  {/* <div className=' block lg:hidden'>
-            <LiaLifeRingSolid className='inline-block text-green-500 -mt-1' />&nbsp;&nbsp;I can Repair your Generic Website (Including platforms like WordPress-WooCommerce, Wix, and Drupal). 
-             <br /> 
-             <LiaLifeRingSolid className='inline-block text-green-500 -mt-1' />&nbsp;
-            I also have certifications in Professional Adobe Photo-Shop and Advanced Illustrator, which puts me in a position to pick up some side work as well.
-            <br />
-            <LiaLifeRingSolid className='inline-block text-green-500 ' />&nbsp;&nbsp;Feel free to reach out if you need assistance or have any inquiries. Let&apos;s create exceptional web experiences together! 
-           <br/>
-        </div> */}
-
-                  <br />
-
-                  <br />
-                </div>
-
-                <div className=" hidden h-fit w-fit md:block ">
-                  <span className="float-right">
-                    <TopRightImage />
-                  </span>
-                </div>
-                <br />
-              </div>
-            </div>
-          </p>
-
-          <section></section>
-          <p
-            className="objectiveParagraph 
-        mt-[-3rem]  p-[12px]  pb-[12px] text-[11px]  sm:mt-[-8.5rem]  
-        sm:p-[42px] sm:pb-[42px] sm:text-[19px] md:mt-[-9rem] md:p-[52px]
-        md:pb-[52px] md:text-[28px] lg:p-[52px] lg:pb-[52px] xxs:mt-[-5rem] xxs:p-[22px]
-        xxs:pb-[22px] xxs:text-[13px] xs:mt-[-6rem] xs:p-[32px] xs:pb-[32px] xs:text-[18px]
-        "
+                  <p
+           className="objectiveParagraph w-[85%] m-auto mt-[-2rem] scroll-mt-[-4rem] p-[12px] text-[12px] sm:mt-[-5rem] sm:p-[42px] sm:text-[24px] md:mt-[-6rem]
+           md:p-[52px] md:text-[28px] lg:mt-[-7.5rem] lg:p-[52px] xl:mt-[-7rem]
+           xxs:mt-[-3rem] xxs:p-[22px] xxs:text-[16px] xs:mt-[-4rem] xs:p-[32px] xs:text-[20px] "
+        
           >
-            <div className="block lg:hidden">
+            <hr className=" m-auto w-[65%] my-14 rounded-full border-[1px] border-blue-500 bg-[#800020]  p-[1.275px]" />
+      
+            <div className="">
+              <p className="text text-center">
               <RiDoubleQuotesL className=" mb-6 inline-block text-blue-400" />
               <span className="customFont13 text-amber-200">
                 Building High Performance Websites.
                 <RiDoubleQuotesR className="mb-6 inline-block text-blue-400" />
               </span>
-              <br />
+              </p>
+              
               <TbDiamond className="inline-block text-blue-400 " />
               &nbsp;Adding Style shows more Class.
               <br />
@@ -271,27 +246,25 @@ const TopSection = () => {
               <br />
             </div>
           </p>
-
-          <p
+        <div className="   w-[85%] m-auto mt-100">
+          <div
             id="technologies"
             className="objectiveParagraph mt-[-2rem] scroll-mt-[-4rem] p-[12px] text-[12px] sm:mt-[-5rem] sm:p-[42px] sm:text-[24px] md:mt-[-6rem]
         md:p-[52px] md:text-[28px] lg:mt-[-7.5rem] lg:p-[52px] xl:mt-[-7rem]
         xxs:mt-[-3rem] xxs:p-[22px] xxs:text-[16px] xs:mt-[-4rem] xs:p-[32px] xs:text-[20px] "
           >
-            <br />
-            <h5 className="customFont13 text-center text-amber-200">
+            <hr className=" m-auto w-[65%] my-8 rounded-full border-[1px] border-blue-500 bg-[#800020]  p-[1.275px]" />
+            
+            <h5 className="customFont13 mb-8 text-center text-amber-200">
               &nbsp;&nbsp;I offer Web Development that is Proficient in the
               following technologies:
             </h5>
-            <hr className=" m-auto w-[65%] rounded-full border-[4px] border-blue-500 bg-[#800020]  p-[1.275px]" />
-            <br />
+                  
             <TfiHandPointRight className="-mt-1 inline-block text-blue-400" />
             &nbsp;&nbsp;
             <span className="customFont13 text-amber-200">React:</span>
             &nbsp;&nbsp; I wield expertise in building dynamic and responsive
-            user interfaces using React. HTML and CSS: My skills extend to
-            crafting clean and semantic HTML structures and styling them
-            elegantly with CSS.
+            user interfaces using React. 
             <br />
             <TfiHandPointRight className="-mt-1 inline-block text-blue-400" />
             &nbsp;&nbsp;
@@ -303,12 +276,26 @@ const TopSection = () => {
             &nbsp;&nbsp;
             <span className="customFont13 text-amber-200">JavaScript: </span>
             &nbsp;&nbsp;I am well-versed in JavaScript, enabling me to add
-            interactivity and functionality to web applications. My current tech
-            stack includes:
+            interactivity and functionality to web applications.  
+           
             <br />
+               
+
+                  <br />
+
+                  <br />
+                </div>
+                </div>
+                
+                <br />
+              
+            </div>
           </p>
+
+         
+         
         </div>
-        <hr className="objectiveDivider" />
+         
       </section>
     </div>
   );

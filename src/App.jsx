@@ -6,7 +6,7 @@ import "./App.css";
 import TopSection from "./components/TopSection";
 import SecondSection from "./components/SecondSection";
 import CopyRight from "./components/Copyright";
-import ThirdSection from "./components/ThirdSection";
+ 
 import Footer from "./components/Footer";
 
 import Header from "../src/components/HeaderFolder/Header";
@@ -21,7 +21,7 @@ const App = () => {
 
         <TopSection />
         <SecondSection />
-        <ThirdSection />
+        
         <Footer />
         <CopyRight />
       </div>

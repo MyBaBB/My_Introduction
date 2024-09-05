@@ -7,32 +7,28 @@ import Groomer1 from ".././img/Groomer1.png";
 import Chili from ".././img/chili.png";
 
 const TopRightImage = () => {
-  const [isZoomed, setIsZoomed] = useState(false);
+  
 
-  const handleImageClick = () => {
-    setIsZoomed(!isZoomed);
-  };
+ 
 
   return (
     <div>
-      <div className="sideNavImg relative mt-2  flex-col   p-1">
-        <img
-          src={phoneInHands}
-          alt="phoneInHands"
-          width={isZoomed ? 800 : 400}
-          className={`z-2 m-1 my-2 rounded-xl shadow-xl ${isZoomed ? "zoomed" : ""}`}
-          onClick={handleImageClick}
-        />
-        <div className="relative">
+      <div className="sideNavImg relative mt-2  flex  ">
+        
+       
+           
+     
+       
+        <div className="relative flex  rounded-t-2xl     ">
+         <div className="fixed top-[8rem] right-0 left-0 bottom-0  ">
           <img
             src={Groomer1}
             alt="Cindy"
-            width={isZoomed ? 800 : 400}
-            className={`z-2 m-1 mt-2 rounded-xl shadow-xl ${isZoomed ? "zoomed" : ""}`}
-            onClick={handleImageClick}
+            
+            style={{  opacity: 0.04 }}
           />
-
-          <div
+              {/* cidy's hard throb */}
+          {/* <div
             className="absolute
                   right-[.625rem] top-[0.2rem] rotate-2
                    animate-spin rounded-2xl border-2 border-pink-400
@@ -54,30 +50,30 @@ const TopRightImage = () => {
                    md:block md:text-[11.5px]  lg:top-[3rem] "
           >
             <span> Mobile</span>
-          </div>
+          </div>   */}
         </div>
-
-        <img
+</div>
+        {/* <img
           src={Beach}
           alt="Beach"
-          width={isZoomed ? 800 : 400}
-          className={`z-2 m-1 mt-2 rounded-xl shadow-xl ${isZoomed ? "zoomed" : ""}`}
-          onClick={handleImageClick}
+           
+           
+       
         />
         <img
           src={Tours}
           alt="Tours"
-          width={isZoomed ? 800 : 400}
-          className={`z-2 m-1 mt-2 rounded-xl shadow-xl ${isZoomed ? "zoomed" : ""}`}
-          onClick={handleImageClick}
+         
+           
+     
         />
         <img
           src={Chili}
           alt="Chile"
-          width={isZoomed ? 800 : 400}
-          className={`z-2 m-1 mt-2 rounded-xl shadow-xl ${isZoomed ? "zoomed" : ""}`}
-          onClick={handleImageClick}
-        />
+            */}
+          
+          
+         
       </div>
     </div>
   );
