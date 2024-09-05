@@ -44,7 +44,7 @@ const SecondSection = () => {
             <p className="reUnOrderedList text-[12px] sm:text-[20px] md:text-[20px] xxs:text-[19px] xs:text-[23px]">
               <a href="https://github.com/MyBaBB">
                 <span className=" ">
-                  <RiLinksFill className="inline-block text-blue-400" />
+                  <RiLinksFill className=" inline-block text-blue-400" />
                   &nbsp;&nbsp;&nbsp; My-GitHub
                 </span>
               </a>
@@ -52,6 +52,7 @@ const SecondSection = () => {
           </div>
 
           <div>
+            
             <a href="https://linkedin.com/in/brett-baker-4703a5110/">
               <p className="reUnOrderedList text-[12px] sm:text-[20px] md:text-[20px] xxs:text-[19px] xs:text-[23px]">
                 <span className="Pointer">
