@@ -233,8 +233,8 @@ const TopSection = () => {
               &nbsp;Add more Functions with a Custom Landing Page
               <br />
               <TbDiamond className="inline-block text-blue-400 " />
-              &nbsp;I can also Repair and add Customizations to Generic
-              Websites.
+              &nbsp;I can also Repair your to Generic
+              Website.
               <br />
               <TbDiamond className="inline-block text-blue-400 " />
               &nbsp;I am looking for Quality Business owners to Grow and Expand
