@@ -138,7 +138,7 @@
 }
 
 .sideNavImg img {
-  border: 2px solid #565656;
+  border:9px solid transparent;
 }
 
 @font-face {

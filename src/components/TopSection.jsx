@@ -122,7 +122,7 @@ const TopSection = () => {
                         Free Kindle Book 
                           </button>
                           </a>
-                   </p>
+                   </p> 
 
                    <hr
                       className="hrStyles mt-5 -mb-8 m-auto  w-[70%]
