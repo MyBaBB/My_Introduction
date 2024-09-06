@@ -15,6 +15,7 @@ import { LiaLifeRingSolid } from "react-icons/lia";
 import { TfiEye } from "react-icons/tfi";
 
 import NavbarLinks from "./NavbarFolder/NavbarLinks";
+import FreeKindleBook from "./FreeKindlebook/FreeKindleBook";
 const TopSection = () => {
   return (
     <div>
@@ -115,14 +116,7 @@ const TopSection = () => {
                     </p>              
                   </a>
                
-                 <p className="LandingPageBookButton rounded-3xl py-1 px-3 mt-2 w-fit m-auto
-                                bg-gradient-to-b from-red-400 to-red-900 hover:from-red-900 hover:to-red-400   ">          
-                          <a href="https://amzn.to/47cywyv " >
-                          <button className="LandingPageBookWords  relative flex text-lg  ">
-                        Free Kindle Book 
-                          </button>
-                          </a>
-                   </p> 
+                  < FreeKindleBook />
 
                    <hr
                       className="hrStyles mt-5 -mb-8 m-auto  w-[70%]
