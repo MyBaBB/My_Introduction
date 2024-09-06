@@ -273,8 +273,8 @@ const TopSection = () => {
             and consistent designs.
             <br />
             <TfiHandPointRight className="-mt-1 inline-block text-blue-400" />
-            &nbsp;&nbsp;
-            <span className="customFont13 text-amber-200">JavaScript: </span>
+            &nbsp;
+            <span className="customFont13 text-amber-200">JavaScript:</span>
             &nbsp;&nbsp;I am well-versed in JavaScript, enabling me to add
             interactivity and functionality to web applications.  
            
