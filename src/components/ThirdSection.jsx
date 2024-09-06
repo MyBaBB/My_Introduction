@@ -4,10 +4,11 @@ import { IoBookSharp } from "react-icons/io5";
 const ThirdSection = () => {
   return (
     <div>
+      
        <p className="text-center"><h2 className="reSkills">My Repertoire</h2></p>
-      <section className="pl-8 relative flex justify-evenly">
-       
-<div>
+      <section className="pl-8 relative flex-col justify-center  m-auto w-fit  ">
+      <div className="relative md:flex  ">
+<div className="">
         <ul
           className="reUnOrderedList2
             text-[12px] sm:text-[20px] md:text-[23px] xxs:text-[19px] xs:text-[23px] "
@@ -38,7 +39,7 @@ const ThirdSection = () => {
           </li>
        </ul>
        </div>
-       <div>
+       <div className="relative">
        <ul className="reUnOrderedList2
             text-[12px] sm:text-[20px] md:text-[23px] xxs:text-[19px] xs:text-[23px] ">
           <li>
@@ -67,8 +68,10 @@ const ThirdSection = () => {
           </li>
         </ul>
       </div>
+      </div>
       </section>
     </div>
+    
   );
 };
 

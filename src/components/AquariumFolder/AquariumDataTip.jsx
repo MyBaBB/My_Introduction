@@ -5,7 +5,7 @@ import AquariumStand from "./AquariumStand.jsx";
 const Profile = () => {
   return (
     <div>
-      <div className=" relative flex justify-center">
+      <div className=" relative flex justify-center ">
         <a className="" href="https://Resume-Hub.mybabb.com">
           <div
             className="dataToolTip10 text-3xl"

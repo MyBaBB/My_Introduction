@@ -6,7 +6,7 @@ import ScubaSpear from "../components/ScubaManFolder/ScubaSpear.jsx";
 
 const Footer = () => {
   return (
-    <div className="relative flex-col justify-center ">
+    <div className="relative flex-col justify-center bg-blue-950 ">
       <div className="pt-20 font-Itim">
         <AquariumStandDataTip />
       </div>

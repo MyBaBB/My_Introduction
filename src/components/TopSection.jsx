@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import TopRightImage from "./TopRightImage";
+import TopImage from "./TopImage";
 import { GiLightningTear } from "react-icons/gi";
 import { RiLinksFill } from "react-icons/ri";
 import { MdOutlineTimer } from "react-icons/md";
@@ -19,12 +19,12 @@ const TopSection = () => {
   return (
     <div>
        <section>
-        <div className="objectiveWrapper flex-col mt-[8.8rem]   ">
+        <div className="objectiveWrapper flex-col mt-[8.8rem] ">
           <NavbarLinks />
-          <div className=" relative  ">
-                  <span className="float-right">
-                    <TopRightImage />
-                  </span>
+          <div className="relative flex-row w-screen  ">
+                  <div className="">
+                    <TopImage />
+                  </div>
                 </div>
           <p
             className="objectiveParagraph  flex  h-[100%] w-[100%]
@@ -46,7 +46,7 @@ const TopSection = () => {
                     <span className="whitespace-nowrap">
                       Developer&nbsp;&nbsp;
                     </span>
-                    <span className="customFont13 whitespace-nowrap  text-amber-200">
+                    <span className="customFont13   text-amber-200">
                       <TfiHandPointRight className="-mt-1 inline-block text-blue-400 " />
                       &nbsp;
                       <span className="text-xl sm:text-2xl md:text-3xl lg:text-4xl ">
@@ -56,7 +56,7 @@ const TopSection = () => {
                     <br />
                   </p>
                   </div>
-                  <hr className=" m-auto -mt-4 w-[70%] rounded-full border-[1px] border-blue-500 bg-[#800020] p-[1.55px]" />
+                  <hr className="hrStyles m-auto mt-8 w-[70%] rounded-full   p-[1.55px]" />
                   <h2
                     className="customFont13  mt-1 text-center 
                       text-green-300 sm:text-[29px] md:text-[24px]  lg:text-[32px]  xxs:text-[21px]  xs:mt-2  xs:text-[26px] "
@@ -125,8 +125,8 @@ const TopSection = () => {
                    </p>
 
                    <hr
-                      className="
-             mt-3 mb-8 m-auto  w-[70%] rounded-full border-[1px] border-blue-500 bg-[#800020] p-[1.55px] "
+                      className="hrStyles mt-5 -mb-8 m-auto  w-[70%]
+                       rounded-full   p-[1.55px] "
                     />
                   
                   <div id="performance" className="objectiveParagraph text-center  w-[85%]
@@ -215,11 +215,11 @@ const TopSection = () => {
            xxs:mt-[-3rem] xxs:p-[22px] xxs:text-[16px] xs:mt-[-4rem] xs:p-[32px] xs:text-[20px] "
         
           >
-            <hr className=" m-auto w-[65%] my-14 rounded-full border-[1px] border-blue-500 bg-[#800020]  p-[1.275px]" />
+            <hr className="hrStyles m-auto w-[65%] mb-8  rounded-full  p-[1.275px]" />
       
             <div className="">
               <p className="text text-center">
-              <RiDoubleQuotesL className=" mb-6 inline-block text-blue-400" />
+              <RiDoubleQuotesL className=" mb-14 inline-block text-blue-400" />
               <span className="customFont13 text-amber-200">
                 Building High Performance Websites.
                 <RiDoubleQuotesR className="mb-6 inline-block text-blue-400" />
@@ -253,7 +253,7 @@ const TopSection = () => {
         md:p-[52px] md:text-[28px] lg:mt-[-7.5rem] lg:p-[52px] xl:mt-[-7rem]
         xxs:mt-[-3rem] xxs:p-[22px] xxs:text-[16px] xs:mt-[-4rem] xs:p-[32px] xs:text-[20px] "
           >
-            <hr className=" m-auto w-[65%] my-8 rounded-full border-[1px] border-blue-500 bg-[#800020]  p-[1.275px]" />
+            <hr className="hrStyles m-auto w-[65%] my-8 rounded-full   p-[1.275px]" />
             
             <h5 className="customFont13 mb-8 text-center text-amber-200">
               &nbsp;&nbsp;I offer Web Development that is Proficient in the
@@ -281,13 +281,13 @@ const TopSection = () => {
             <br />
                
 
-                  <br />
+                 
 
-                  <br />
+               
                 </div>
                 </div>
                 
-                <br />
+              
               
             </div>
           </p>

@@ -1,33 +1,62 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from "react";
- 
+import Beach from ".././img/BeachRentals.png";
+import Tours from ".././img/Tours400x300.webp";
+import Chili from ".././img/chili.png";
  
  
 import Groomer1 from ".././img/Groomer1.png";
  
 
-const TopRightImage = () => {
+const TopImage = () => {
   
 
  
 
   return (
     <div>
-      <div className="sideNavImg relative mt-2  flex  ">
-        
-       
-           
-     
-       
-        <div className="relative flex  rounded-t-2xl     ">
-         <div className="fixed top-[8rem] right-0 left-0 bottom-0  ">
+      <div className="sideNavImg relative justify-center  flex   ">
+         <div className="relative flex-row   ">
           <img
             src={Groomer1}
             alt="Cindy"
-            
-            style={{  opacity: 0.04 }}
+            width="200"
+            height="200" 
           />
-              {/* cidy's hard throb */}
+          </div>
+      <div className="relative flex-row   ">
+       <img
+          src={Beach}
+          alt="Beach"
+          width="200"
+          height="200" 
+        />
+      </div>
+      <div className="relative flex-row   ">  
+        <img
+          src={Tours}
+          alt="Tours"
+          width="200"
+          height="200" 
+        />
+      </div>
+        <div className="relative flex-row   ">
+        <img
+          src={Chili}
+          alt="Chile"
+          width="200"
+          height="200"   
+         />
+        </div> 
+      </div>
+    </div>
+    
+    
+  );
+};
+
+export default TopImage;
+{/* cindy's hard throb */}
           {/* <div
             className="absolute
                   right-[.625rem] top-[0.2rem] rotate-2
@@ -51,32 +80,3 @@ const TopRightImage = () => {
           >
             <span> Mobile</span>
           </div>   */}
-        </div>
-</div>
-        {/* <img
-          src={Beach}
-          alt="Beach"
-           
-           
-       
-        />
-        <img
-          src={Tours}
-          alt="Tours"
-         
-           
-     
-        />
-        <img
-          src={Chili}
-          alt="Chile"
-            */}
-          
-          
-         
-      </div>
-    </div>
-  );
-};
-
-export default TopRightImage;

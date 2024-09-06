@@ -60,7 +60,7 @@
   margin-top: 1rem;
   margin-bottom: 1rem;
   text-decoration-color: #419aff;
-  white-space: nowrap;
+ 
 }
 
 .reObjective {
@@ -73,10 +73,10 @@
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   color: white;
  
-  border-bottom-left-radius: 12px;
-  border-bottom-right-radius: 12px;
-  border-top-left-radius: 0px;
-  border-top-left-radius: 0px;
+ 
+ 
+   
+ 
 
   background: #0d2d52;
 }
@@ -126,7 +126,13 @@
   border: 2px solid #ffdb58;
   position: relative;
 }
+ .hrStyles {
+  border: 1px solid #ffdb58;
+  background-color: green;
+ 
 
+
+ }
 .Pointer {
   color: rgb(109, 235, 132);
 }
