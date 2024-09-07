@@ -35,7 +35,7 @@ const TopSection = () => {
               <div className="topParagraphNew relative flex-row w-[85%] m-auto    ">
                 
                 
-                    <h2 className="mb-8 mt-[-1.7rem] text-center font-Kingthings_Petrock text-8xl">
+                    <h2 className="mb-8   text-center font-Kingthings_Petrock text-8xl">
                       Brett&apos;s Custom Websites
                     </h2>
                   </div>
@@ -56,7 +56,7 @@ const TopSection = () => {
                     <br />
                   </p>
                   </div>
-                  <hr className="hrStyles m-auto mt-8 w-[70%] rounded-full   p-[1.55px]" />
+                  <hr className="hrStyles m-auto mt-8  rounded-full   p-[1.55px]" />
                   <h2
                     className="customFont13  mt-1 text-center 
                       text-green-300 sm:text-[29px] md:text-[24px]  lg:text-[32px]  xxs:text-[21px] xs:text-[26px] "
@@ -117,13 +117,54 @@ const TopSection = () => {
                   </a>
                
                   < FreeKindleBook />
-                <div className=" border-2 border-blue-500 w-fit m-auto">
-                   <hr
-                      className="hrStyles mt-5 -mb-8 m-auto  w-[70%]
+                                  <p
+           className="objectiveParagraph w-[85%] m-auto text-[12px] sm:text-[24px] 
+                     md:text-[28px] xxs:text-[16px] xs:text-[20px] "
+        
+          >
+           
+          </p>
+        <div className="   w-[85%] m-auto mt-100">
+          <div
+            id="technologies"
+            className="objectiveParagraph text-[12px] sm:text-[24px] md:text-[28px]
+             xxs:text-[16px] xs:text-[20px] "
+          >
+            <hr className="hrStyles m-auto   my-8 rounded-full   p-[1.275px]" />
+            
+            <h5 className="customFont13 mb-8 text-center text-amber-200">
+              &nbsp;&nbsp;I offer Web Development that is Proficient in the
+              following technologies:
+            </h5>
+                  
+            <TfiHandPointRight className="-mt-1 inline-block text-blue-400" />
+            &nbsp;&nbsp;
+            <span className="customFont13 text-amber-200">React:</span>
+            &nbsp;&nbsp; I wield expertise in building dynamic and responsive
+            user interfaces using React. 
+            <br />
+            <TfiHandPointRight className="-mt-1 inline-block text-blue-400" />
+            &nbsp;&nbsp;
+            <span className="customFont13 text-amber-200">Tailwind CSS: </span>
+            &nbsp;&nbsp;I leverage the power of Tailwind CSS to create efficient
+            and consistent designs.
+            <br />
+            <TfiHandPointRight className="-mt-1 inline-block text-blue-400" />
+            &nbsp;
+            <span className="customFont13 text-amber-200"> JavaScript: </span>
+            &nbsp;&nbsp;I use JavaScript, which enables both&nbsp; 
+            <u className="decoration-blue-500">Interactivity</u>
+               &nbsp;and&nbsp; 
+            <u className="decoration-blue-500">Functionality.</u>
+                         
+           
+            <br />
+            <div className="  w-full m-auto">
+                   <hr className="hrStyles mt-5 -mb-8 m-auto  
                        rounded-full   p-[1.55px] "
                     />
                   
-                  <div id="performance" className="objectiveParagraph border-2 border-green-500 -mb-8  text-center  w-[85%]
+                  <div id="performance" className="objectiveParagraph  -mb-8  text-center  w-[85%]
                    m-auto text-[12px]    sm:text-[24px]  
                    md:text-[28px] xxs:text-[16px] xs:text-[20px] ">
                     
@@ -157,7 +198,7 @@ const TopSection = () => {
                  
                   <br />
 
-                  <article className="border-2 border-red-200 w-[85%] m-auto  text-[12px]
+                  <article className=" w-[85%] m-auto  text-[12px]
                                        sm:text-[24px] md:text-[28px] xxs:text-[16px] xs:text-[20px]">
                     <SiGooglechrome className="inline-block text-blue-400" />
                     &nbsp;<span className="googleG1 text-red-600">G</span>
@@ -184,81 +225,43 @@ const TopSection = () => {
                     <br />
                   </article>
                   </div>
-                  <p
-           className="objectiveParagraph w-[85%] m-auto text-[12px] sm:text-[24px] 
-                     md:text-[28px] xxs:text-[16px] xs:text-[20px] "
-        
-          >
-            <hr className="hrStyles m-auto w-[65%] my-8  rounded-full  p-[1.275px]" />
+ 
+                </div>
+
+                <hr className="hrStyles m-auto  my-8  rounded-full  p-[1.275px]" />
       
-            <div className="">
-              <p className="text text-center">
-              <RiDoubleQuotesL className=" mb-14 inline-block text-blue-400" />
-              <span className="customFont13 text-amber-200">
-                Building High Performance Websites.
-                <RiDoubleQuotesR className="mb-6 inline-block text-blue-400" />
-              </span>
-              </p>
-              
-              <TbDiamond className="inline-block text-blue-400 " />
-              &nbsp;Adding Style shows more Class.
-              <br />
-              <TbDiamond className="inline-block text-blue-400 " />
-              &nbsp;Add more Functions with a Custom Landing Page
-              <br />
-              <TbDiamond className="inline-block text-blue-400 " />
-              &nbsp;I can also Add features to your existing Website.
-              <br />
-              <TbDiamond className="inline-block text-blue-400 " />
-              &nbsp;I am looking for Quality Business owners to Grow and Expand
-              with.
-              <br />
-              <TbDiamond className="inline-block text-blue-400 " />
-              &nbsp;I can offer a Professional Website at a very reasonable
-              price.
-              <br />
+      <div className=" mb-14">
+        <p className="text text-center">
+        <RiDoubleQuotesL className=" mb-14 inline-block text-blue-400" />
+        <span className="customFont13 text-amber-200">
+          Building High Performance Websites.
+          <RiDoubleQuotesR className="mb-6 inline-block text-blue-400" />
+        </span>
+        </p>
+        
+        <TbDiamond className="inline-block text-blue-400 " />
+        &nbsp;Adding Style shows more Class.
+        <br />
+        <TbDiamond className="inline-block text-blue-400 " />
+        &nbsp;Add more Functions with a Custom Landing Page
+        <br />
+        <TbDiamond className="inline-block text-blue-400 " />
+        &nbsp;I can also Add features to your existing Website.
+        <br />
+        <TbDiamond className="inline-block text-blue-400 " />
+        &nbsp;I am looking for Quality Business owners to Grow and Expand
+        with.
+        <br />
+        <TbDiamond className="inline-block text-blue-400 " />
+        &nbsp;I can offer a Professional Website at a very reasonable
+        price.
+       
+      </div>
+
+                </div>
+               
             </div>
-          </p>
-        <div className="   w-[85%] m-auto mt-100">
-          <div
-            id="technologies"
-            className="objectiveParagraph text-[12px] sm:text-[24px] md:text-[28px]
-             xxs:text-[16px] xs:text-[20px] "
-          >
-            <hr className="hrStyles m-auto w-[65%] my-8 rounded-full   p-[1.275px]" />
             
-            <h5 className="customFont13 mb-8 text-center text-amber-200">
-              &nbsp;&nbsp;I offer Web Development that is Proficient in the
-              following technologies:
-            </h5>
-                  
-            <TfiHandPointRight className="-mt-1 inline-block text-blue-400" />
-            &nbsp;&nbsp;
-            <span className="customFont13 text-amber-200">React:</span>
-            &nbsp;&nbsp; I wield expertise in building dynamic and responsive
-            user interfaces using React. 
-            <br />
-            <TfiHandPointRight className="-mt-1 inline-block text-blue-400" />
-            &nbsp;&nbsp;
-            <span className="customFont13 text-amber-200">Tailwind CSS: </span>
-            &nbsp;&nbsp;I leverage the power of Tailwind CSS to create efficient
-            and consistent designs.
-            <br />
-            <TfiHandPointRight className="-mt-1 inline-block text-blue-400" />
-            &nbsp;
-            <span className="customFont13 text-amber-200"> JavaScript: </span>
-            &nbsp;&nbsp;I use JavaScript, which enables both&nbsp; 
-            <u className="decoration-blue-500">Interactivity</u>
-               &nbsp;and&nbsp; 
-            <u className="decoration-blue-500">Functionality.</u>
-                         
-           
-            <br />
-               
-                </div>
-                </div>
-               
-            </div>
           </p>
 
         </div>

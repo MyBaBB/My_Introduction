@@ -121,8 +121,9 @@
   position: relative;
 }
 .hrStyles {
-  border: 1px solid #ffdb58;
-  background-color: green;
+  border: .1px solid gray;
+  background-color: black;
+  width: 20rem;
 }
 .Pointer {
   color: rgb(109, 235, 132);
