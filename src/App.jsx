@@ -12,7 +12,7 @@ import Header from "../src/components/HeaderFolder/Header";
 const App = () => {
   return (
     <div className="relative bg-color-red-500  w-screen h-screen">
-      <div className="relative flex-row m-auto border-2 border-red-500">
+      <div className="relative flex-row m-auto ">
       
         <Header />
 
