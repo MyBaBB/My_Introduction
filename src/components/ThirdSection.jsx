@@ -3,7 +3,8 @@ import React from "react";
 import { IoBookSharp } from "react-icons/io5";
 const ThirdSection = () => {
   return (
-    <div>
+    <div  className="relative -mt-4 
+    ">
       <p className="text-center">
         <h2 className="reSkills">My Repertoire</h2>
       </p>

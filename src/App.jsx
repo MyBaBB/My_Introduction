@@ -9,18 +9,18 @@ import CopyRight from "./components/Copyright";
 import Footer from "./components/Footer";
 
 import Header from "../src/components/HeaderFolder/Header";
+ 
 const App = () => {
   return (
-    <div className="relative bg-color-red-500  w-screen h-screen">
-      <div className="relative flex-row m-auto ">
+    <div className=" ">
+      <div className="relative flex-row m-auto  w-screen h-auto">
       
-        <Header />
-
-        <TopSection />
-        <SecondSection />
-
-        <Footer />
-        <CopyRight />
+        < Header />
+        < TopSection />
+        < SecondSection />
+      
+        < Footer />
+        < CopyRight />
       </div>
     </div>
   );
