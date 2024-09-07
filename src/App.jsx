@@ -11,8 +11,8 @@ import Footer from "./components/Footer";
 import Header from "../src/components/HeaderFolder/Header";
 const App = () => {
   return (
-    <div className="relative flex h-full w-screen m-auto items-center justify-center  ">
-      <div>
+    <div className="relative bg-color-red-500  w-screen h-screen">
+      <div className="relative flex-row m-auto border-2 border-red-500">
       
         <Header />
 

@@ -12,7 +12,7 @@ import Navbar from "../NavbarFolder/Navbar";
 const Header = () => {
   return (
     <div>
-      <div className="headerWrapper fixed    ">
+      <div className="headerWrapper fixed top-0 left-0 w-screen    ">
         <div>
           <Navbar />
           <div className="m-auto w-fit scale-[50%] sm:scale-[100%] xxs:scale-[60%] xs:scale-[80%]    ">

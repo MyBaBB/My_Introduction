@@ -171,7 +171,7 @@ const TopSection = () => {
                     <br />
                     <p className="inline-block p-4 text-center">
                       &nbsp;&nbsp;
-                      <span className="whitespace-nowrap">
+                      <span className=" ">
 
                         <span className="inline-block text-blue-400">
                           <RiDoubleQuotesL />
