@@ -3,61 +3,36 @@ import React, { useState } from "react";
 import Beach from ".././img/BeachRentals.png";
 import Tours from ".././img/Tours400x300.webp";
 import Chili from ".././img/chili.png";
- 
- 
+
 import Groomer1 from ".././img/Groomer1.png";
- 
 
 const TopImage = () => {
-  
-
- 
-
   return (
     <div>
-      <div className="sideNavImg relative justify-center  flex   ">
-         <div className="relative flex-row   ">
-          <img
-            src={Groomer1}
-            alt="Cindy"
-            width="200"
-            height="200" 
-          />
-          </div>
-      <div className="relative flex-row   ">
-       <img
-          src={Beach}
-          alt="Beach"
-          width="200"
-          height="200" 
-        />
-      </div>
-      <div className="relative flex-row   ">  
-        <img
-          src={Tours}
-          alt="Tours"
-          width="200"
-          height="200" 
-        />
-      </div>
+      <div className="sideNavImg relative flex  justify-center   ">
         <div className="relative flex-row   ">
-        <img
-          src={Chili}
-          alt="Chile"
-          width="200"
-          height="200"   
-         />
-        </div> 
+          <img src={Groomer1} alt="Cindy" width="200" height="200" />
+        </div>
+        <div className="relative flex-row   ">
+          <img src={Beach} alt="Beach" width="200" height="200" />
+        </div>
+        <div className="relative flex-row   ">
+          <img src={Tours} alt="Tours" width="200" height="200" />
+        </div>
+        <div className="relative flex-row   ">
+          <img src={Chili} alt="Chile" width="200" height="200" />
+        </div>
       </div>
     </div>
-    
-    
   );
 };
 
 export default TopImage;
-{/* cindy's hard throb */}
-          {/* <div
+{
+  /* cindy's hard throb */
+}
+{
+  /* <div
             className="absolute
                   right-[.625rem] top-[0.2rem] rotate-2
                    animate-spin rounded-2xl border-2 border-pink-400
@@ -79,4 +54,5 @@ export default TopImage;
                    md:block md:text-[11.5px]  lg:top-[3rem] "
           >
             <span> Mobile</span>
-          </div>   */}
+          </div>   */
+}
