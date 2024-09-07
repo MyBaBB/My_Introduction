@@ -9,7 +9,7 @@ import Groomer1 from ".././img/Groomer1.png";
 const TopImage = () => {
   return (
     <div>
-      <div className="sideNavImg relative flex  justify-center   ">
+      <div className="sideNavImg relative flex w-[98%]  justify-center m-auto   ">
         <div className="relative flex-row   ">
           <img src={Groomer1} alt="Cindy" width="200" height="200" />
         </div>

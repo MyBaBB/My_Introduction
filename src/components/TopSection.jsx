@@ -18,9 +18,9 @@ import NavbarLinks from "./NavbarFolder/NavbarLinks";
 import FreeKindleBook from "./FreeKindlebook/FreeKindleBook";
 const TopSection = () => {
   return (
-    <div>
+    <div className="  ">
        <section>
-        <div className="objectiveWrapper flex-col mt-[8.8rem] ">
+        <div className="objectiveWrapper flex-col mt-[8rem] ">
           <NavbarLinks />
           <div className="relative flex-row w-screen  ">
                   <div className="">
@@ -35,8 +35,8 @@ const TopSection = () => {
               <div className="topParagraphNew relative flex-row w-[85%] m-auto    ">
                 
                 
-                    <h2 className="mb-8   text-center font-Kingthings_Petrock text-8xl">
-                      Brett&apos;s Custom Websites
+                    <h2 className="mb-8   text-center font-Kingthings_Petrock text-4xl md:text-8xl">
+                      Brett&apos;s Custom Websites 
                     </h2>
                   </div>
                  <div className="  w-[85%] m-auto">
