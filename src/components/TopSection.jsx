@@ -198,7 +198,7 @@ const TopSection = () => {
                  
                   <br />
 
-                  <article className=" w-[85%] m-auto  text-[12px]
+                  <article className=" w-[100%] m-auto  text-[12px]
                                        sm:text-[24px] md:text-[28px] xxs:text-[16px] xs:text-[20px]">
                     <SiGooglechrome className="inline-block text-blue-400" />
                     &nbsp;<span className="googleG1 text-red-600">G</span>
