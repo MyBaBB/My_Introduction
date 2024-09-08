@@ -137,7 +137,7 @@ const TopSection = () => {
               &nbsp;&nbsp;I offer Web Development that is Proficient in the
               following technologies:
             </h5>
-                  
+            <p>      
             <TfiHandPointRight className="-mt-1 inline-block text-blue-400" />
             &nbsp;&nbsp;
             <span className="customFont13 text-amber-200">React:</span>
@@ -150,14 +150,13 @@ const TopSection = () => {
             &nbsp;&nbsp;I leverage the power of Tailwind CSS to create efficient
             and consistent designs.
             <br />
+         
             <TfiHandPointRight className="-mt-1 inline-block text-blue-400" />
             &nbsp;
-            <span className="customFont13 text-amber-200"> JavaScript: </span>
-            &nbsp;&nbsp;I use JavaScript, which enables both&nbsp; 
-            <u className="decoration-blue-500">Interactivity</u>
-               &nbsp;and&nbsp; 
-            <u className="decoration-blue-500">Functionality.</u>
-                         
+            <span className="customFont13 text-amber-200"> JavaScript:</span>
+            &nbsp;I use JavaScript, which enables both 
+            <u className="decoration-blue-500"> Interactivity</u> and <u className="decoration-blue-500">Functionality.</u>
+            </p>            
            
             <br />
             <div className="  w-full m-auto">

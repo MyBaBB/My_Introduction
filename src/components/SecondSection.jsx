@@ -15,7 +15,7 @@ const SecondSection = () => {
 
       <br />
 
-      <section className="relative   left-4 top-[2rem] z-50 flex justify-center lg:absolute">
+      <section className="relative   left-4 top-[2rem] z-10 flex justify-center lg:absolute">
         <div id="experience" className="reExperienceHover scroll-mt-10">
           <div>
             <a href="https://Mybabb.com">
