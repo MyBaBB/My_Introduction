@@ -9,6 +9,7 @@
   animation: spin 11s infinite;
 }
 
+
 @keyframes reactSpin {
   0% {
     transform: rotate(0deg);
@@ -20,6 +21,7 @@
 
 .customHover:hover {
   text-shadow: whitesmoke 1px 1px 1px;
+  color:red;
 }
 .customHover:hover {
   display: inline-block;
@@ -37,6 +39,29 @@
   margin-top: 0;
   margin-bottom: 0rem;
 }
+.colorChanger {
+  animation: colorChanger 12s infinite;
+   
+}
+ 
+ 
+
+@keyframes colorChanger {
+  0% {
+    color: #ffdb58;
+     
+  }
+  50% {
+    color:  greenyellow;
+    
+  }
+  100% {
+    color: #ffdb58;
+    
+  }
+}
+
+
 
 .header {
   box-shadow:

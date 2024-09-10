@@ -41,17 +41,15 @@ const TopSection = () => {
                     </h2>
                   </div>
                  <div className="  w-[85%] m-auto">
-                  <p className="relative mb-[1.25rem]  mt-3 text-center text-amber-200">
+                  <p className="relative mb-[1.25rem]  mt-3 text-center text-[#ffdb58] ">
                      
-                  <u className="decoration-blue-500 "> Front End Developer </u>
+                  <u className="decoration-blue-800 "> Front End Developer </u>
                      
                     </p>
-                    <p className="text-center">
-                    <span className="customFont13   text-amber-200">
-                      <TfiHandPointRight className="-mt-1 inline-block text-blue-400 " />
-                      &nbsp;
-                      <span className="text-xl sm:text-2xl md:text-3xl lg:text-4xl ">
-                        Customized for Performance 
+                    <p className="text-center ">
+                    <span className="customFont13  text-[#ffdb58]  ">
+                    <span className="   text-xl sm:text-2xl md:text-3xl lg:text-4xl "
+                      ><u className="decoration-blue-800 "> Customized for Performance </u> 
                       </span>
                     </span>
                     <br />
@@ -59,18 +57,16 @@ const TopSection = () => {
                   </div>
                   <hr className="hrStyles m-auto mt-8  rounded-full   p-[1.55px]" />
                   <h2
-                    className="customFont13  mt-1 text-center 
+                    className="customFont13  colorChanger  mt-1 text-center 
                       text-green-300 sm:text-[29px] md:text-[24px]  lg:text-[32px]  xxs:text-[21px] xs:text-[26px] "
                   >
-                    Attract more Organic Matter
+                    Attract more Humans
                   </h2>
                   <span
-                    className="
-                    m-auto 
-                   mb-[-0rem] mt-[-.3rem] block text-center
-                   text-green-300  sm:mb-[-.2rem] md:mb-[-.9rem] lg:mb-[-.5rem] "
+                    className="colorChanger m-auto mb-[-0rem] mt-[-.3rem] block text-center
+                   text-green-300    "
                   >
-                    with a
+                    with
                   </span>
 
                   <a href="https://mybabb.github.io/BetterMcTransport/ ">
@@ -81,11 +77,11 @@ const TopSection = () => {
                       />
 
                       <span
-                        className="customHover text-[16px]  text-green-300 
-                                 hover:text-[#800020]  sm:text-[29px]  md:text-[24px]  lg:text-[32px] 
+                        className="customHover colorChanger text-[16px]  
+                                   sm:text-[29px]  md:text-[24px]  lg:text-[32px] 
                                   xxs:text-[21px]  xs:text-[26px]  "
                       >
-                        &nbsp; Custom Landing Page &nbsp;
+                        &nbsp; Custom Landing Pages &nbsp;
                       </span>
                       <TfiEye className=" inline-block text-blue-300" />                  
                     </h2>
@@ -140,22 +136,24 @@ const TopSection = () => {
             <p>      
             <TfiHandPointRight className="-mt-1 inline-block text-blue-400" />
             &nbsp;&nbsp;
-            <span className="customFont13 text-amber-200">React:</span>
-            &nbsp;&nbsp; I wield expertise in building dynamic and responsive
+            <span className="customFont13 text-amber-200"
+            >React:</span>&nbsp;I wield expertise in building dynamic and responsive
             user interfaces using React. 
             <br />
             <TfiHandPointRight className="-mt-1 inline-block text-blue-400" />
-            &nbsp;&nbsp;
-            <span className="customFont13 text-amber-200">Tailwind CSS: </span>
+            &nbsp;&nbsp; 
+            <span className="customFont13 text-amber-200"
+            >Tailwind CSS:</span>
             &nbsp;&nbsp;I leverage the power of Tailwind CSS to create efficient
             and consistent designs.
             <br />
          
             <TfiHandPointRight className="-mt-1 inline-block text-blue-400" />
-            &nbsp;
-            <span className="customFont13 text-amber-200"> JavaScript:</span>
+            &nbsp;&nbsp;
+            <span className="customFont13 text-amber-200"
+            >JavaScript:</span>
             &nbsp;I use JavaScript, which enables both 
-            <u className="decoration-blue-500"> Interactivity</u> and <u className="decoration-blue-500">Functionality.</u>
+            <u className="decoration-blue-700"> Interactivity</u> and <u className="decoration-blue-700">Functionality.</u>
             </p>            
            
             <br />
