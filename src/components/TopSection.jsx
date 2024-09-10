@@ -141,16 +141,14 @@ const TopSection = () => {
             user interfaces using React. 
             <br />
             <TfiHandPointRight className="-mt-1 inline-block text-blue-400" />
-            &nbsp;&nbsp; 
-            <span className="customFont13 text-amber-200"
+            &nbsp;&nbsp;<span className="customFont13 text-amber-200"
             >Tailwind CSS:</span>
-            &nbsp;&nbsp;I leverage the power of Tailwind CSS to create efficient
+            &nbsp;I leverage the power of Tailwind CSS to create efficient
             and consistent designs.
             <br />
          
             <TfiHandPointRight className="-mt-1 inline-block text-blue-400" />
-            &nbsp;&nbsp;
-            <span className="customFont13 text-amber-200"
+            &nbsp;&nbsp;<span className="customFont13 text-amber-200"
             >JavaScript:</span>
             &nbsp;I use JavaScript, which enables both 
             <u className="decoration-blue-700"> Interactivity</u> and <u className="decoration-blue-700">Functionality.</u>
