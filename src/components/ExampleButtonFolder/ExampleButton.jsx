@@ -16,7 +16,7 @@ const FreeKindleBook = () => {
             data-tool-tip='" Look at a few Cool Examples  "'
           >
             <p
-              className="LandingPageBookButton m-auto  mt-4 -mb-1 w-fit rounded-3xl bg-gradient-to-b from-slate-400
+              className="LandingPageBookButton m-auto  mt-4  w-fit rounded-3xl bg-gradient-to-b from-slate-400
                                 to-slate-600 px-3 py-1 hover:from-slate-600 hover:to-slate-400   "
             >
               <button className="LandingPageBookWords  relative flex text-2xl  p-2 ">
