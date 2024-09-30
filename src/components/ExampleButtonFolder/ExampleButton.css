@@ -16,8 +16,8 @@
   transform: translateX(-100%) scale(var(--scale));
   transform-origin: top;
   transition: ease-in 0.25s;
-  left: 16.3rem;
-  top: 3.5rem;
+  left: 14.4rem;
+  top: 5.9rem;
   border: 1px solid #867575;
   border-radius: 10px;
   padding-top: 3px;
@@ -34,8 +34,8 @@
   height: 15px;
   position: absolute;
   padding: 0.1em 0.1em 0.2em 0.1em;
-  top: 0.9rem;
-  left: 5.2rem;
+  top: 2.9rem;
+  left: 3.8rem;
   transform: translateX(-35%) scale(var(--scale));
   transform-origin: bottom;
   transition: 0.25s;

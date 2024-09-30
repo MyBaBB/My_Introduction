@@ -38,8 +38,8 @@ const ThirdSection = () => {
               </li>
               <li>
                 <IoBookSharp className="inline-block text-blue-400" />
-                &nbsp;&nbsp;&nbsp;Custom{" "}
-                <span className="hidden lg:inline-block">Websites</span>
+                &nbsp;&nbsp;&nbsp;GSAP{" "}
+                <span className="hidden lg:inline-block">Animation</span>
               </li>
             </ul>
           </div>
@@ -72,7 +72,8 @@ const ThirdSection = () => {
               </li>
               <li>
                 <IoBookSharp className="inline-block text-blue-400" />
-                &nbsp;&nbsp;&nbsp;Open Source Contributor
+                &nbsp;&nbsp;&nbsp;Open Source
+                <span className="hidden lg:inline-block">&nbsp;Contributions</span>
               </li>
             </ul>
           </div>

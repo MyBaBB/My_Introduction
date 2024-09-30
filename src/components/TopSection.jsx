@@ -10,12 +10,12 @@ import { RiDoubleQuotesL } from "react-icons/ri";
 import { RiDoubleQuotesR } from "react-icons/ri";
 import { TfiHandPointRight } from "react-icons/tfi";
 import { TbDiamond } from "react-icons/tb";
-import Gsap from "./Gsap.jsx";
-
-import { TfiEye } from "react-icons/tfi";
+import Gsap from "./AnimatedCoverFolder/AnimatedCover.jsx";
+import ExampleButton from "./ExampleButtonFolder/ExampleButton.jsx"
+ 
 
 import NavbarLinks from "./NavbarFolder/NavbarLinks";
-import FreeKindleBook from "./FreeKindlebook/FreeKindleBook";
+ 
 const TopSection = () => {
   return (
     <div className="  ">
@@ -41,99 +41,27 @@ const TopSection = () => {
                     </h2>
                   </div>
                  <div className="  w-[85%] m-auto">
-                  <p className="relative mb-[1.25rem]  mt-3 text-center text-[#ffdb58] ">
-                     
-                  <u className="decoration-blue-800 "> Front End Developer </u>
-                     
+                  <p className="relative mb-[1.25rem] text-5xl mt-3 text-center text-white ">
+                  <hr className="hrStyles m-auto my-4  rounded-full  p-[1.275px]" />  
+                   Front End Developer  
+                   <hr className="hrStyles m-auto my-4  rounded-full  p-[1.275px]" />  
                     </p>
                     <p className="text-center ">
-                    <span className="customFont13  text-[#ffdb58]  ">
-                    <span className="   text-xl sm:text-2xl md:text-3xl lg:text-4xl "
-                      ><u className="decoration-blue-800 "> Customized for Performance </u> 
-                      </span>
-                    </span>
-                    <br />
-                  </p>
-                  </div>
-                  <hr className="hrStyles m-auto mt-8  rounded-full   p-[1.55px]" />
-                  <h2
-                    className="customFont13  colorChanger  mt-1 text-center 
-                      text-green-300 sm:text-[29px] md:text-[24px]  lg:text-[32px]  xxs:text-[21px] xs:text-[26px] "
-                  >
-                    Attract more Humans
-                  </h2>
-                  <span
-                    className="colorChanger m-auto mb-[-0rem] mt-[-.3rem] block text-center
-                   text-green-300    "
-                  >
-                    with
-                  </span>
-
-                  <a href="https://mybabb.github.io/BetterMcTransport/ ">
-                    &nbsp;
-                    <h2 className=" mt-[-2.5rem] whitespace-nowrap  text-center text-4xl">
-                      <TfiEye
-                        className=" inline-block text-blue-300 "
-                      />
-
-                      <span
-                        className="customHover colorChanger text-[16px]  
-                                   sm:text-[29px]  md:text-[24px]  lg:text-[32px] 
-                                  xxs:text-[21px]  xs:text-[26px]  "
-                      >
-                        &nbsp; Custom Landing Pages &nbsp;
-                      </span>
-                      <TfiEye className=" inline-block text-blue-300" />                  
-                    </h2>
-
-<br />
-                         
-                    <p
-                      className="mt-[-1.8rem]
-                     text-center text-[12px]  sm:mt-[-2.5rem]  sm:text-[18px]  md:text-[20px]  lg:text-[22px]
-                      xxs:text-[16px] xs:mt-[-2.5rem] xs:text-[16px] "
-                    ></p>
-                    <p className=" text-center text-[12px]  text-base leading-[1.95rem] sm:text-[20px]  md:text-[24px]
-                                    lg:text-[27px]  xxs:text-[16px]  xs:text-[16px] ">
-                      <span className="whitespace-nowrap">
-                        <span className="inline-block">
-                          <RiDoubleQuotesL />
-                        </span>
-                        &nbsp;I specialize
-                      </span>{" "}
-                      in developing Custom Websites from scratch and providing
-                      personal assistant services for your{" "}
-                      <span className="whitespace-nowrap">
-                        {" "}
-                        &nbsp;project needs.
-                        <span className="inline-block">
-                          <RiDoubleQuotesR />
-                        </span>
-                      </span>{" "}
-                    </p>              
-                  </a>
-               
-                  < FreeKindleBook />
-                                  <p
-           className="objectiveParagraph w-[85%] m-auto text-[12px] sm:text-[24px] 
-                     md:text-[28px] xxs:text-[16px] xs:text-[20px] "
-        
-          >
-           
-          </p>
-        <div className="   w-[85%] m-auto mt-100">
-          <div
+                    
+                    <div
             id="technologies"
             className="objectiveParagraph text-[12px] sm:text-[24px] md:text-[28px]
              xxs:text-[16px] xs:text-[20px] "
           >
-            <hr className="hrStyles m-auto   my-8 rounded-full   p-[1.275px]" />
             
             <h5 className="customFont13 mb-8 text-center text-amber-200">
               &nbsp;&nbsp;I offer Web Development that is Proficient in the
               following technologies:
             </h5>
-            <p>      
+            <section className="w-[85%] m-auto text-[12px] sm:text-[24px] 
+                     md:text-[28px] xxs:text-[16px] xs:text-[20px] text-justify"  >
+            <p> 
+                   
             <TfiHandPointRight className="-mt-1 inline-block text-blue-400" />
             &nbsp;&nbsp;
             <span className="customFont13 text-amber-200"
@@ -148,23 +76,41 @@ const TopSection = () => {
             <br />
          
             <TfiHandPointRight className="-mt-1 inline-block text-blue-400" />
-            &nbsp;&nbsp;<span className="customFont13 text-amber-200"
+            &nbsp;&nbsp;<span className="customFont13 text-amber-200 "
             >JavaScript:</span>
             &nbsp;I use JavaScript, which enables both 
-            <u className="decoration-blue-700"> Interactivity</u> and <u className="decoration-blue-700">Functionality.</u>
-            </p>            
+              Interactivity  and Functionality. 
+            </p>     
+            </section>       
+          </div>
+          
+                  </p>
+                  </div>
+                  <hr className="hrStyles m-auto mt-8 mb-4 rounded-full   p-[1.55px]" />
+                  
+
+                
+               
+                  < ExampleButton />
+                                  <p
+           className="objectiveParagraph w-[85%] m-auto text-[12px] sm:text-[24px] 
+                     md:text-[28px] xxs:text-[16px] xs:text-[20px] "
+        
+          >
            
+          </p>
+        <div className="   w-[85%] m-auto -mt-8">
+          
+          <div> 
             <br />
             <div className="  w-full m-auto">
-                   <hr className="hrStyles mt-5 -mb-8 m-auto  
-                       rounded-full   p-[1.55px] "
-                    />
                   
-                  <div id="performance" className="objectiveParagraph  -mb-8  text-center  w-[85%]
+                  
+                  <div id="performance" className="objectiveParagraph  -mb-8  text-center  w-[100%]
                    m-auto text-[12px]    sm:text-[24px]  
                    md:text-[28px] xxs:text-[16px] xs:text-[20px] ">
                     
-                    <br />
+                    
                     <p className="inline-block p-4 text-center">
                       &nbsp;&nbsp;
                       <span className=" ">
@@ -194,8 +140,8 @@ const TopSection = () => {
                  
                   <br />
 
-                  <article className=" w-[100%] m-auto  text-[12px]
-                                       sm:text-[24px] md:text-[28px] xxs:text-[16px] xs:text-[20px]">
+                  <article className=" w-[85%] m-auto text-[12px] sm:text-[24px] 
+                     md:text-[28px] xxs:text-[16px] xs:text-[20px] text-justify">
                     <SiGooglechrome className="inline-block text-blue-400" />
                     &nbsp;<span className="googleG1 text-red-600">G</span>
                     <span className="googleO1 text-green-600">o</span>
@@ -234,7 +180,8 @@ const TopSection = () => {
           <RiDoubleQuotesR className="mb-6 inline-block text-blue-400" />
         </span>
         </p>
-        
+       <div className="w-[85%] m-auto text-[12px] sm:text-[24px] 
+                     md:text-[28px] xxs:text-[16px] xs:text-[20px] text-justify"> 
         <TbDiamond className="inline-block text-blue-400 " />
         &nbsp;Adding Style shows more Class.
         <br />
@@ -252,6 +199,7 @@ const TopSection = () => {
         &nbsp;I can offer a Professional Website at a very reasonable
         price.
        
+      </div>
       </div>
 
                 </div>

@@ -1,0 +1,8 @@
+.goody1, .goody2, .goody3 {
+text-shadow:  2px 2px 3px #1c0303;
+}
+
+
+.introSlider {
+  background: linear-gradient(to bottom, #0d2d52, #4a90e2 40%, #0d2d52);
+}
