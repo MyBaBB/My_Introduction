@@ -10,7 +10,7 @@ import { RiDoubleQuotesL } from "react-icons/ri";
 import { RiDoubleQuotesR } from "react-icons/ri";
 import { TfiHandPointRight } from "react-icons/tfi";
 import { TbDiamond } from "react-icons/tb";
- 
+import Gsap from "./Gsap.jsx";
 
 import { TfiEye } from "react-icons/tfi";
 
@@ -19,7 +19,7 @@ import FreeKindleBook from "./FreeKindlebook/FreeKindleBook";
 const TopSection = () => {
   return (
     <div className="  ">
-    
+       <Gsap />
        <section>
         <div className="objectiveWrapper flex-col mt-[8rem] ">
           <NavbarLinks />
