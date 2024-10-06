@@ -12,7 +12,7 @@ import { TfiHandPointRight } from "react-icons/tfi";
 import { TbDiamond } from "react-icons/tb";
 import Gsap from "./AnimatedCoverFolder/AnimatedCover.jsx";
 import ExampleButton from "./ExampleButtonFolder/ExampleButton.jsx"
- 
+import EyeBall from "../components/EyeBallFolder/EyeBall.jsx"
 
 import NavbarLinks from "./NavbarFolder/NavbarLinks";
  
@@ -25,7 +25,9 @@ const TopSection = () => {
           <NavbarLinks />
           <div className="relative flex-row w-screen  ">
                   <div className="">
+                    <EyeBall />
                     <TopImage />
+
                   </div>
                 </div>
             <p
