@@ -2,9 +2,10 @@
  
 import { useState, Suspense, useEffect, useRef } from "react";
 import * as THREE from 'three';
-import { Canvas, useFrame } from "@react-three/fiber";
+import { Canvas, useFrame, } from "@react-three/fiber";
 import { OrbitControls, Environment } from "@react-three/drei";
 import Eyeball from "../../../public/Eyeball.jsx";
+
 import './Eyeball.css';
 
  
@@ -16,6 +17,7 @@ import './Eyeball.css';
 
 
  function EyeFunction () {
+  
    const meshRef = useRef();
    const [mousePos, setMousePos] =  useState({ x: 0, y: 0 });
  
@@ -38,13 +40,15 @@ import './Eyeball.css';
  
   },[]);
  
-
 useFrame(() => {
  
-const cursorPosition = new THREE.Vector3(-mousePos.x,-mousePos.y, 0);
+const cursorPosition = new THREE.Vector3(-mousePos.x * .3, -mousePos.y* .5, 0);
 const pupilPosition = new THREE.Vector3(0, 0, 1); 
 const direction = new THREE.Vector3().subVectors(cursorPosition, pupilPosition);
 meshRef.current.lookAt(direction);
+ 
+
+ 
 });
 
  
