@@ -64,7 +64,7 @@ meshRef.current.lookAt(direction);
  
 
    return (
-     <mesh ref={meshRef} >
+     <mesh ref={meshRef}  >
        <Eyeball />
        <meshStandardMaterial color="blue" />
      </mesh>
@@ -79,7 +79,7 @@ function Scene() {
          
       <ambientLight intensity={2.5} />
       <pointLight position={[0, 0, 0.1]} /> 
-        <OrbitControls enableZoom={false}/>
+        <OrbitControls    enabled={false} enableZoom={false}/>
         <Suspense fallback={null}>
                  <EyeFunction />
         </Suspense>
