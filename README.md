@@ -1,4 +1,4 @@
-<!-- note to self this is npm run deploy for github pages only. -->
+<!-- note to self this is npm run build for render.com. -->
 <!-- The resume hub i on mybabb.com -->
 # This is My Introduction
 
