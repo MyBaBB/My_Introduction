@@ -1,3 +1,5 @@
+
+ 
 import { useState, Suspense, useEffect, useRef } from "react";
 import * as THREE from 'three';
 import { Canvas, useFrame } from "@react-three/fiber";
@@ -5,9 +7,9 @@ import { OrbitControls, Environment } from "@react-three/drei";
 import Eyeball from "../../../public/Eyeball.jsx";
 import './Eyeball.css';
 
+ 
 
-
-
+ 
 
 
 
