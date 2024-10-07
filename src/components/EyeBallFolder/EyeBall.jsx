@@ -27,18 +27,28 @@ import './Eyeball.css';
      x: (event.clientX / window.innerWidth) * 2 - 1,
      y: -(event.clientY / window.innerHeight) * 2 + 1,
      });
+     if (event.type === 'touchmove') {
+      const touch = event.touches[0];
+      setMousePos({
+        x: (touch.clientX / window.innerWidth) * 2 - 1,
+        y: -(touch.clientY / window.innerHeight) * 2 + 1,
+      });
+    } else {
+      setMousePos({
+        x: (event.clientX / window.innerWidth) * 2 - 1,
+        y: -(event.clientY / window.innerHeight) * 2 + 1,
+      });
+    }
    };
   
-  useEffect(() => {
-    // add mouse move listener
-    window.addEventListener("mousemove", handleMouseMove);
-  
+   useEffect(() => {
+    window.addEventListener('mousemove', handleMouseMove);
+    window.addEventListener('touchmove', handleMouseMove);
     return () => {
-      window.removeEventListener("mousemove", handleMouseMove);
+      window.removeEventListener('mousemove', handleMouseMove);
+      window.removeEventListener('touchmove', handleMouseMove);
     };
- 
- 
-  },[]);
+  }, []);
  
 useFrame(() => {
  
