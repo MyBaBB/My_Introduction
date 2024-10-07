@@ -152,7 +152,7 @@ const Navbar = () => {
                     </div>
                   </a>
 
-                  <a href="https://mybabb.github.io/Franken-Timer/">
+                  <a href="https://franken-timer.onrender.com/">
                     <div className="buttonStyles origin-top   animate-open-menu font-LibreBaskerville text-blue-200 ">
                       <div className="relative inline-block pl-4 pr-2">
                         <LiaHourglassHalfSolid />
