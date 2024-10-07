@@ -2,9 +2,12 @@
   "name": "mybabb-introduction",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://mybabb.github.io/My_Introduction/",
+ 
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "start": "react-scripts start",
     "dev": "vite",
     "build": "vite build",
@@ -35,7 +38,6 @@
     "postcss": "^8.4.33",
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.11",
-    "rollup": "^4.24.0",
     "tailwindcss": "^3.4.1",
     "vite": "^5.0.8"
   }
