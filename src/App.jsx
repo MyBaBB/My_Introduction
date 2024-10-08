@@ -18,7 +18,6 @@ const App = () => {
         < Header />
         < TopSection />
         < SecondSection />
-      
         < Footer />
         < CopyRight />
       </div>
