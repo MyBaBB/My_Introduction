@@ -5,11 +5,11 @@ import "./FreeKindleBook.css";
 const FreeKindleBook = () => {
   return (
     <div>
-      <a
+      {/* <a
         href="https://amzn.to/47cywyv"
         target="_blank"
         rel="noopener noreferrer"
-      >
+      > */}
         <div className="font-DMSerifDisplay-Italic relative m-auto flex w-fit  ">
           <div
             className="dataToolTip33 "
@@ -20,12 +20,12 @@ const FreeKindleBook = () => {
                                 to-slate-600 px-3 py-1 hover:from-slate-600 hover:to-slate-400   "
             >
               <button className="LandingPageBookWords  relative flex text-2xl  p-2 ">
-                Examples
+               Kindle Book
               </button>
             </p>
           </div>
         </div>
-      </a>
+      {/* </a> */}
     </div>
   );
 };
