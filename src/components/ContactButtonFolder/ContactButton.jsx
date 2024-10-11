@@ -19,7 +19,7 @@ const ContactButton = () => {
           </div>
 
           <div className="mx-0 w-fit text-3xl font-Kingthings_Petrock tracking-widest xs:text-4xl  hover:text-[#f7f0d7] ">
-            &nbsp;Diamond Resume&nbsp;
+            &nbsp;Resume Hub&nbsp;
           </div>
 
           <div className="w-fit p-1">
