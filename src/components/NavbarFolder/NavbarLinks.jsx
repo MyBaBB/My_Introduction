@@ -6,7 +6,7 @@ const NavbarLinks = () => {
   return (
     <div
       id="diverDown"
-      className=" relative flex w-screen scroll-mt-80 justify-between p-2 "
+      className=" relative flex w-screen scroll-mt-80 justify-between p-2 z-[19]  "
     >
       <a href="#scubaSpear">
         <div className="hidden xxs:flex">

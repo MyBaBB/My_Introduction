@@ -8,7 +8,7 @@ const ContactButton = () => {
     <div>
       <a href="https://resume-hub.mybabb.com/">
         <div
-          className="reContactButton z-20 relative m-auto mt-4 flex w-fit justify-center whitespace-nowrap
+          className="reContactButton z-[19] relative m-auto mt-4 flex w-fit justify-center whitespace-nowrap
                        rounded-full bg-gradient-to-b from-gray-700 to-gray-700
                        p-4 text-blue-100 hover:scale-90 
                        "

@@ -5,7 +5,7 @@ const EmailButton = () => {
   return (
     <div>
        <a href="mailto:contact@mybabb.com">
-      <div className="relative flex z-50" >
+      <div className="relative flex z-[19]" >
         <button
           className=" emailMe mr-12 rounded-lg     
          border-2 border-solid border-black bg-gray-400 p-2 text-lg text-black
