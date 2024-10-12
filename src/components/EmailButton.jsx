@@ -1,17 +1,17 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-
+import { BiMailSend } from "react-icons/bi";
 const EmailButton = () => {
   return (
     <div>
-       <a href="https://mybabb.com/#contact">
-      <div className="relative flex z-[19]" >
+       <a href="https://mybabb.com/#contact" target="_blank" rel="noreferrer">
+      <div className="relative flex justify-center items-center z-[19]" >
         <button
           className=" emailMe mr-12 rounded-lg     
-         border-2 border-solid border-black bg-gray-400 p-2 text-lg text-black
-         hover:bg-gray-600 hover:text-varLIGHTDUCKHEAD  "
+         border-2 border-solid border-black bg-black/50 p-2 text-lg text-blue-400
+         hover:bg-black hover:shadow-lg hover:text-white "
         >
-         Email Me
+       <span className="emailMeIcon   flex items-center justify-center"><BiMailSend size={30} /></span><span className="emailMeText text-2xl" >Contact</span>
         </button>
         
       </div>
