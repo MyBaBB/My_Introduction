@@ -1,11 +1,10 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import { Link } from "react-router-dom";
 
 const EmailButton = () => {
   return (
     <div>
-       <Link to="https://my-introduction.onrender.com/#scubaSpear">
+       <a href="https://my-introduction.onrender.com/#scubaSpear">
       <div className="relative flex z-[19]" >
         <button
           className=" emailMe mr-12 rounded-lg     
@@ -16,7 +15,7 @@ const EmailButton = () => {
         </button>
         
       </div>
-      </Link>
+      </a>
     </div>
   );
 };
