@@ -10,11 +10,12 @@ import Footer from "./components/Footer";
 
 import Header from "../src/components/HeaderFolder/Header";
  
+ 
 const App = () => {
   return (
     <div className=" ">
       <div className="relative flex-row m-auto  w-screen h-auto">
-      
+       
         < Header />
         < TopSection />
         < SecondSection />

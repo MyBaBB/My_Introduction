@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import "./ContactButton.css";
-import { TbGhost2 } from "react-icons/tb";
+ 
 import { SlDiamond } from "react-icons/sl";
 const ContactButton = () => {
   return (
