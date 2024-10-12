@@ -54,9 +54,9 @@ const ThirdSection = () => {
               </li>
               <li>
                 <IoBookSharp className="inline-block text-blue-400" />
-                &nbsp;&nbsp;&nbsp;Three Js.
+                &nbsp;&nbsp;&nbsp;Three Js. 
                 <span className="hidden sm:inline-block">&nbsp;3d</span>{" "}
-                Animations
+               
               </li>
               <li>
                 <IoBookSharp className="inline-block text-blue-400" />
