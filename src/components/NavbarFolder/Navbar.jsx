@@ -10,6 +10,10 @@ import { BsGithub } from "react-icons/bs";
 import { GrBaby } from "react-icons/gr";
 
 import { SiTestinglibrary } from "react-icons/si";
+const goBack = () => {
+  window.history.back();
+};
+
 const Navbar = () => {
   //to change burger classes
   const [burger_class, setBurgerClass] = useState("burger-bar unclicked");
@@ -74,6 +78,15 @@ const Navbar = () => {
                 aria-label="mobile"
               >
                 {/* xxxxxxx the mobile buttons xxxxxxxxx */}
+                <div className='ContactButtonWrapper z-50 relative mt-24 -mb-24 flex justify-center '>
+        <a href="https://contact.mybabb.com">
+        <button onClick={goBack} className="ContactMeButton w-fit 
+                  m-auto  border-[1px] border-[#419aff] p-2 rounded-2xl hover:bg-[#419aff]"  >
+        <span className="ContactMeButtonText text-blue-100 font-Itim-Regular  ">Contact Me</span>
+        </button>
+        </a>
+        </div>
+
                 <p
                   id="mobile-menu"
                   className="relative my-auto flex-row justify-center"
@@ -152,7 +165,7 @@ const Navbar = () => {
                     </div>
                   </a>
 
-                  <a href="https://mybabb.github.io/Franken-Timer/">
+                  <a href="https://franken-timer.onrender.com/">
                     <div className="buttonStyles origin-top   animate-open-menu font-LibreBaskerville text-blue-200 ">
                       <div className="relative inline-block pl-4 pr-2">
                         <LiaHourglassHalfSolid />
@@ -191,8 +204,12 @@ const Navbar = () => {
                     </div>
                   </a>
                 </p>
+                
               </nav>
+            
             </div>
+           
+
           </section>
         </div>
       </div>

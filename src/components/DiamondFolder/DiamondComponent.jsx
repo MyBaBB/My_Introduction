@@ -4,7 +4,8 @@ import { useState, Suspense, useEffect, useRef } from "react";
 import * as THREE from 'three';
 import { Canvas, useFrame, } from "@react-three/fiber";
 import { OrbitControls, Environment } from "@react-three/drei";
-import Eyeball from "../../../public/Eyeball.jsx";
+import "./DiamondComponent.css"
+import Diamond  from "../../../public/Diamond.jsx";
  
 
  
@@ -13,7 +14,7 @@ import Eyeball from "../../../public/Eyeball.jsx";
 
 
 
- function EyeFunction () {
+ function DiamondFunction () {
   
    const meshRef = useRef();
    const [mousePos, setMousePos] =  useState({ x: 0, y: 0 });
@@ -53,8 +54,9 @@ const cursorPosition = new THREE.Vector3(-mousePos.x * .3, -mousePos.y* .5, 0);
 const pupilPosition = new THREE.Vector3(0, 0, 1); 
 const direction = new THREE.Vector3().subVectors(cursorPosition, pupilPosition);
 meshRef.current.lookAt(direction);
- 
 
+ 
+  
  
 });
 
@@ -62,7 +64,7 @@ meshRef.current.lookAt(direction);
 
    return (
      <mesh ref={meshRef}  >
-       <Eyeball />
+       <Diamond  />
        <meshStandardMaterial color="blue" />
      </mesh>
    );
@@ -70,15 +72,16 @@ meshRef.current.lookAt(direction);
 function Scene() {
  
   return (
- <div className="canvasWrapper ">
+ <div className="canvasWrapper   ">
     <Canvas >
          
          
-      <ambientLight intensity={2.5} />
-      <pointLight position={[0, 0, 0.1]} /> 
+     
+     
         <OrbitControls    enabled={false} enableZoom={false}/>
         <Suspense fallback={null}>
-                 <EyeFunction />
+            < Environment preset="warehouse" />
+                 <DiamondFunction />
         </Suspense>
     
       </Canvas> 
@@ -90,4 +93,4 @@ export default function App() {
 }
  
 Environment.presets;
-// city, park, matcap, warehouse, apartment, forest, stadium, sunset, night, dawn, dusk
+// city, park,  warehouse, apartment, forest,  sunset, night, dawn, dusk, studio

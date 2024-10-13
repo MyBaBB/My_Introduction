@@ -45,7 +45,7 @@
   height: 15px;
   position: absolute;
   padding: 0.1em 0.1em 0.2em 0.1em;
-  top: 6.3rem;
+  top: 8.3rem;
   left: 3.9rem;
   transform: translateX(-35%) scale(var(--scale));
   transform-origin: bottom left;
