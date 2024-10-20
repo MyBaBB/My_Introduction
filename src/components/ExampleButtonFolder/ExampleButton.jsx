@@ -6,8 +6,7 @@ const FreeKindleBook = () => {
   return (
     <div>
       <a
-        href="https://mybabb.github.io/100_Bucks_Intro/"
-        target="_blank"
+        href=" https://custom.email.mybabb.com/"
         rel="noopener noreferrer"
       >
         <div className="font-DMSerifDisplay-Italic relative m-auto flex w-fit  ">
